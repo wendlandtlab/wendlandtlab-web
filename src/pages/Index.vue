@@ -1,110 +1,51 @@
 <script lang="ts">
-import { useI18n } from 'vue-i18n';
-
-import { defineComponent, ref } from 'vue';
-import { useTheme } from '/@/composables';
-
-export default defineComponent({
-  name: 'Home',
-  setup() {
-    const { t, availableLocales, locale } = useI18n();
-
-    const toggleLocales = () => {
-      const locales = availableLocales;
-      locale.value =
-        locales[(locales.indexOf(locale.value) + 1) % locales.length];
-    };
-
-    const { isDark, toggleDark } = useTheme();
-
-    const show = ref(false);
-
-    setTimeout(() => {
-      show.value = true;
-    }, 1000);
-
-    return { locale, t, show, toggleLocales, isDark, toggleDark };
+import { Icon } from '@iconify/vue';
+export default {
+  components: {
+    Icon,
   },
-});
+};
 </script>
 <template>
-  <div class="container max-w-3xl mx-auto mt-60">
-    <div class="h-60 mb-8">
-      <transition
-        enter-active-class="transition ease-out duration-1000 transform"
-        enter-from-class="-translate-x-100 opacity-0"
-        enter-to-class="translate-x-0 opacity-100"
-        leave-active-class="transition ease-in duration-1000 transform"
-        leave-from-class="opacity-100"
-        leave-to-class="opacity-0"
-      >
-        <img
-          v-if="show"
-          alt="Vitesome logo"
-          class="w-52 mx-auto mb-12"
-          :src="'logotype.svg'"
-        />
-      </transition>
-    </div>
-
-    <HelloWorld :msg="t('hello') + ' 👋 !!'" />
-
-    <footer class="text-center">
-      <ul class="flex justify-between w-1/3 mx-auto mb-8">
-        <li class="cursor-pointer text-2xl">
-          <a
-            href="#"
-            @click="toggleLocales"
-            class="footer-link text-cyan-700 hover:text-cyan-500"
-            :title="t('toggle_language')"
-          >
-            <i class="iconify" :data-icon="'ant-design:translation-outlined'" />
-          </a>
-        </li>
-        <li class="cursor-pointer text-2xl">
-          <a
-            href="#"
-            @click="toggleDark"
-            class="text-cyan-700 hover:text-cyan-500"
-            :title="t('toggle_theme')"
-          >
-            <i class="iconify" :data-icon="'mdi:theme-light-dark'" />
-          </a>
-        </li>
-        <li class="cursor-pointer text-2xl">
-          <a
-            href="https://github.com/alvarosaburido"
-            rel="noreferrer"
-            target="_blank"
-            class="footer-link text-cyan-700 hover:text-cyan-500"
-            title="Github repo"
-          >
-            <i class="iconify" :data-icon="'mdi:github'" />
-          </a>
-        </li>
-      </ul>
-
-      <span class="text-xs"
-        >{{ t('made_by') }}
-        <a
-          class="footer-link text-cyan-400 hover:text-cyan-500"
-          href="https://github.com/alvarosaburido"
-          rel="noreferrer"
-          target="_blank"
-          >Alvaro Saburido</a
-        ></span
-      >
-    </footer>
+  <HeaderMenu />
+  <div class="max-w-screen-lg mx-auto">
+    <p class="text-5xl font-extrabold text-center py-10">
+      Welcome to the Wendlandt Lab
+    </p>
   </div>
+  <div class="max-w-screen-lg mx-auto">
+    <img
+      src="https://wendlandtlab.com/wp-content/uploads/2020/10/Image-from-iOS-1-scaled.jpg"
+      alt=""
+      class="object-cover overflow-hidden rounded-md h-100 w-full"
+    />
+  </div>
+  <div
+    class="my-5 flex flex-wrap justify-evenly mx-auto max-w-screen-lg items-end"
+  >
+    <div class="flex flex-col text-gray-700 items-center px-10 py-4">
+      <Icon icon="bi:person-fill" height="100" />
+      <p class="font-bold">Who we are</p>
+    </div>
+    <div class="flex flex-col text-gray-700 items-center mx-10 py-4">
+      <Icon icon="eos-icons:atom-electron" height="100" />
+      <p class="font-bold">Our interests</p>
+    </div>
+    <div class="flex flex-col text-gray-700 items-center mx-10 py-4">
+      <Icon icon="system-uicons:document-stack" height="100" />
+      <p class="font-bold">Our work</p>
+    </div>
+    <div class="flex flex-col text-gray-700 items-center mx-10 py-4">
+      <Icon icon="wpf:stack-of-photos" height="100" />
+      <p class="font-bold">Culture and events</p>
+    </div>
+    <div class="flex flex-col text-gray-700 items-center mx-10 py-4">
+      <Icon icon="carbon:text-link" height="100" />
+      <p class="font-bold">Links and resources</p>
+    </div>
+  </div>
+
+
+
+  <FooterBox />
 </template>
-
-<style>
-a,
-.footer-link {
-  @apply transition-all ease-out duration-100;
-}
-
-.footer-link {
-  opacity: 0.8;
-}
-</style>

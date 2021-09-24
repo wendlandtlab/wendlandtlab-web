@@ -1,20 +1,28 @@
 {
-  "name": "vitesome",
+  "name": "wendlandt-lab",
   "version": "1.0.0",
-  "description": "A simple opinionated Vue3 Starter Template with Vite.js",
+  "description": "Wendlandt lab website",
   "scripts": {
     "dev": "vite --open --host",
     "build": "vue-tsc --noEmit && vite build",
     "serve": "vite preview"
   },
   "dependencies": {
+    "@egjs/flicking-plugins": "^4.2.1",
+    "@egjs/vue3-flicking": "^4.2.5",
+    "@headlessui/vue": "^1.4.0",
+    "@heroicons/vue": "^1.0.4",
+    "sass": "^1.39.0",
+    "swiper": "5.x",
     "vue": "^3.1.4",
+    "vue-awesome-swiper": "^4.1.1",
     "vue-i18n": "^9.1.6",
     "vue-router": "^4.0.8"
   },
   "devDependencies": {
     "@iconify/iconify": "^2.0.3",
     "@iconify/json": "^1.1.373",
+    "@iconify/vue": "^3.0.0",
     "@intlify/vite-plugin-vue-i18n": "^2.3.1",
     "@types/node": "^16.3.1",
     "@vitejs/plugin-vue": "^1.2.4",
@@ -27,7 +35,7 @@
     "vite-plugin-purge-icons": "^0.7.0",
     "vite-plugin-windicss": "^1.2.4",
     "vite-svg-loader": "^2.1.0",
-    "vue-tsc": "^0.2.0",
+    "vue-tsc": "^0.2.3",
     "windicss": "^3.1.4"
   }
 }
