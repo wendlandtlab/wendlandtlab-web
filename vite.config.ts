@@ -7,7 +7,6 @@ import ViteComponents from 'vite-plugin-components';
 import PurgeIcons from 'vite-plugin-purge-icons';
 import ViteFonts from 'vite-plugin-fonts';
 import svgLoader from 'vite-svg-loader';
-
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
