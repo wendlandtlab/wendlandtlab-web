@@ -21,7 +21,7 @@ export default {
       Orcid="#"
       ProfileLink="#"
       Title="Assistant Professor"
-      Picture="https://i0.wp.com/wendlandtlab.com/wp-content/uploads/2019/09/0076_8751@2x.png?w=1080&ssl=1"
+      Picture="/src/assets/people/alison/alison.png"
       Email="awendlan[at]mit.edu"
     />
   </div>
@@ -31,7 +31,7 @@ export default {
       Orcid="#"
       ProfileLink="/people/yuan"
       Title="Postdoctoral Fellow"
-      Picture="https://i1.wp.com/wendlandtlab.com/wp-content/uploads/2020/11/yuanx3.png?w=1080&ssl=1"
+      Picture="/src/assets/people/yuan/yuan.png"
       Email="yazhang[at]mit.edu"
     />
     <TeamMember
@@ -39,7 +39,7 @@ export default {
       Orcid="#"
       ProfileLink="/people/vignesh"
       Title="Postdoctoral Fellow"
-      Picture="https://i1.wp.com/wendlandtlab.com/wp-content/uploads/2020/11/yuanx3.png?w=1080&ssl=1"
+      Picture="/src/assets/people/yuan/yuan.png"
       Email="palan019[at]mit.edu"
     />
     <TeamMember
@@ -47,7 +47,7 @@ export default {
       Orcid="#"
       ProfileLink="/people/gino"
       Title="Graduate Student (G4)"
-      Picture="https://i1.wp.com/wendlandtlab.com/wp-content/uploads/2019/12/Gino-website.png?w=1080&ssl=1"
+      Picture="/src/assets/people/gino/gino.png"
       Email="ginoocch[at]mit.edu"
     />
     <TeamMember
@@ -55,7 +55,7 @@ export default {
       Orcid="#"
       ProfileLink="/people/aaron"
       Title="Graduate Student (G4)"
-      Picture="https://i1.wp.com/wendlandtlab.com/wp-content/uploads/2019/10/IMG_6991-1.jpg?w=1080&ssl=1"
+      Picture="/src/assets/people/aaron/aaron.png"
       Email="aaronliu[at]mit.edu"
     />
     <TeamMember
@@ -63,7 +63,7 @@ export default {
       Orcid="#"
       ProfileLink="/people/xin"
       Title="Graduate Student (G4)"
-      Picture="https://i1.wp.com/wendlandtlab.com/wp-content/uploads/2019/10/IMG_6975-1.jpg?w=1080&ssl=1"
+      Picture="/src/assets/people/xin/xin.png"
       Email="gux[at]mit.edu"
     />
     <TeamMember
