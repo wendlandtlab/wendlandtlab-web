@@ -4,14 +4,14 @@
       flex
       justify-evenly
       w-full
-      max-w-screen-lg
+      h-screen
       mx-auto
       mt-2
-      mb-5
-      rounded-md
       h-26
       bg-gray-300
       items-center
+      position-fixed
+      -bottom-full
     "
   >
     <div flex flex-col>

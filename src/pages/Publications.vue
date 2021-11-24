@@ -7,8 +7,9 @@ export default {
 };
 </script>
 <template>
+<div class="flex flex-col min-h-screen">
   <HeaderMenu />
-  <div>
+  <div class="flex-grow">
     <Publication
       pubType="article"
       pubTitle="A unified strategy to access 2- and 4-deoxygenated sugars enabled by manganese-promoted 1,2-radical migration"
@@ -56,5 +57,5 @@ export default {
       publinkPublisher="https://science.sciencemag.org/content/366/6463/304"
     />
   </div>
-  <FooterBox />
+  <FooterBox /> </div>
 </template>

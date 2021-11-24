@@ -7,8 +7,10 @@ export default {
 };
 </script>
 <template>
+<div class="flex flex-col min-h-screen">
   <HeaderMenu />
-  <div class="container mx-auto max-w-screen-lg">
+  <div class="flex-grow">
+  <div class="container mx-auto max-w-screen-xl">
     <div class="flex flex-wrap justify-evenly pt-5 px-4 my-5">
       <ResearchArea
         Area="New Catalysis"
@@ -36,6 +38,21 @@ export default {
         class="object-cover overflow-hidden rounded-md h-100 w-full"
       />
     </div>
+    <div class="text-2xl font-sans font-bold my-5">Who funds us:</div>
+    <div class="flex flex-wrap justify-evenly px-4">
+     <img
+        src="/src/assets/mit-logo-notext.svg"
+        alt="NIH"
+        class="object-contain overflow-hidden rounded-md h-40 w-50"
+      />
+      <img
+        src="/src/assets/nih-logo.svg"
+        alt="NIH"
+        class="object-contain overflow-hidden rounded-md h-40 w-50"
+      />
+    </div>
+    </div>
+    </div>
     <FooterBox />
-  </div>
+    </div>
 </template>

@@ -7,7 +7,9 @@ export default {
 };
 </script>
 <template>
+<div class="flex flex-col min-h-screen">
   <HeaderMenu />
+  <div class="flex-grow">
   <div class="py-3 pb-3 mx-auto max-w-screen-lg">
     <img
       src="https://wendlandtlab.com/wp-content/uploads/2019/09/BA45ADEB-3DC3-4BC9-AF36-430F29182B0B-13292-000008A6E2FFE125-1-e1568640727111.jpg"
@@ -137,6 +139,6 @@ export default {
     Picture="https://i1.wp.com/wendlandtlab.com/wp-content/uploads/2019/10/IMG_6965-1.jpg?w=1080&ssl=1"
     LinkedIn="https://www.linkedin.com/in/hayden-carder-45757a171/"
   />
-      </div>
-  <FooterBox />
+      </div> </div>
+  <FooterBox /> </div>
 </template>
