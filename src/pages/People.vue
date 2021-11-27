@@ -21,7 +21,7 @@ export default {
     <TeamMember
       PersonName="Alison Wendlandt"
       Orcid="#"
-      ProfileLink="#"
+      ProfileLink="/people/alison"
       Title="Assistant Professor"
       Picture="/src/assets/people/alison/alison.png"
       Email="awendlan[at]mit.edu"

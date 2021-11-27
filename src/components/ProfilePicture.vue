@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-md mx-auto max-w-screen-lg flex flex-wrap overflow-hidden">
+  <div class="rounded-md mx-auto max-w-screen-xl flex flex-wrap overflow-hidden">
     <div
       v-for="idx in imgurls"
       class="w-full object-cover sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 h-60"

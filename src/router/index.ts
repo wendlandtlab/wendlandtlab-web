@@ -38,6 +38,10 @@ const routes = [
     component: () => import('/@/pages/people/Yuan.vue'),
   },
   {
+    path: '/People/Alison',
+    component: () => import('/@/pages/people/Alison.vue'),
+  },
+  {
     path: '/Research',
     component: () => import('/@/pages/Research.vue'),
   },
