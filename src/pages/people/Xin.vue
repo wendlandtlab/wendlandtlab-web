@@ -32,10 +32,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/hayden/hayden-1.png',
-          '/src/assets/people/hayden/hayden-2.png',
-          '/src/assets/people/hayden/hayden-3.png',
-          '/src/assets/people/hayden/hayden-4.png',
+          '/src/assets/people/xin/xin-1.png',
+          '/src/assets/people/xin/xin-2.png',
+          '/src/assets/people/xin/xin-3.png',
+          '/src/assets/people/xin/xin-4.png',
         ]"
       />
     </div>

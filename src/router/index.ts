@@ -49,6 +49,10 @@ const routes = [
     path: '/Publications',
     component: () => import('/@/pages/Publications.vue'),
   },
+  {
+    path: '/Publications/all-pubs',
+    component: () => import('/@/pages/AllCitations.vue'),
+  },
 ];
 
 export const Router = createRouter({

@@ -30,7 +30,7 @@ export default {
             was awarded a Goldwater scholarship in 2017. In his free time, Gino served
             as a workshop leader in various chemistry classes.
             Interested in branching out to methodology research and mechanistic study, he attended MIT to pursue his Ph.D. under Professor
-            Alison Wendlandt. 
+            Alison Wendlandt. Gino's studies at MIT are funded under an NSF GRFP.
           </p>
           <p>Fan Facts:</p>
           <p>

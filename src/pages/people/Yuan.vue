@@ -39,7 +39,7 @@ export default {
           <p>Fun Facts:</p>
           <p>
             -Yuan used to play a lot poker with the students from the financial
-            mathematic program. But he quitted after these guys got fancy jobs
+            mathematic program., but he quit after they got fancy jobs
             in trading firms and kept raising the buy-in price.
           </p>
           <p>
@@ -51,10 +51,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/hayden/hayden-1.png',
-          '/src/assets/people/hayden/hayden-2.png',
-          '/src/assets/people/hayden/hayden-3.png',
-          '/src/assets/people/hayden/hayden-4.png',
+          '/src/assets/people/yuan/yuan-1.png',
+          '/src/assets/people/yuan/yuan-2.png',
+          '/src/assets/people/yuan/yuan-3.png',
+          '/src/assets/people/yuan/yuan-4.png',
         ]"
       />
     </div>

@@ -9,7 +9,7 @@ export default {
 <template>
 <div class="flex flex-col min-h-screen">
   <HeaderMenu />
-  <div class="flex-grow">
+  <div class="flex-grow mx-auto">
     <Publication
       pubType="article"
       pubTitle="A unified strategy to access 2- and 4-deoxygenated sugars enabled by manganese-promoted 1,2-radical migration"
@@ -20,7 +20,7 @@ export default {
       publinkArticle="#"
       publinkSi="#"
       publinkPublisher="https://pubs.acs.org/doi/full/10.1021/jacs.1c05993"
-      pubToc="src/assets/scs-toc.svg"
+      pubToc="src/assets/publications/toc/JACS-2021-Carder.svg"
     />
     <Publication
       pubType="review"
@@ -31,7 +31,7 @@ export default {
       pubDoi="ACS Chem. Biol. 2021, 10.1021/acschembio.1c00190"
       publinkArticle="#"
       publinkPublisher="https://pubs.acs.org/doi/10.1021/acschembio.1c00190"
-      pubToc="src/assets/scs-toc.svg"
+      pubToc="src/assets/publications/toc/ACSChemBiol-2021-SuhCarder.png"
     />
         <Publication
       pubType="article"
@@ -43,7 +43,7 @@ export default {
       publinkArticle="#"
       publinkSi="#"
       publinkPublisher="https://www.nature.com/articles/s41586-020-1937-1%20"
-      pubToc="src/assets/scs-toc.svg"
+      pubToc="src/assets/publications/toc/Nature-2020-Wang.svg"
     />
             <Publication
       pubType="perspective"
@@ -56,6 +56,8 @@ export default {
       publinkSi="#"
       publinkPublisher="https://science.sciencemag.org/content/366/6463/304"
     />
-  </div>
+  <div class="max-w-screen-lg mx-auto px-5 py-5 flex flex-auto justify-center">
+   <a href="publications/all-pubs" class="text-xl mr-5 text-gray-700 font-extrabold">All citations including work prior to independent career</a>
+   </div></div>
   <FooterBox /> </div>
 </template>
