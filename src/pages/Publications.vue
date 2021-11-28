@@ -10,6 +10,9 @@ export default {
 <div class="flex flex-col min-h-screen">
   <HeaderMenu />
   <div class="flex-grow mx-auto">
+      <div class="max-w-screen-lg mx-auto px-5 py-5 flex flex-auto justify-center">
+   <a href="publications/all-pubs" class="text-xl mr-5 text-gray-700 font-extrabold">All citations including work prior to independent career</a>
+   </div>
     <Publication
       pubType="article"
       pubTitle="A unified strategy to access 2- and 4-deoxygenated sugars enabled by manganese-promoted 1,2-radical migration"
@@ -56,8 +59,6 @@ export default {
       publinkSi="#"
       publinkPublisher="https://science.sciencemag.org/content/366/6463/304"
     />
-  <div class="max-w-screen-lg mx-auto px-5 py-5 flex flex-auto justify-center">
-   <a href="publications/all-pubs" class="text-xl mr-5 text-gray-700 font-extrabold">All citations including work prior to independent career</a>
-   </div></div>
+</div>
   <FooterBox /> </div>
 </template>
