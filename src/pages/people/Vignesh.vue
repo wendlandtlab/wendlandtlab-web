@@ -9,7 +9,7 @@ export default {
 <template>
   <div class="flex flex-col min-h-screen">
     <HeaderMenu />
-    <div class="flex-grow">
+    <div class="flex-grow mb-5">
       "
       <div class="flex mx-auto max-w-screen-lg py-10 px-6 items-center">
         <div class="flex-initial">
@@ -58,10 +58,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/hayden/hayden-1.png',
-          '/src/assets/people/hayden/hayden-2.png',
-          '/src/assets/people/hayden/hayden-3.png',
-          '/src/assets/people/hayden/hayden-4.png',
+          '/src/assets/people/vignesh/vignesh-1.png',
+          '/src/assets/people/vignesh/vignesh-2.png',
+          '/src/assets/people/vignesh/vignesh-3.png',
+          '/src/assets/people/vignesh/vignesh-4.png',
         ]"
       />
     </div>
