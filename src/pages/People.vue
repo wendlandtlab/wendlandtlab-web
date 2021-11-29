@@ -1,9 +1,30 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import TeamMember from "../components/TeamMember.vue"
+import alison from "/@/assets/people/alison/alison.png"
+import yuan from "/@/assets/people/yuan/yuan.png"
+import vignesh from "/@/assets/people/yuan/yuan.png"
+import gino from "/@/assets/people/gino/gino.png"
+import aaron from "/@/assets/people/aaron/aaron.png"
+import xin from "/@/assets/people/xin/xin.png"
+import hayden from "/@/assets/people/hayden/hayden.png"
+import alex from "/@/assets/people/alex/alex.png"
 export default {
   components: {
     Icon,
+    TeamMember,
   },
+  setup () {
+return {
+  alison,
+  yuan,
+  vignesh,
+  gino,
+  aaron,
+  xin,
+  hayden,
+  alex,
+  }}
 };
 </script>
 <template>
@@ -23,7 +44,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/alison"
           Title="Assistant Professor"
-          :Picture="@/assets/people/alison/alison.png"
+          :Picture="alison"
           Email="awendlan[at]mit.edu"
         />
       </div>
@@ -35,7 +56,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/yuan"
           Title="Postdoctoral Fellow"
-          :Picture="@/assets/people/yuan/yuan.png"
+          :Picture="yuan"
           Email="yazhang[at]mit.edu"
         />
         <TeamMember
@@ -43,7 +64,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/vignesh"
           Title="Postdoctoral Fellow"
-          :Picture="@/assets/people/yuan/yuan.png"
+         :Picture="vignesh"
           Email="palan019[at]mit.edu"
         />
         <TeamMember
@@ -51,7 +72,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/gino"
           Title="Graduate Student (G4)"
-          :Picture="@/assets/people/gino/gino.png"
+          :Picture="gino"
           Email="ginoocch[at]mit.edu"
         />
         <TeamMember
@@ -59,7 +80,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/aaron"
           Title="Graduate Student (G4)"
-          :Picture="@/assets/people/aaron/aaron.png"
+          :Picture="aaron"
           Email="aaronliu[at]mit.edu"
         />
         <TeamMember
@@ -67,7 +88,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/xin"
           Title="Graduate Student (G4)"
-          :Picture="@/assets/people/xin/xin.png"
+          :Picture="xin"
           Email="gux[at]mit.edu"
         />
         <TeamMember
@@ -75,7 +96,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/hayden"
           Title="Graduate Student (G4)"
-          :Picture="@/assets/people/hayden/hayden.png"
+          Picture="hayden"
           Email="hcarder[at]mit.edu"
         />
         <TeamMember
@@ -83,7 +104,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/alex"
           Title="Graduate Student (G4)"
-          :Picture="@/assets/people/alex/alex.png"
+          Picture="alex"
           Email="aseim[at]mit.edu"
         />
       </div>
