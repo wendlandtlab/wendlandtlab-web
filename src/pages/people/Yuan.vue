@@ -15,7 +15,7 @@ export default {
           <TeamMember
             PersonName="Yuan Zhang"
             Title="Postdoctoral fellow"
-            Picture="/src/assets/people/yuan/yuan.png"
+            Picture="../../assets/people/yuan/yuan.png"
             Email="yazhang[at]mit.edu"
           />
         </div>
@@ -51,10 +51,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/yuan/yuan-1.png',
-          '/src/assets/people/yuan/yuan-2.png',
-          '/src/assets/people/yuan/yuan-3.png',
-          '/src/assets/people/yuan/yuan-4.png',
+          '../../assets/people/yuan/yuan-1.png',
+          '../../assets/people/yuan/yuan-2.png',
+          '../../assets/people/yuan/yuan-3.png',
+          '../../assets/people/yuan/yuan-4.png',
         ]"
       />
     </div>

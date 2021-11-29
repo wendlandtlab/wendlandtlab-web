@@ -12,7 +12,7 @@ export default {
     <div class="flex-grow">
       <div class="py-3 pb-3 mx-auto max-w-screen-lg">
         <img
-          src="https://wendlandtlab.com/wp-content/uploads/2019/09/BA45ADEB-3DC3-4BC9-AF36-430F29182B0B-13292-000008A6E2FFE125-1-e1568640727111.jpg"
+          src="../assets/group-photo.jpg"
           alt=""
           class="object-auto overflow-hidden rounded-md h-auto w-full"
         />
@@ -21,9 +21,9 @@ export default {
         <TeamMember
           PersonName="Alison Wendlandt"
           Orcid="#"
-          ProfileLink="/people/alison"
+          ProfileLink="./people/alison"
           Title="Assistant Professor"
-          Picture="/src/assets/people/alison/alison.png"
+          Picture="../assets/people/alison/alison.png"
           Email="awendlan[at]mit.edu"
         />
       </div>
@@ -33,57 +33,57 @@ export default {
         <TeamMember
           PersonName="Yuan Zhang"
           Orcid="#"
-          ProfileLink="/people/yuan"
+          ProfileLink="./people/yuan"
           Title="Postdoctoral Fellow"
-          Picture="/src/assets/people/yuan/yuan.png"
+          Picture="../assets/people/yuan/yuan.png"
           Email="yazhang[at]mit.edu"
         />
         <TeamMember
           PersonName="Vignesh Palani"
           Orcid="#"
-          ProfileLink="/people/vignesh"
+          ProfileLink="./people/vignesh"
           Title="Postdoctoral Fellow"
-          Picture="/src/assets/people/yuan/yuan.png"
+          Picture="../assets/people/yuan/yuan.png"
           Email="palan019[at]mit.edu"
         />
         <TeamMember
           PersonName="Gino Occhialini"
           Orcid="#"
-          ProfileLink="/people/gino"
+          ProfileLink="./people/gino"
           Title="Graduate Student (G4)"
-          Picture="/src/assets/people/gino/gino.png"
+          Picture="../assets/people/gino/gino.png"
           Email="ginoocch[at]mit.edu"
         />
         <TeamMember
           PersonName="Aaron Liu"
           Orcid="#"
-          ProfileLink="/people/aaron"
+          ProfileLink="./people/aaron"
           Title="Graduate Student (G4)"
-          Picture="/src/assets/people/aaron/aaron.png"
+          Picture="../assets/people/aaron/aaron.png"
           Email="aaronliu[at]mit.edu"
         />
         <TeamMember
           PersonName="Xin Gu"
           Orcid="#"
-          ProfileLink="/people/xin"
+          ProfileLink="./people/xin"
           Title="Graduate Student (G4)"
-          Picture="/src/assets/people/xin/xin.png"
+          Picture="../assets/people/xin/xin.png"
           Email="gux[at]mit.edu"
         />
         <TeamMember
           PersonName="Hayden Carder"
           Orcid="#"
-          ProfileLink="/people/hayden"
+          ProfileLink="./people/hayden"
           Title="Graduate Student (G4)"
-          Picture="/src/assets/people/hayden/hayden.png"
+          Picture="../assets/people/hayden/hayden.png"
           Email="hcarder[at]mit.edu"
         />
         <TeamMember
           PersonName="Alex Seim"
           Orcid="#"
-          ProfileLink="/people/alex"
+          ProfileLink="./people/alex"
           Title="Graduate Student (G4)"
-          Picture="/src/assets/people/alex/alex.png"
+          Picture="../assets/people/alex/alex.png"
           Email="aseim[at]mit.edu"
         />
       </div>
@@ -122,43 +122,43 @@ export default {
         <Alumni
           PersonName="Yong Wang"
           Title="Postdoc (xxx-xxx)"
-          Picture="src/assets/people/alumni/yong.png"
+          Picture="../assets/people/alumni/yong.png"
           LinkedIn="https://www.linkedin.com/in/yong-wang-5a30b470/"
         />
         <Alumni
           PersonName="Zhaohong Lu"
           Title="Postdoc (xxx-xxx)"
-          Picture="src/assets/people/alumni/lu.png"
+          Picture="../assets/people/alumni/lu.png"
           LinkedIn="https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/"
         />
         <Alumni
           PersonName="Johanna Barbour"
           Title="M.S. (2020)"
-          Picture="src/assets/people/alumni/johanna.png"
+          Picture="../assets/people/alumni/johanna.png"
           LinkedIn="https://www.linkedin.com/in/johbrbr?trk=people-guest_people_search-card"
         />
         <Alumni
           PersonName="Kathleen Wang"
           Title="M.S. (2020)"
-          Picture="src/assets/people/alumni/kathleen.png"
+          Picture="../assets/people/alumni/kathleen.png"
           LinkedIn="https://www.linkedin.com/in/kathleenjwang/"
         />
         <Alumni
           PersonName="Carolyn Suh "
           Title="M.S. (2020)"
-          Picture="src/assets/people/alumni/carolyn.png"
+          Picture="../assets/people/alumni/carolyn.png"
           LinkedIn="https://www.linkedin.com/in/carolyn-suh/"
         />
         <Alumni
           PersonName="Krista Dong "
           Title="Undergrad (xx-xx)"
-          Picture="src/assets/people/alumni/krista.png"
+          Picture="../assets/people/alumni/krista.png"
           LinkedIn="https://www.linkedin.com/in/kristadong/"
         />
         <Alumni
           PersonName="Ellie Plachinski "
           Title="Undergrad (xx-xx)"
-          Picture="src/assets/people/alumni/ellie.png"
+          Picture="../assets/people/alumni/ellie.png"
           LinkedIn="#"
         />
       </div>

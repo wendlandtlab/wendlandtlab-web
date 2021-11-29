@@ -15,7 +15,7 @@ export default {
           <TeamMember
             PersonName="Alex Seim"
             Title="Graduate Student (G4)"
-            Picture="/src/assets/people/alex/alex.png"
+            Picture="../../assets/people/alex/alex.png"
             Email="aseim[at]mit.edu"
           />
         </div>
@@ -44,10 +44,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/alex/alex-1.png',
-          '/src/assets/people/alex/alex-2.png',
-          '/src/assets/people/alex/alex-3.png',
-          '/src/assets/people/alex/alex-4.png',
+          '../../assets/people/alex/alex-1.png',
+          '../../assets/people/alex/alex-2.png',
+          '../../assets/people/alex/alex-3.png',
+          '../../assets/people/alex/alex-4.png',
         ]"
       />
     </div>

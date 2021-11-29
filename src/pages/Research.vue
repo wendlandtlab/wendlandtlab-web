@@ -41,12 +41,12 @@ export default {
     <div class="text-2xl font-sans font-bold my-5">Who funds us:</div>
     <div class="flex flex-wrap justify-evenly px-4">
      <img
-        src="/src/assets/mit-logo-notext.svg"
+        src="../assets/mit-logo-notext.svg?url"
         alt="NIH"
         class="object-contain overflow-hidden rounded-md h-40 w-50"
       />
       <img
-        src="/src/assets/nih-logo.svg"
+        src="../assets/nih-logo.svg?url"
         alt="NIH"
         class="object-contain overflow-hidden rounded-md h-40 w-50"
       />

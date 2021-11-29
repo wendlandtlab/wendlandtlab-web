@@ -15,7 +15,7 @@ export default {
           <TeamMember
             PersonName="Aaron Liu"
             Title="Graduate Student (G4)"
-            Picture="/src/assets/people/aaron/aaron.png"
+            Picture="../../assets/people/aaron/aaron.png"
             Email="aaronliu[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/aaronliuhk/"
           />
@@ -40,10 +40,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/aaron/aaron-1.png',
-          '/src/assets/people/aaron/aaron-2.png',
-          '/src/assets/people/aaron/aaron-3.png',
-          '/src/assets/people/aaron/aaron-4.png',
+          '../../assets/people/aaron/aaron-1.png',
+          '../../assets/people/aaron/aaron-2.png',
+          '../../assets/people/aaron/aaron-3.png',
+          '../../assets/people/aaron/aaron-4.png',
         ]"
       />
     </div>

@@ -16,7 +16,7 @@ export default {
             PersonName="Gino Occhialini"
             Orcid="https://orcid.org/0000-0001-9682-1740"
             Title="Graduate Student (G4)"
-            Picture="/src/assets/people/gino/gino.png"
+            Picture="../../assets/people/gino/gino.png"
             Email="ginoocch[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/gino-occhialini-4bb670103"
           />
@@ -43,10 +43,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/hayden/hayden-1.png',
-          '/src/assets/people/hayden/hayden-2.png',
-          '/src/assets/people/hayden/hayden-3.png',
-          '/src/assets/people/hayden/hayden-4.png',
+          '../../assets/people/hayden/hayden-1.png',
+          '../../assets/people/hayden/hayden-2.png',
+          '../../assets/people/hayden/hayden-3.png',
+          '../../assets/people/hayden/hayden-4.png',
         ]"
       />
     </div>

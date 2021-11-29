@@ -17,7 +17,7 @@ export default {
             PersonName="Vignesh Palani"
             Orcid="https://orcid.org/0000-0002-6340-7655"
             Title="Postdoctoral Fellow"
-            Picture="/src/assets/people/yuan/yuan.png"
+            Picture="../../assets/people/yuan/yuan.png"
             Email="palan019[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/vignesh-palani-1145b9ba/"
           />
@@ -58,10 +58,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/vignesh/vignesh-1.png',
-          '/src/assets/people/vignesh/vignesh-2.png',
-          '/src/assets/people/vignesh/vignesh-3.png',
-          '/src/assets/people/vignesh/vignesh-4.png',
+          '../../assets/people/vignesh/vignesh-1.png',
+          '../../assets/people/vignesh/vignesh-2.png',
+          '../../assets/people/vignesh/vignesh-3.png',
+          '../../assets/people/vignesh/vignesh-4.png',
         ]"
       />
     </div>

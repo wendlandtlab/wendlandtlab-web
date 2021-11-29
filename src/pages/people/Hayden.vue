@@ -16,7 +16,7 @@ export default {
             PersonName="Hayden Carder"
             Orcid="https://orcid.org/0000-0003-3811-5375"
             Title="Graduate Student (G4)"
-            Picture="/src/assets/people/hayden/hayden.png"
+            Picture="../../assets/people/hayden/hayden.png"
             Email="hcarder[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/hayden-carder-45757a171/"
           />
@@ -52,10 +52,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/hayden/hayden-1.png',
-          '/src/assets/people/hayden/hayden-2.png',
-          '/src/assets/people/hayden/hayden-3.png',
-          '/src/assets/people/hayden/hayden-4.png',
+          '../../assets/people/hayden/hayden-1.png',
+          '../../assets/people/hayden/hayden-2.png',
+          '../../assets/people/hayden/hayden-3.png',
+          '../../assets/people/hayden/hayden-4.png',
         ]"
       />
     </div>

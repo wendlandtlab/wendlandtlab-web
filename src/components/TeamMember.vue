@@ -10,7 +10,7 @@
     <div class="flex w-full items-center justify-center pt-2 pb-1">
       <p class="text-xl font-normal text-gray-800">{{ PersonName }}</p>
       <div class="flex justify-center">
-        <a v-if="ProfileLink" :href="ProfileLink" class="mx-2">
+        <router-link v-if="ProfileLink" :to="ProfileLink" class="mx-2">
           <div>
             <Icon
               icon="bi:file-person-fill"
@@ -19,7 +19,7 @@
               class="iconify-inline"
             />
           </div>
-        </a>
+        </router-link>
         <a v-if="Orcid" :href="Orcid" class="mx-2">
           <div>
             <Icon

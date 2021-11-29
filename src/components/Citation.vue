@@ -1,6 +1,6 @@
  <template>
     <div class="mb-5">
-<a href="#">{{ Authors }} {{ Title }} <i> {{ Journal }} </i> <b> {{ Year }}</b>, <i> {{ Issue }}</i>, {{ Pages }}.</a>
+<a :href="Link">{{ Authors }} {{ Title }} <i> {{ Journal }} </i> <b> {{ Year }}</b>, <i> {{ Issue }}</i>, {{ Pages }}.</a>
     </div>
 </template>
 

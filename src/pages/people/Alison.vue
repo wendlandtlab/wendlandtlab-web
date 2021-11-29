@@ -15,7 +15,7 @@ export default {
           <TeamMember
             PersonName="Alison Wendlandt"
             Title="Green CD Assistant Professor"
-            Picture="/src/assets/people/alison/alison.png"
+            Picture="../../assets/people/alison/alison.png"
             Email="awendlan[at]mit.edu"
           />
         </div>
@@ -34,10 +34,10 @@ export default {
       </div>
       <ProfilePicture
         :imgurls="[
-          '/src/assets/people/hayden/hayden-1.png',
-          '/src/assets/people/hayden/hayden-2.png',
-          '/src/assets/people/hayden/hayden-3.png',
-          '/src/assets/people/hayden/hayden-4.png',
+          '../../assets/people/hayden/hayden-1.png',
+          '../../assets/people/hayden/hayden-2.png',
+          '../../assets/people/hayden/hayden-3.png',
+          '../../assets/people/hayden/hayden-4.png',
         ]"
       />
     </div>
