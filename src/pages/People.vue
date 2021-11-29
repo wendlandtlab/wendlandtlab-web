@@ -35,7 +35,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/yuan"
           Title="Postdoctoral Fellow"
-          Picture="/yuan/yuan.png"
+          Picture="@/assets/people/yuan/yuan.png"
           Email="yazhang[at]mit.edu"
         />
         <TeamMember
@@ -43,7 +43,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/vignesh"
           Title="Postdoctoral Fellow"
-          Picture="yuan/yuan.png"
+          Picture="@/assets/people/yuan/yuan.png"
           Email="palan019[at]mit.edu"
         />
         <TeamMember
@@ -51,7 +51,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/gino"
           Title="Graduate Student (G4)"
-          Picture="gino/gino.png"
+          Picture="@/assets/people/gino/gino.png"
           Email="ginoocch[at]mit.edu"
         />
         <TeamMember
@@ -59,7 +59,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/aaron"
           Title="Graduate Student (G4)"
-          Picture="aaron/aaron.png"
+          Picture="@/assets/people/aaron/aaron.png"
           Email="aaronliu[at]mit.edu"
         />
         <TeamMember
@@ -67,7 +67,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/xin"
           Title="Graduate Student (G4)"
-          Picture="xin/xin.png"
+          Picture="@/assets/people/xin/xin.png"
           Email="gux[at]mit.edu"
         />
         <TeamMember
@@ -75,7 +75,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/hayden"
           Title="Graduate Student (G4)"
-          Picture="hayden/hayden.png"
+          Picture="@/assets/people/hayden/hayden.png"
           Email="hcarder[at]mit.edu"
         />
         <TeamMember
@@ -83,7 +83,7 @@ export default {
           Orcid="#"
           ProfileLink="./people/alex"
           Title="Graduate Student (G4)"
-          Picture="alex/alex.png"
+          Picture="@/assets/people/alex/alex.png"
           Email="aseim[at]mit.edu"
         />
       </div>
