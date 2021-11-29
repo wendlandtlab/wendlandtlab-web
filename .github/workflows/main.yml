@@ -47,3 +47,9 @@ jobs:
         with:
           inlineScript: |
             az storage blob upload-batch --account-name wendlandtlab -d '$web' -s dist
+            
+      - name: Purge CDN Cache
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az cdn endpoint purge --content-paths  "/*" --profile-name "wendlandtlab" --name "wendlandtlab" --resource-group "wendland"
