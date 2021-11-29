@@ -16,7 +16,7 @@ export default {
             PersonName="Hayden Carder"
             Orcid="https://orcid.org/0000-0003-3811-5375"
             Title="Graduate Student (G4)"
-            Picture="../../assets/people/hayden/hayden.png"
+            Picture="hayden/hayden.png"
             Email="hcarder[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/hayden-carder-45757a171/"
           />

@@ -15,7 +15,7 @@ export default {
           <TeamMember
             PersonName="Yuan Zhang"
             Title="Postdoctoral fellow"
-            Picture="../../assets/people/yuan/yuan.png"
+            Picture="yuan/yuan.png"
             Email="yazhang[at]mit.edu"
           />
         </div>

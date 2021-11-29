@@ -2,7 +2,7 @@
   <div class="px-5">
     <div class="mx-auto w-40 pt-5">
       <img
-        :src="Picture"
+        :src="require('@/assets/people/' + Picture + '')"
         alt=""
         class="object-cover h-full w-full overflow-hidden rounded-full shadow"
       />
@@ -30,7 +30,7 @@
             />
           </div>
         </a>
-                <a v-if="LinkedIn" :href="LinkedIn" class="mx-2">
+        <a v-if="LinkedIn" :href="LinkedIn" class="mx-2">
           <div>
             <Icon
               icon="logos:linkedin-icon"
@@ -44,7 +44,7 @@
     <div class="text-center text-sm text-gray-600">
       <p>{{ Title }}</p>
     </div>
-        <div class="text-center text-sm italic text-gray-600 pb-3">
+    <div class="text-center text-sm italic text-gray-600 pb-3">
       <p>{{ Email }}</p>
     </div>
   </div>

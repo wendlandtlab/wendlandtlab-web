@@ -15,7 +15,7 @@ export default {
           <TeamMember
             PersonName="Aaron Liu"
             Title="Graduate Student (G4)"
-            Picture="../../assets/people/aaron/aaron.png"
+            Picture="aaron/aaron.png"
             Email="aaronliu[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/aaronliuhk/"
           />

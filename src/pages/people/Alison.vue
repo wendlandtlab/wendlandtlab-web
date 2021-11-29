@@ -15,7 +15,7 @@ export default {
           <TeamMember
             PersonName="Alison Wendlandt"
             Title="Green CD Assistant Professor"
-            Picture="../../assets/people/alison/alison.png"
+            Picture="alison/alison.png"
             Email="awendlan[at]mit.edu"
           />
         </div>

@@ -15,7 +15,7 @@ export default {
           <TeamMember
             PersonName="Xin Gu"
             Title="Graduate Student (G4)"
-            Picture="../../assets/people/xin/xin.png"
+            Picture="xin/xin.png"
             Email="gux[at]mit.edu"
           />
         </div>
