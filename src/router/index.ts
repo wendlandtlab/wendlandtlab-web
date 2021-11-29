@@ -6,35 +6,35 @@ const routes = [
     component: () => import('/@/pages/Index.vue'),
   },
   {
-    path: '/People',
+    path: '/people',
     component: () => import('/@/pages/People.vue'),
   },
   {
-    path: '/People/Hayden',
+    path: '/people/hayden',
     component: () => import('/@/pages/people/Hayden.vue'),
   },
   {
-    path: '/People/Aaron',
+    path: '/people/aaron',
     component: () => import('/@/pages/people/Aaron.vue'),
   },
   {
-    path: '/People/Alex',
+    path: '/people/alex',
     component: () => import('/@/pages/people/Alex.vue'),
   },
   {
-    path: '/People/Gino',
+    path: '/people/gino',
     component: () => import('/@/pages/people/Gino.vue'),
   },
   {
-    path: '/People/Vignesh',
+    path: '/people/vignesh',
     component: () => import('/@/pages/people/Vignesh.vue'),
   },
   {
-    path: '/People/Xin',
+    path: '/people/xin',
     component: () => import('/@/pages/people/Xin.vue'),
   },
   {
-    path: '/People/Yuan',
+    path: '/people/yuan',
     component: () => import('/@/pages/people/Yuan.vue'),
   },
   {

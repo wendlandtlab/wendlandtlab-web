@@ -3,10 +3,10 @@
     <div class="w-full mx-auto px-14 sm:px-6">
       <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
         <div class="flex justify-start lg:w-0 lg:flex-1">
-          <a href="/">
+          <router-link to="/">
             <span class="sr-only">Workflow</span>
             <img class="h-10 w-auto sm:h-12" src="\src\assets\wendlandtlablogo.svg" alt="" />
-          </a>
+          </router-link>
         </div>
         <div class="-mr-2 -my-2 md:hidden">
           <PopoverButton class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -15,15 +15,15 @@
           </PopoverButton>
         </div>
         <PopoverGroup as="nav" class="hidden md:flex space-x-10">
-          <a href="\Research" class="text-base font-medium text-gray-500 hover:text-gray-900">
+          <router-link to="/research" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Research
-          </a>
-          <a href="\People" class="text-base font-medium text-gray-500 hover:text-gray-900">
+          </router-link>
+          <router-link to="/people" class="text-base font-medium text-gray-500 hover:text-gray-900">
             People
-          </a>
-          <a href="\Publications" class="text-base font-medium text-gray-500 hover:text-gray-900">
+          </router-link>
+          <router-link to="/publications" class="text-base font-medium text-gray-500 hover:text-gray-900">
             Publications
-          </a>
+          </router-link>
 
           <Popover class="relative" v-slot="{ open }">
             <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500']">
@@ -35,7 +35,7 @@
               <PopoverPanel class="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
                 <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                   <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-                    <a v-for="item in resources" :key="item.name" :href="item.href" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+                    <router-link v-for="item in resources" :key="item.name" :to="item.href" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
                       <component :is="item.icon" class="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                       <div class="ml-4">
                         <p class="text-base font-medium text-gray-900">
@@ -45,7 +45,7 @@
                           {{ item.description }}
                         </p>
                       </div>
-                    </a>
+                    </router-link>
                   </div>
                 </div>
               </PopoverPanel>
@@ -73,18 +73,18 @@
           </div>
           <div class="py-6 px-5 space-y-6">
             <div class="grid grid-cols-2 gap-y-4 gap-x-8">
-              <a href="\Research" class="text-base font-medium text-gray-900 hover:text-gray-700">
+              <router-link to="/research" class="text-base font-medium text-gray-900 hover:text-gray-700">
                 Research
-              </a>
-              <a href="\People" class="text-base font-medium text-gray-900 hover:text-gray-700">
+              </router-link>
+              <router-link to="/people" class="text-base font-medium text-gray-900 hover:text-gray-700">
                 People
-              </a>
-              <a href="\Publications" class="text-base font-medium text-gray-900 hover:text-gray-700">
+              </router-link>
+              <router-link to="/publications" class="text-base font-medium text-gray-900 hover:text-gray-700">
                 Publications
-              </a>
-              <a v-for="item in resources" :key="item.name" :href="item.href" class="text-base font-medium text-gray-900 hover:text-gray-700">
+              </router-link>
+              <router-link v-for="item in resources" :key="item.name" :to="item.href" class="text-base font-medium text-gray-900 hover:text-gray-700">
                 {{ item.name }}
-              </a>
+              </router-link>
             </div>
           </div>
         </div>

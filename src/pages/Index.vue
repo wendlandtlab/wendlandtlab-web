@@ -1,10 +1,13 @@
 <template>
   <div class="flex flex-col min-h-screen">
-  <HeaderMenu />
-  <div
-    class="bg-top bg-contain bg-no-repeat flex-grow"
-    style="background-image: url('/src/assets/homepage.svg'); background-color: rgba(218, 237, 251, 1);"
-  />
-  <FooterBox />
+    <HeaderMenu />
+    <AsyncHomepage class="bg-top bg-contain bg-no-repeat" />
+    <FooterBox />
   </div>
 </template>
+<script setup lang="ts">
+import { defineAsyncComponent } from 'vue';
+const AsyncHomepage = defineAsyncComponent(
+  () => import('../assets/homepage.svg'),
+);
+</script>
