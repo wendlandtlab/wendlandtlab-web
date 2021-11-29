@@ -15,7 +15,7 @@
     "
   >
     <div flex flex-col>
-      <img class="h-10 w-auto sm:h-12" href="https://www.mit.edu/" src="../assets/mit-logo.svg" alt="" />
+      <img class="h-10 w-auto sm:h-12" href="https://www.mit.edu/" src="../assets/mit-logo.svg?url" alt="" />
       <a href="https://www.mit.edu/accessibility/" class="text-red-800"
         >Accessibility</a
       >

@@ -96,7 +96,7 @@ return {
           Orcid="#"
           ProfileLink="./people/hayden"
           Title="Graduate Student (G4)"
-          Picture="hayden"
+          :Picture="hayden"
           Email="hcarder[at]mit.edu"
         />
         <TeamMember
@@ -104,7 +104,7 @@ return {
           Orcid="#"
           ProfileLink="./people/alex"
           Title="Graduate Student (G4)"
-          Picture="alex"
+          :Picture="alex"
           Email="aseim[at]mit.edu"
         />
       </div>
