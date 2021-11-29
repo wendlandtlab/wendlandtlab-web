@@ -11,7 +11,7 @@ export default {
     <HeaderMenu />
     <div class="flex-grow max-w-screen-lg mx-auto">
       <div class="flex flex-col">
-          <div class="text-2xl font-extrabold mb-5">Independent career:</div>
+          <div class="text-2xl font-extrabold my-5">Independent career:</div>
         <Citation
           Authors="Carder, H.; Suh, C. E.; Wendlandt, A. E."
           Title="A unified strategy to access 2- and 4-deoxygenated sugars enabled by manganese-promoted 1,2-radical migration"
