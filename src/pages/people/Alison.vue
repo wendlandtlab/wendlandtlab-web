@@ -1,8 +1,14 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import profile from '/@/assets/people/alison/alison.png?url';
 export default {
   components: {
     Icon,
+  },
+  setup() {
+    return {
+      profile,
+    };
   },
 };
 </script>
@@ -32,14 +38,6 @@ export default {
           </p>
         </div>
       </div>
-      <ProfilePicture
-        :imgurls="[
-          '../../assets/people/hayden/hayden-1.png',
-          '../../assets/people/hayden/hayden-2.png',
-          '../../assets/people/hayden/hayden-3.png',
-          '../../assets/people/hayden/hayden-4.png',
-        ]"
-      />
     </div>
     <FooterBox />
   </div>

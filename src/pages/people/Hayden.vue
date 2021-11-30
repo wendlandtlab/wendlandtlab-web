@@ -1,8 +1,23 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import profile from '/@/assets/people/hayden/hayden.png?url';
+import pic1 from '/@/assets/people/hayden/hayden-1.png?url';
+import pic2 from '/@/assets/people/hayden/hayden-2.png?url';
+import pic3 from '/@/assets/people/hayden/hayden-3.png?url';
+import pic4 from '/@/assets/people/hayden/hayden-4.png?url';
+
 export default {
   components: {
     Icon,
+  },
+  setup() {
+    return {
+      profile,
+      pic1,
+      pic2,
+      pic3,
+      pic4,
+    };
   },
 };
 </script>
@@ -50,14 +65,7 @@ export default {
           </p>
         </div>
       </div>
-      <ProfilePicture
-        :imgurls="[
-          '../../assets/people/hayden/hayden-1.png',
-          '../../assets/people/hayden/hayden-2.png',
-          '../../assets/people/hayden/hayden-3.png',
-          '../../assets/people/hayden/hayden-4.png',
-        ]"
-      />
+      <ProfilePicture :imgurls="[pic1, pic2, pic3, pic4]" />
     </div>
     <FooterBox />
   </div>

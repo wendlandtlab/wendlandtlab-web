@@ -1,8 +1,23 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import profile from '/@/assets/people/alex/alex.png?url';
+import pic1 from '/@/assets/people/alex/alex-1.png?url';
+import pic2 from '/@/assets/people/alex/alex-2.png?url';
+import pic3 from '/@/assets/people/alex/alex-3.png?url';
+import pic4 from '/@/assets/people/alex/alex-4.png?url';
+
 export default {
   components: {
     Icon,
+  },
+  setup() {
+    return {
+      profile,
+      pic1,
+      pic2,
+      pic3,
+      pic4,
+    };
   },
 };
 </script>
@@ -15,7 +30,7 @@ export default {
           <TeamMember
             PersonName="Alex Seim"
             Title="Graduate Student (G4)"
-            Picture="alex/alex.png"
+            :Picture="profile"
             Email="aseim[at]mit.edu"
           />
         </div>
@@ -42,14 +57,7 @@ export default {
           </p>
         </div>
       </div>
-      <ProfilePicture
-        :imgurls="[
-          '../../assets/people/alex/alex-1.png',
-          '../../assets/people/alex/alex-2.png',
-          '../../assets/people/alex/alex-3.png',
-          '../../assets/people/alex/alex-4.png',
-        ]"
-      />
+      <ProfilePicture :imgurls="[pic1, pic2, pic3, pic4]" />
     </div>
     <FooterBox />
   </div>

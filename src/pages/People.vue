@@ -1,30 +1,45 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
-import TeamMember from "../components/TeamMember.vue"
-import alison from "/@/assets/people/alison/alison.png"
-import yuan from "/@/assets/people/yuan/yuan.png"
-import vignesh from "/@/assets/people/yuan/yuan.png"
-import gino from "/@/assets/people/gino/gino.png"
-import aaron from "/@/assets/people/aaron/aaron.png"
-import xin from "/@/assets/people/xin/xin.png"
-import hayden from "/@/assets/people/hayden/hayden.png"
-import alex from "/@/assets/people/alex/alex.png"
+import alison from '/@/assets/people/alison/alison.png?url';
+import urlAlison from '/@/pages/people/alison.vue?url';
+import yuan from '/@/assets/people/yuan/yuan.png?url';
+import urlYuan from '/@/pages/people/yuan.vue?url';
+import vignesh from '/@/assets/people/yuan/yuan.png?url';
+import urlVignesh from '/@/pages/people/vignesh.vue?url';
+import gino from '/@/assets/people/gino/gino.png?url';
+import urlGino from '/@/pages/people/gino.vue?url';
+import aaron from '/@/assets/people/aaron/aaron.png?url';
+import urlAaron from '/@/pages/people/aaron.vue?url';
+import xin from '/@/assets/people/xin/xin.png?url';
+import urlXin from '/@/pages/people/xin.vue?url';
+import hayden from '/@/assets/people/hayden/hayden.png?url';
+import urlHayden from '/@/pages/people/hayden.vue?url';
+import alex from '/@/assets/people/alex/alex.png?url';
+import urlAlex from '/@/pages/people/alex.vue?url';
 export default {
   components: {
     Icon,
-    TeamMember,
   },
-  setup () {
-return {
-  alison,
-  yuan,
-  vignesh,
-  gino,
-  aaron,
-  xin,
-  hayden,
-  alex,
-  }}
+  setup() {
+    return {
+      alison,
+      urlAlison,
+      yuan,
+      urlYuan,
+      vignesh,
+      urlVignesh,
+      gino,
+      urlGino,
+      aaron,
+      urlAaron,
+      xin,
+      urlXin,
+      hayden,
+      urlHayden,
+      alex,
+      urlAlex,
+    };
+  },
 };
 </script>
 <template>
@@ -33,7 +48,7 @@ return {
     <div class="flex-grow">
       <div class="py-3 pb-3 mx-auto max-w-screen-lg">
         <img
-          src="../assets/group-photo.jpg"
+          src="/@/assets/group-photo.jpg"
           alt=""
           class="object-auto overflow-hidden rounded-md h-auto w-full"
         />
@@ -42,7 +57,7 @@ return {
         <TeamMember
           PersonName="Alison Wendlandt"
           Orcid="#"
-          ProfileLink="./people/alison"
+          :ProfileLink="urlAlison"
           Title="Assistant Professor"
           :Picture="alison"
           Email="awendlan[at]mit.edu"
@@ -54,7 +69,7 @@ return {
         <TeamMember
           PersonName="Yuan Zhang"
           Orcid="#"
-          ProfileLink="./people/yuan"
+          :ProfileLink="urlYuan"
           Title="Postdoctoral Fellow"
           :Picture="yuan"
           Email="yazhang[at]mit.edu"
@@ -62,15 +77,15 @@ return {
         <TeamMember
           PersonName="Vignesh Palani"
           Orcid="#"
-          ProfileLink="./people/vignesh"
+          :ProfileLink="urlVignesh"
           Title="Postdoctoral Fellow"
-         :Picture="vignesh"
+          :Picture="vignesh"
           Email="palan019[at]mit.edu"
         />
         <TeamMember
           PersonName="Gino Occhialini"
           Orcid="#"
-          ProfileLink="./people/gino"
+          :ProfileLink="urlGino"
           Title="Graduate Student (G4)"
           :Picture="gino"
           Email="ginoocch[at]mit.edu"
@@ -78,7 +93,7 @@ return {
         <TeamMember
           PersonName="Aaron Liu"
           Orcid="#"
-          ProfileLink="./people/aaron"
+          :ProfileLink="urlAaron"
           Title="Graduate Student (G4)"
           :Picture="aaron"
           Email="aaronliu[at]mit.edu"
@@ -86,7 +101,7 @@ return {
         <TeamMember
           PersonName="Xin Gu"
           Orcid="#"
-          ProfileLink="./people/xin"
+          :ProfileLink="urlXin"
           Title="Graduate Student (G4)"
           :Picture="xin"
           Email="gux[at]mit.edu"
@@ -94,7 +109,7 @@ return {
         <TeamMember
           PersonName="Hayden Carder"
           Orcid="#"
-          ProfileLink="./people/hayden"
+          :ProfileLink="urlHayden"
           Title="Graduate Student (G4)"
           :Picture="hayden"
           Email="hcarder[at]mit.edu"
@@ -102,7 +117,7 @@ return {
         <TeamMember
           PersonName="Alex Seim"
           Orcid="#"
-          ProfileLink="./people/alex"
+          :ProfileLink="urlAlex"
           Title="Graduate Student (G4)"
           :Picture="alex"
           Email="aseim[at]mit.edu"
