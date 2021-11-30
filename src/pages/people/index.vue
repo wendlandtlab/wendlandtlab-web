@@ -56,7 +56,7 @@ export default {
         <TeamMember
           PersonName="Yuan Zhang"
           Orcid="#"
-          ProfileLink="#"
+          ProfileLink="/people/yuan"
           Title="Postdoctoral Fellow"
           :Picture="yuan"
           Email="yazhang[at]mit.edu"
@@ -64,7 +64,7 @@ export default {
         <TeamMember
           PersonName="Vignesh Palani"
           Orcid="#"
-          ProfileLink="#"
+          ProfileLink="/people/vignesh"
           Title="Postdoctoral Fellow"
           :Picture="vignesh"
           Email="palan019[at]mit.edu"
@@ -72,7 +72,7 @@ export default {
         <TeamMember
           PersonName="Gino Occhialini"
           Orcid="#"
-          ProfileLink="#"
+          ProfileLink="/people/gino"
           Title="Graduate Student (G4)"
           :Picture="gino"
           Email="ginoocch[at]mit.edu"
@@ -80,7 +80,7 @@ export default {
         <TeamMember
           PersonName="Aaron Liu"
           Orcid="#"
-          ProfileLink="#"
+          ProfileLink="/people/aaron"
           Title="Graduate Student (G4)"
           :Picture="aaron"
           Email="aaronliu[at]mit.edu"
@@ -88,7 +88,7 @@ export default {
         <TeamMember
           PersonName="Xin Gu"
           Orcid="#"
-          ProfileLink="#"
+          ProfileLink="/people/xin"
           Title="Graduate Student (G4)"
           :Picture="xin"
           Email="gux[at]mit.edu"
@@ -96,7 +96,7 @@ export default {
         <TeamMember
           PersonName="Hayden Carder"
           Orcid="#"
-          ProfileLink="#"
+          ProfileLink="/people/hayden"
           Title="Graduate Student (G4)"
           :Picture="hayden"
           Email="hcarder[at]mit.edu"
@@ -104,7 +104,7 @@ export default {
         <TeamMember
           PersonName="Alex Seim"
           Orcid="#"
-          ProfileLink="#"
+          ProfileLink="/people/alex"
           Title="Graduate Student (G4)"
           :Picture="alex"
           Email="aseim[at]mit.edu"
