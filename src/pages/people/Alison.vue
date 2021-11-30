@@ -1,6 +1,6 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
-import profile from '/@/assets/people/alison/alison.png?url';
+import profile from '/@/assets/people/alison/alison.png';
 export default {
   components: {
     Icon,
@@ -21,7 +21,7 @@ export default {
           <TeamMember
             PersonName="Alison Wendlandt"
             Title="Green CD Assistant Professor"
-            Picture="alison/alison.png"
+            :Picture="profile"
             Email="awendlan[at]mit.edu"
           />
         </div>

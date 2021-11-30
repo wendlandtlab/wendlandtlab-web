@@ -6,7 +6,8 @@ import { createI18n } from 'vue-i18n';
 import './styles/base.css';
 
 // Router
-import { Router } from '/@/router';
+import { createRouter, createWebHistory } from 'vue-router'
+import routes from 'virtual:generated-pages'
 
 // i18n
 import messages from '@intlify/vite-plugin-vue-i18n/messages';
@@ -23,8 +24,13 @@ const i18n = createI18n({
   messages,
 });
 
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+})
+
 app.use(i18n);
 
-app.use(Router);
+app.use(router);
 
 app.mount('#app');

@@ -30,7 +30,7 @@ export default {
           <TeamMember
             PersonName="Yuan Zhang"
             Title="Postdoctoral fellow"
-            Picture="yuan/yuan.png"
+            :Picture="profile"
             Email="yazhang[at]mit.edu"
           />
         </div>

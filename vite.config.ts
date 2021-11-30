@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite';
+import { resolve } from 'path'
 import path from 'path';
 import vue from '@vitejs/plugin-vue';
 import WindiCSS from 'vite-plugin-windicss';
@@ -7,6 +8,7 @@ import ViteComponents from 'vite-plugin-components';
 import PurgeIcons from 'vite-plugin-purge-icons';
 import ViteFonts from 'vite-plugin-fonts';
 import svgLoader from 'vite-svg-loader';
+import Pages from 'vite-plugin-pages';
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
@@ -46,5 +48,6 @@ export default defineConfig({
     VueI18n({
       include: [path.resolve(__dirname, './locales/**')],
     }),
+    Pages(),
   ],
 });

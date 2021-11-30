@@ -31,7 +31,7 @@ export default {
             PersonName="Gino Occhialini"
             Orcid="https://orcid.org/0000-0001-9682-1740"
             Title="Graduate Student (G4)"
-            Picture="gino/gino.png"
+            :Picture="profile"
             Email="ginoocch[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/gino-occhialini-4bb670103"
           />

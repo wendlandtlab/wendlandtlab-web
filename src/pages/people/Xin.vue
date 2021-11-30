@@ -30,7 +30,7 @@ export default {
           <TeamMember
             PersonName="Xin Gu"
             Title="Graduate Student (G4)"
-            Picture="xin/xin.png"
+            :Picture="profile"
             Email="gux[at]mit.edu"
           />
         </div>

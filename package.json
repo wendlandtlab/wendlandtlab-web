@@ -17,7 +17,7 @@
     "vue": "^3.1.4",
     "vue-awesome-swiper": "^4.1.1",
     "vue-i18n": "^9.1.6",
-    "vue-router": "^4.0.8"
+    "vue-router": "^4.0.12"
   },
   "devDependencies": {
     "@iconify/iconify": "^2.0.3",

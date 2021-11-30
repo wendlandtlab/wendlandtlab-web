@@ -44,7 +44,7 @@ export default {
         <TeamMember
           PersonName="Alison Wendlandt"
           Orcid="#"
-          ProfileLink="#"
+          ProfileLink="/people/alison"
           Title="Assistant Professor"
           :Picture="alison"
           Email="awendlan[at]mit.edu"
