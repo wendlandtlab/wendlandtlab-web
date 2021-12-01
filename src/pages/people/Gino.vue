@@ -1,10 +1,10 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
 import profile from '/@/assets/people/gino/gino.png?url';
-import pic1 from '/@/assets/people/hayden/hayden-1.png?url';
-import pic2 from '/@/assets/people/hayden/hayden-2.png?url';
-import pic3 from '/@/assets/people/hayden/hayden-3.png?url';
-import pic4 from '/@/assets/people/hayden/hayden-4.png?url';
+import pic1 from '/@/assets/people/gino/gino-1.png?url';
+import pic2 from '/@/assets/people/gino/gino-2.png?url';
+import pic3 from '/@/assets/people/gino/gino-3.png?url';
+import pic4 from '/@/assets/people/gino/gino-4.png?url';
 
 export default {
   components: {
@@ -53,6 +53,9 @@ export default {
           </p>
           <p>
             - Gino built a 3d-printer, which he consistently breaks and fixes.
+          </p>
+                    <p>
+            - Gino has an identical twin brother.
           </p>
         </div>
       </div>

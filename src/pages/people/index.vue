@@ -2,7 +2,7 @@
 import { Icon } from '@iconify/vue';
 import alison from '/@/assets/people/alison/alison.png?url';
 import yuan from '/@/assets/people/yuan/yuan.png?url';
-import vignesh from '/@/assets/people/yuan/yuan.png?url';
+import vignesh from '/@/assets/people/vignesh/vignesh.png?url';
 import gino from '/@/assets/people/gino/gino.png?url';
 import aaron from '/@/assets/people/aaron/aaron.png?url';
 import xin from '/@/assets/people/xin/xin.png?url';
@@ -35,7 +35,7 @@ export default {
     <div class="flex-grow">
       <div class="py-3 pb-3 mx-auto max-w-screen-lg">
         <img
-          src="/@/assets/group-photo.jpg"
+          src="../../assets/group-photo.jpg"
           alt=""
           class="object-auto overflow-hidden rounded-md h-auto w-full"
         />
@@ -43,7 +43,6 @@ export default {
       <div class="mx-auto">
         <TeamMember
           PersonName="Alison Wendlandt"
-          Orcid="#"
           ProfileLink="/people/alison"
           Title="Assistant Professor"
           :Picture="alison"
@@ -55,7 +54,6 @@ export default {
       >
         <TeamMember
           PersonName="Yuan Zhang"
-          Orcid="#"
           ProfileLink="/people/yuan"
           Title="Postdoctoral Fellow"
           :Picture="yuan"
@@ -63,7 +61,6 @@ export default {
         />
         <TeamMember
           PersonName="Vignesh Palani"
-          Orcid="#"
           ProfileLink="/people/vignesh"
           Title="Postdoctoral Fellow"
           :Picture="vignesh"
@@ -71,7 +68,6 @@ export default {
         />
         <TeamMember
           PersonName="Gino Occhialini"
-          Orcid="#"
           ProfileLink="/people/gino"
           Title="Graduate Student (G4)"
           :Picture="gino"
@@ -79,7 +75,6 @@ export default {
         />
         <TeamMember
           PersonName="Aaron Liu"
-          Orcid="#"
           ProfileLink="/people/aaron"
           Title="Graduate Student (G4)"
           :Picture="aaron"
@@ -87,7 +82,6 @@ export default {
         />
         <TeamMember
           PersonName="Xin Gu"
-          Orcid="#"
           ProfileLink="/people/xin"
           Title="Graduate Student (G4)"
           :Picture="xin"
@@ -95,7 +89,6 @@ export default {
         />
         <TeamMember
           PersonName="Hayden Carder"
-          Orcid="#"
           ProfileLink="/people/hayden"
           Title="Graduate Student (G4)"
           :Picture="hayden"
@@ -103,7 +96,6 @@ export default {
         />
         <TeamMember
           PersonName="Alex Seim"
-          Orcid="#"
           ProfileLink="/people/alex"
           Title="Graduate Student (G4)"
           :Picture="alex"

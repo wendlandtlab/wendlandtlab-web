@@ -1,6 +1,9 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
 import profile from '/@/assets/people/alison/alison.png';
+import alison1 from '/@/assets/people/alison/alison-1.png';
+import alison2 from '/@/assets/people/alison/alison-2.png';
+import alison3 from '/@/assets/people/alison/alison-3.png';
 export default {
   components: {
     Icon,
@@ -8,6 +11,9 @@ export default {
   setup() {
     return {
       profile,
+      alison1,
+      alison2,
+      alison3,
     };
   },
 };
@@ -38,7 +44,32 @@ export default {
           </p>
         </div>
       </div>
-    </div>
+      <div
+        class="
+          rounded-md
+          mx-auto h-60
+          max-w-screen-xl
+          flex flex-wrap
+          overflow-hidden justify-items-center
+        "
+      >
+          <img
+            :src="alison1"
+            alt=""
+            class="object-cover overflow-hidden w-1/4"
+          />
+          <img
+            :src="alison2"
+            alt=""
+            class="object-cover overflow-hidden h-full w-1/2 flex-shrink"
+          />
+          <img
+            :src="alison3"
+            alt=""
+            class="object-cover overflow-hidden w-1/4"
+          />
+        </div>
+      </div>
     <FooterBox />
   </div>
 </template>
