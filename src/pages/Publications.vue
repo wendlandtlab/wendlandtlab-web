@@ -36,8 +36,8 @@ export default {
         pubJournal="JACS"
         :pubYear="2021"
         pubDoi="J. Am. Chem. Soc. 2021, 10.1021/jacs.1c05993"
-        publinkArticle="#"
-        publinkSi="#"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Carder-article.pdf"
+        publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Carder-ESI.pdf"
         publinkPublisher="https://pubs.acs.org/doi/full/10.1021/jacs.1c05993"
         :pubToc="toc3"
       />
@@ -48,7 +48,7 @@ export default {
         pubJournal="ACS Chem. Biol."
         :pubYear="2021"
         pubDoi="ACS Chem. Biol. 2021, 10.1021/acschembio.1c00190"
-        publinkArticle="#"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2021-ACSChemBiol-SuhCarder-review.pdf"
         publinkPublisher="https://pubs.acs.org/doi/10.1021/acschembio.1c00190"
         :pubToc="toc2"
       />
@@ -59,8 +59,8 @@ export default {
         pubJournal="Nature"
         :pubYear="2020"
         pubDoi="Nature 2020, 10.1038/s41586-020-1937-1"
-        publinkArticle="#"
-        publinkSi="#"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-article.pdf"
+        publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-ESI.pdf"
         publinkPublisher="https://www.nature.com/articles/s41586-020-1937-1%20"
         :pubToc="toc1"
       />
@@ -71,7 +71,7 @@ export default {
         pubJournal="Science"
         :pubYear="2019"
         pubDoi="Science, 2019, 366, 304-305"
-        publinkArticle="#"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2019-Science-Wendlandt-perspective.pdf"
         publinkPublisher="https://science.sciencemag.org/content/366/6463/304"
       />
     </div>
