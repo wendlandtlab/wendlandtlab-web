@@ -22,11 +22,22 @@ export default {
   <div class="flex flex-col min-h-screen">
     <HeaderMenu />
     <div class="flex-grow">
-      <div class="flex mx-auto max-w-screen-xl py-10 px-6 items-center">
+      <div
+        class="
+          flex flex-col
+          sm:flex-row
+          mx-auto
+          max-w-screen-xl
+          py-10
+          px-6
+          items-center
+        "
+      >
         <div class="flex-initial">
           <TeamMember
             PersonName="Alison Wendlandt"
             Title="Green CD Assistant Professor"
+            ProfileLink="/people"
             :Picture="profile"
             Email="awendlan[at]mit.edu"
           />
@@ -47,29 +58,23 @@ export default {
       <div
         class="
           rounded-md
-          mx-auto h-60
+          mx-auto
+          h-60
           max-w-screen-xl
           flex flex-wrap
-          overflow-hidden justify-items-center
+          overflow-hidden
+          justify-items-center
         "
       >
-          <img
-            :src="alison1"
-            alt=""
-            class="object-cover overflow-hidden w-1/4"
-          />
-          <img
-            :src="alison2"
-            alt=""
-            class="object-cover overflow-hidden h-full w-1/2 flex-shrink"
-          />
-          <img
-            :src="alison3"
-            alt=""
-            class="object-cover overflow-hidden w-1/4"
-          />
-        </div>
+        <img :src="alison1" alt="" class="object-cover overflow-hidden w-1/4" />
+        <img
+          :src="alison2"
+          alt=""
+          class="object-cover overflow-hidden h-full w-1/2 flex-shrink"
+        />
+        <img :src="alison3" alt="" class="object-cover overflow-hidden w-1/4" />
       </div>
+    </div>
     <FooterBox />
   </div>
 </template>

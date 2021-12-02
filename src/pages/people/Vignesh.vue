@@ -26,13 +26,14 @@ export default {
     <HeaderMenu />
     <div class="flex-grow mb-5">
       "
-      <div class="flex mx-auto max-w-screen-lg py-10 px-6 items-center">
+      <div class="flex flex-col sm:flex-row mx-auto max-w-screen-lg py-10 px-6 items-center">
         <div class="flex-initial">
           <TeamMember
             PersonName="Vignesh Palani"
             Orcid="https://orcid.org/0000-0002-6340-7655"
             Title="Postdoctoral Fellow"
             :Picture="profile"
+            ProfileLink="/people"
             Email="palan019[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/vignesh-palani-1145b9ba/"
           />

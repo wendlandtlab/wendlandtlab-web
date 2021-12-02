@@ -1,25 +1,16 @@
  <template>
   <div class="px-5">
     <div class="mx-auto w-40 pt-5">
-      <img
+     <router-link v-if="ProfileLink" :to="ProfileLink"> <img
         :src="Picture"
         alt=""
-        class="object-cover h-full w-full overflow-hidden rounded-full shadow"
+        class="object-cover hover:opacity-50 h-full w-full overflow-hidden rounded-full shadow"
       />
+      </router-link>
     </div>
     <div class="flex w-full items-center justify-center pt-2 pb-1">
-      <p class="text-xl font-normal text-gray-800">{{ PersonName }}</p>
+      <router-link v-if="ProfileLink" :to="ProfileLink"><p class="text-xl font-normal text-gray-800">{{ PersonName }}</p></router-link>
       <div class="flex justify-center">
-        <router-link v-if="ProfileLink" :to="ProfileLink" class="mx-2">
-          <div>
-            <Icon
-              icon="bi:file-person-fill"
-              color="#475569"
-              width="20"
-              class="iconify-inline"
-            />
-          </div>
-        </router-link>
         <a v-if="Orcid" :href="Orcid" class="mx-2">
           <div>
             <Icon

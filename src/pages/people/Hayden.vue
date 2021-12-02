@@ -25,12 +25,13 @@ export default {
   <div class="flex flex-col min-h-screen">
     <HeaderMenu />
     <div class="flex-grow">
-      <div class="flex mx-auto max-w-screen-xl py-10 px-6 items-center">
+      <div class="flex flex-col sm:flex-row mx-auto max-w-screen-xl py-10 px-6 items-center">
         <div class="flex-initial">
           <TeamMember
             PersonName="Hayden Carder"
             Orcid="https://orcid.org/0000-0003-3811-5375"
             Title="Graduate Student (G4)"
+            ProfileLink="/people"
             :Picture="profile"
             Email="hcarder[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/hayden-carder-45757a171/"

@@ -25,10 +25,11 @@ export default {
   <div class="flex flex-col min-h-screen">
     <HeaderMenu />
     <div class="flex-grow">
-      <div class="flex mx-auto max-w-screen-xl py-10 px-6 items-center">
+      <div class="flex flex-col sm:flex-row mx-auto max-w-screen-xl py-10 px-6 items-center">
         <div class="flex-initial">
           <TeamMember
             PersonName="Yuan Zhang"
+            ProfileLink="/people"
             Title="Postdoctoral fellow"
             :Picture="profile"
             Email="yazhang[at]mit.edu"

@@ -1,7 +1,7 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
 import toc3 from '/@/assets/publications/toc/JACS-2021-Carder.svg?url';
-import toc2 from '/@/assets/publications/toc/ACSChemBiol-2021-SuhCarder.png?url'
+import toc2 from '/@/assets/publications/toc/ACSChemBiol-2021-SuhCarder.png'
 import toc1 from '/@/assets/publications/toc/Nature-2020-Wang.svg?url'
 export default {
   components: {
@@ -26,7 +26,7 @@ export default {
         <router-link
           to="./AllCitations"
           class="text-xl mr-5 text-gray-700 font-extrabold"
-          >All citations including work prior to independent career</router-link
+          >Click Here: all citations including work prior to independent career</router-link
         >
       </div>
       <Publication

@@ -136,13 +136,13 @@ export default {
         <p class="text-2xl text-gray-800 font-extrabold">Alumni</p>
         <Alumni
           PersonName="Yong Wang"
-          Title="Postdoc (xxx-xxx)"
+          Title="Postdoc (2019-2020)"
           Picture="../assets/people/alumni/yong.png"
           LinkedIn="https://www.linkedin.com/in/yong-wang-5a30b470/"
         />
         <Alumni
           PersonName="Zhaohong Lu"
-          Title="Postdoc (xxx-xxx)"
+          Title="Postdoc (2019-2020)"
           Picture="../assets/people/alumni/lu.png"
           LinkedIn="https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/"
         />
@@ -174,7 +174,7 @@ export default {
           PersonName="Ellie Plachinski "
           Title="Undergrad (xx-xx)"
           Picture="../assets/people/alumni/ellie.png"
-          LinkedIn="#"
+          LinkedIn="https://www.linkedin.com/in/ellie-plachinski-8a2168149/"
         />
       </div>
     </div>

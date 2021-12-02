@@ -15,13 +15,13 @@
           </PopoverButton>
         </div>
         <PopoverGroup as="nav" class="hidden md:flex space-x-10">
-          <router-link to="/research" class="text-base font-medium text-gray-500 hover:text-gray-900">
+          <router-link to="/research" class="text-xl font-medium text-gray-500 hover:font-bold hover:text-gray-900">
             Research
           </router-link>
-          <router-link to="/people" class="text-base font-medium text-gray-500 hover:text-gray-900">
+          <router-link to="/people" class="text-xl font-medium text-gray-500 hover:font-bold hover:text-gray-900">
             People
           </router-link>
-          <router-link to="/publications" class="text-base font-medium text-gray-500 hover:text-gray-900">
+          <router-link to="/publications" class="text-xl font-medium text-gray-500 hover:font-bold hover:text-gray-900">
             Publications
           </router-link>
         </PopoverGroup>
@@ -46,13 +46,13 @@
           </div>
           <div class="py-6 px-5 space-y-6">
             <div class="grid grid-cols-2 gap-y-4 gap-x-8">
-              <router-link to="/research" class="text-base font-medium text-gray-900 hover:text-gray-700">
+              <router-link to="/research" class="text-base font-bold text-gray-900 hover:text-gray-700">
                 Research
               </router-link>
-              <router-link to="/people" class="text-base font-medium text-gray-900 hover:text-gray-700">
+              <router-link to="/people" class="text-base font-bold text-gray-900 hover:text-gray-700">
                 People
               </router-link>
-              <router-link to="/publications" class="text-base font-medium text-gray-900 hover:text-gray-700">
+              <router-link to="/publications" class="text-base font-bold text-gray-900 hover:text-gray-700">
                 Publications
               </router-link>
             </div>

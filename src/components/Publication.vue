@@ -70,7 +70,7 @@ export default defineComponent({
     <div class="text-lg font-bold px-2">{{ pubTitle }}</div>
     <div class="text-sm italic px-2">{{ pubAuthors }}</div>
     <div class="flex justify-center p-2">
-      <img v-if="pubToc" class="flex-initial w-md" :src="pubToc" />
+      <img v-if="pubToc" class="flex-initial w-md h-full" :src="pubToc" />
     </div>
   </div>
 </template>
