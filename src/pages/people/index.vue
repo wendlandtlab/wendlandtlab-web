@@ -126,9 +126,9 @@ export default {
             regardless of background — eager to join in our endeavors.
             Prospective graduate students should apply through the Chemistry
             department program. Postdoctoral candidates should contact Alison
-            via email (awendlan[at]mit.edu) with their C.V. a research summary and 
-            a cover letter. Undergraduates who are interested in a research
-            experience should contact Alison via email.
+            via email (awendlan[at]mit.edu) with their C.V., a research summary and 
+            a cover letter. Undergraduates, who are interested in a research
+            experience, should contact Alison via email.
           </p>
         </div>
       </div>
