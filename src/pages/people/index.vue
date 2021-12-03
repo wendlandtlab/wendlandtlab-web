@@ -9,8 +9,6 @@ import xin from '/@/assets/people/xin/xin.png?url';
 import hayden from '/@/assets/people/hayden/hayden.png?url';
 import alex from '/@/assets/people/alex/alex.png?url';
 
-
-
 export default {
   components: {
     Icon,
@@ -33,7 +31,7 @@ export default {
   <div class="flex flex-col min-h-screen">
     <HeaderMenu />
     <div class="flex-grow">
-      <div class="py-3 pb-3 mx-auto max-w-screen-lg">
+      <div class="container py-3 pb-3 mx-auto max-w-screen-lg">
         <img
           src="../../assets/group-photo.jpg"
           alt=""
@@ -102,11 +100,12 @@ export default {
           Email="aseim[at]mit.edu"
         />
       </div>
-      <div class="flex mx-auto max-w-screen-lg py-5 px-10">
+      <div class="flex flex-col sm:flex-row mx-auto max-w-screen-lg py-5 px-10">
         <div
           class="
             w-30
             h-30
+            mx-auto
             rounded-full
             flex-none flex
             justify-center
@@ -120,14 +119,14 @@ export default {
         >
           <p>You?</p>
         </div>
-        <div class="text-gray-700 text-justify pl-10">
+        <div class="text-gray-700 text-justify py-5 px-5">
           <p>
             The Wendlandt Group is always looking for talented researchers —
             regardless of background — eager to join in our endeavors.
             Prospective graduate students should apply through the Chemistry
             department program. Postdoctoral candidates should contact Alison
-            via email (awendlan[at]mit.edu) with their C.V., a research summary and 
-            a cover letter. Undergraduates, who are interested in a research
+            via email (awendlan[at]mit.edu) with their C.V., a research summary
+            and a cover letter. Undergraduates, who are interested in a research
             experience, should contact Alison via email.
           </p>
         </div>
@@ -135,34 +134,10 @@ export default {
       <div class="max-w-screen-lg mx-auto px-5 py-5">
         <p class="text-2xl text-gray-800 font-extrabold">Alumni</p>
         <Alumni
-          PersonName="Yong Wang"
-          Title="Postdoc (2019-2020)"
-          Picture="../assets/people/alumni/yong.png"
-          LinkedIn="https://www.linkedin.com/in/yong-wang-5a30b470/"
-        />
-        <Alumni
-          PersonName="Zhaohong Lu"
-          Title="Postdoc (2019-2020)"
-          Picture="../assets/people/alumni/lu.png"
-          LinkedIn="https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/"
-        />
-        <Alumni
           PersonName="Johanna Barbour"
           Title="M.S. (2020)"
           Picture="../assets/people/alumni/johanna.png"
           LinkedIn="https://www.linkedin.com/in/johbrbr?trk=people-guest_people_search-card"
-        />
-        <Alumni
-          PersonName="Kathleen Wang"
-          Title="M.S. (2020)"
-          Picture="../assets/people/alumni/kathleen.png"
-          LinkedIn="https://www.linkedin.com/in/kathleenjwang/"
-        />
-        <Alumni
-          PersonName="Carolyn Suh "
-          Title="M.S. (2020)"
-          Picture="../assets/people/alumni/carolyn.png"
-          LinkedIn="https://www.linkedin.com/in/carolyn-suh/"
         />
         <Alumni
           PersonName="Krista Dong "
@@ -171,10 +146,34 @@ export default {
           LinkedIn="https://www.linkedin.com/in/kristadong/"
         />
         <Alumni
+          PersonName="Zhaohong Lu"
+          Title="Postdoc (2019-2020)"
+          Picture="../assets/people/alumni/lu.png"
+          LinkedIn="https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/"
+        />
+        <Alumni
           PersonName="Ellie Plachinski "
           Title="Undergrad (xx-xx)"
           Picture="../assets/people/alumni/ellie.png"
           LinkedIn="https://www.linkedin.com/in/ellie-plachinski-8a2168149/"
+        />
+        <Alumni
+          PersonName="Carolyn Suh "
+          Title="M.S. (2020)"
+          Picture="../assets/people/alumni/carolyn.png"
+          LinkedIn="https://www.linkedin.com/in/carolyn-suh/"
+        />
+        <Alumni
+          PersonName="Kathleen Wang"
+          Title="M.S. (2020)"
+          Picture="../assets/people/alumni/kathleen.png"
+          LinkedIn="https://www.linkedin.com/in/kathleenjwang/"
+        />
+        <Alumni
+          PersonName="Yong Wang"
+          Title="Postdoc (2019-2020)"
+          Picture="../assets/people/alumni/yong.png"
+          LinkedIn="https://www.linkedin.com/in/yong-wang-5a30b470/"
         />
       </div>
     </div>

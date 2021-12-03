@@ -1,6 +1,6 @@
  <template>
     <div class="mb-5">
-<a :href="Link">{{ Authors }} {{ Title }} <i> {{ Journal }} </i> <b> {{ Year }}</b>, <i> {{ Issue }}</i>, {{ Pages }}.</a>
+<a :href="Link">{{ Authors }} {{ Title }} <i> {{ Journal }} </i> <b> {{ Year }}</b>, <i> {{ Volume }}</i>, {{ Pages }}.</a>
     </div>
 </template>
 
@@ -13,7 +13,7 @@ export default defineComponent({
     Title: String,
     Journal: String,
     Year: String,
-    Issue: String,
+    Volume: String,
     Pages: String,
     Link: String,
   },

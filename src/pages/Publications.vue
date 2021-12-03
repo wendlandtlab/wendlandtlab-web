@@ -21,7 +21,7 @@ export default {
     <HeaderMenu />
     <div class="flex-grow mx-auto">
       <div
-        class="max-w-screen-lg mx-auto px-5 py-5 flex flex-auto justify-center"
+        class="container max-w-screen-lg mx-auto mx-5 px-5 py-5 flex flex-auto justify-center"
       >
         <router-link
           to="./AllCitations"
