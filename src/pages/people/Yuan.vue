@@ -49,13 +49,13 @@ export default {
             accomplished the syntheses of multiple halogenated cyclic ether and
             meroterpenoid natural products. In 2020, Yuan joined the Wendlandt
             Group to explore radical-mediated transformations. Outside the lab,
-            Yuan enjoy playing fingerstyle guitar, hiking and tasting great
+            Yuan enjoys playing fingerstyle guitar, hiking and tasting great
             foods in the local restaurants or prepared by his girlfriend.
           </p>
           <p>Fun Facts:</p>
           <p>
             -Yuan used to play a lot poker with the students from the financial
-            mathematic program., but he quit after they got fancy jobs
+            mathematic program, but he quit after they got fancy jobs
             in trading firms and kept raising the buy-in price.
           </p>
           <p>
