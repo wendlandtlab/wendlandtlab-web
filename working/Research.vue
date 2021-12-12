@@ -51,8 +51,19 @@ export default {
             </p>
           </div>
         </div>
-      <div class="rounded-md mx-auto max-w-screen-xl flex flex-wrap overflow-hidden">
-        <img src="../assets/photos/photochem.jpg" alt="photo-chemistry setup" class="object-cover py-5 w-full h-100"/>
+        <div class="flex flex-wrap justify-evenly pt-5 px-4 my-5">
+          <ResearchArea
+            Area="New Mechanisms"
+            Icon="eos-icons:rotating-gear"
+            IconColor="green"
+            Description="Elucidation of new mechanistic principles to expand or compliment powerful existing reaction maifolds  <<READ MORE>>"
+          />
+          <ResearchArea
+            Area="New Applications"
+            Icon="fluent:toolbox-12-filled"
+            IconColor="blue"
+            Description="Identification and refinement of important methodologies for selective catalytic processes  <<READ MORE>>"
+          />
         </div>
         <div class="text-2xl font-sans font-bold my-5">Who funds us:</div>
         <div class="flex flex-wrap justify-evenly px-4 pb-5">
