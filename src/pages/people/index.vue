@@ -8,6 +8,13 @@ import aaron from '/@/assets/people/aaron/aaron.png?url';
 import xin from '/@/assets/people/xin/xin.png?url';
 import hayden from '/@/assets/people/hayden/hayden.png?url';
 import alex from '/@/assets/people/alex/alex.png?url';
+import carolyn from '/@/assets/people/alumni/carolyn.png?url';
+import ellie from '/@/assets/people/alumni/ellie.png?url';
+import johanna from '/@/assets/people/alumni/johanna.png?url';
+import kathleen from '/@/assets/people/alumni/kathleen.png?url';
+import krista from '/@/assets/people/alumni/krista.png?url';
+import lu from '/@/assets/people/alumni/lu.png?url';
+import yong from '/@/assets/people/alumni/yong.png?url';
 
 export default {
   components: {
@@ -23,6 +30,13 @@ export default {
       xin,
       hayden,
       alex,
+      carolyn,
+      ellie,
+      johanna,
+      kathleen,
+      krista,
+      lu,
+      yong,
     };
   },
 };
@@ -133,48 +147,54 @@ export default {
       </div>
       <div class="max-w-screen-lg mx-auto px-5 py-5">
         <p class="text-2xl text-gray-800 font-extrabold">Alumni</p>
-        <Alumni
-          PersonName="Johanna Barbour"
-          Title="M.S. (2020)"
-          Picture="../assets/people/alumni/johanna.png"
-          LinkedIn="https://www.linkedin.com/in/johbrbr?trk=people-guest_people_search-card"
-        />
-        <Alumni
-          PersonName="Krista Dong "
-          Title="Undergrad (xx-xx)"
-          Picture="../assets/people/alumni/krista.png"
-          LinkedIn="https://www.linkedin.com/in/kristadong/"
-        />
-        <Alumni
-          PersonName="Zhaohong Lu"
-          Title="Postdoc (2019-2020)"
-          Picture="../assets/people/alumni/lu.png"
-          LinkedIn="https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/"
-        />
-        <Alumni
-          PersonName="Ellie Plachinski "
-          Title="Undergrad (xx-xx)"
-          Picture="../assets/people/alumni/ellie.png"
-          LinkedIn="https://www.linkedin.com/in/ellie-plachinski-8a2168149/"
-        />
-        <Alumni
-          PersonName="Carolyn Suh "
-          Title="M.S. (2020)"
-          Picture="../assets/people/alumni/carolyn.png"
-          LinkedIn="https://www.linkedin.com/in/carolyn-suh/"
-        />
-        <Alumni
-          PersonName="Kathleen Wang"
-          Title="M.S. (2020)"
-          Picture="../assets/people/alumni/kathleen.png"
-          LinkedIn="https://www.linkedin.com/in/kathleenjwang/"
-        />
-        <Alumni
-          PersonName="Yong Wang"
-          Title="Postdoc (2019-2020)"
-          Picture="../assets/people/alumni/yong.png"
-          LinkedIn="https://www.linkedin.com/in/yong-wang-5a30b470/"
-        />
+        <div class="flex flex-col lg:flex-row">
+          <div>
+            <Alumni
+              PersonName="Johanna Barbour"
+              Title="M.S. (2020)"
+              :Picture="johanna"
+              LinkedIn="https://www.linkedin.com/in/johbrbr?trk=people-guest_people_search-card"
+            />
+            <Alumni
+              PersonName="Krista Dong "
+              Title="Undergrad (xx-xx)"
+              :Picture="krista"
+              LinkedIn="https://www.linkedin.com/in/kristadong/"
+            />
+            <Alumni
+              PersonName="Zhaohong Lu"
+              Title="Postdoc (2019-2020)"
+              :Picture="lu"
+              LinkedIn="https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/"
+            />
+            <Alumni
+              PersonName="Ellie Plachinski "
+              Title="Undergrad (xx-xx)"
+              :Picture="ellie"
+              LinkedIn="https://www.linkedin.com/in/ellie-plachinski-8a2168149/"
+            />
+          </div>
+          <div>
+            <Alumni
+              PersonName="Carolyn Suh "
+              Title="M.S. (2020)"
+              :Picture="carolyn"
+              LinkedIn="https://www.linkedin.com/in/carolyn-suh/"
+            />
+            <Alumni
+              PersonName="Kathleen Wang"
+              Title="M.S. (2020)"
+              :Picture="kathleen"
+              LinkedIn="https://www.linkedin.com/in/kathleenjwang/"
+            />
+            <Alumni
+              PersonName="Yong Wang"
+              Title="Postdoc (2019-2020)"
+              :Picture="yong"
+              LinkedIn="https://www.linkedin.com/in/yong-wang-5a30b470/"
+            />
+          </div>
+        </div>
       </div>
     </div>
     <FooterBox />

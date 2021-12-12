@@ -4,7 +4,7 @@
       <img
         :src="Picture"
         alt=""
-        class="object-cover h-10 w-10 mr-4 overflow-hidden rounded-full shadow"
+        class="object-cover h-20 w-20 mr-4 overflow-hidden rounded-full shadow"
       />
       <div class="text-xl font-normal text-gray-800">
         {{ PersonName }}
@@ -24,7 +24,7 @@
       </a>
       <a v-if="LinkedIn" :href="LinkedIn" class="pl-2">
         <div>
-          <Icon icon="logos:linkedin-icon" width="20" class="iconify-inline" />
+          <Icon icon="logos:linkedin-icon" width="30" class="iconify-inline" />
         </div>
       </a>
     </div>
