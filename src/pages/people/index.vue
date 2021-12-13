@@ -157,7 +157,7 @@ export default {
             />
             <Alumni
               PersonName="Krista Dong "
-              Title="Undergrad (xx-xx)"
+              Title="Undergrad (2019-2020)"
               :Picture="krista"
               LinkedIn="https://www.linkedin.com/in/kristadong/"
             />
@@ -169,7 +169,7 @@ export default {
             />
             <Alumni
               PersonName="Ellie Plachinski "
-              Title="Undergrad (xx-xx)"
+              Title="Undergrad (2019-2020)"
               :Picture="ellie"
               LinkedIn="https://www.linkedin.com/in/ellie-plachinski-8a2168149/"
             />
