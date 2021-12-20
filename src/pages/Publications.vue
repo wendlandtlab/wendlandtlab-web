@@ -1,8 +1,9 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import toc4 from '/@/assets/publications/toc/toc4.jpg';
 import toc3 from '/@/assets/publications/toc/JACS-2021-Carder.svg?url';
-import toc2 from '/@/assets/publications/toc/ACSChemBiol-2021-SuhCarder.png'
-import toc1 from '/@/assets/publications/toc/Nature-2020-Wang.svg?url'
+import toc2 from '/@/assets/publications/toc/ACSChemBiol-2021-SuhCarder.png';
+import toc1 from '/@/assets/publications/toc/Nature-2020-Wang.svg?url';
 export default {
   components: {
     Icon,
@@ -12,6 +13,7 @@ export default {
       toc1,
       toc2,
       toc3,
+      toc4
     };
   },
 };
