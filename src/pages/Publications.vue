@@ -31,6 +31,18 @@ export default {
       </div>
       <Publication
         pubType="article"
+        pubTitle="A change from kinetic to thermodynamic control enables trans-selective stereochemical editing of vicinal diols"
+        pubAuthors="Yu-an Zhang‡, Xin Gu‡, Alison E. Wendlandt* (‡ contributed equally)"
+        pubJournal="JACS"
+        :pubYear="2021"
+        pubDoi="J. Am. Chem. Soc. 2021, 10.1021/jacs.1c11902"
+        publinkArticle="https://pubs.acs.org/doi/pdf/10.1021/jacs.1c11902"
+        publinkSi="https://pubs.acs.org/doi/suppl/10.1021/jacs.1c11902/suppl_file/ja1c11902_si_001.pdf"
+        publinkPublisher="https://pubs.acs.org/doi/10.1021/jacs.1c11902"
+        :pubToc="toc4"
+      />
+      <Publication
+        pubType="article"
         pubTitle="A unified strategy to access 2- and 4-deoxygenated sugars enabled by manganese-promoted 1,2-radical migration"
         pubAuthors="Hayden M. Carder, Carolyn E. Suh, Alison E. Wendlandt*"
         pubJournal="JACS"
