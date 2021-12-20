@@ -38,8 +38,8 @@ export default {
         pubJournal="JACS"
         :pubYear="2021"
         pubDoi="J. Am. Chem. Soc. 2021, 10.1021/jacs.1c11902"
-        publinkArticle="https://pubs.acs.org/doi/pdf/10.1021/jacs.1c11902"
-        publinkSi="https://pubs.acs.org/doi/suppl/10.1021/jacs.1c11902/suppl_file/ja1c11902_si_001.pdf"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-article.pdf"
+        publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-ESI.pdf"
         publinkPublisher="https://pubs.acs.org/doi/10.1021/jacs.1c11902"
         :pubToc="toc4"
       />
