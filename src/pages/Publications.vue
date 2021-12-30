@@ -1,6 +1,7 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
-import toc4 from '/@/assets/publications/toc/toc4.jpg';
+import toc5 from '/@/assets/publications/toc/JACS-2021-Occhialini.png';
+import toc4 from '/@/assets/publications/toc/JACS-2021-ZhangGu.jpg';
 import toc3 from '/@/assets/publications/toc/JACS-2021-Carder.svg?url';
 import toc2 from '/@/assets/publications/toc/ACSChemBiol-2021-SuhCarder.png';
 import toc1 from '/@/assets/publications/toc/Nature-2020-Wang.svg?url';
@@ -13,7 +14,8 @@ export default {
       toc1,
       toc2,
       toc3,
-      toc4
+      toc4,
+      toc5,
     };
   },
 };
@@ -23,14 +25,35 @@ export default {
     <HeaderMenu />
     <div class="flex-grow mx-auto">
       <div
-        class="container max-w-screen-lg mx-auto mx-5 px-5 py-5 flex flex-auto justify-center"
+        class="
+          container
+          max-w-screen-lg
+          mx-auto mx-5
+          px-5
+          py-5
+          flex flex-auto
+          justify-center
+        "
       >
         <router-link
           to="./AllCitations"
           class="text-xl mr-5 text-gray-700 font-extrabold"
-          >Click Here: all citations including work prior to independent career</router-link
+          >Click Here: all citations including work prior to independent
+          career</router-link
         >
       </div>
+      <Publication
+        pubType="article"
+        pubTitle="Catalytic, contra-thermodynamic positional alkene isomerization"
+        pubAuthors="Gino Occhialini, Vignesh Palani, Alison E. Wendlandt*"
+        pubJournal="JACS"
+        :pubYear="2021"
+        pubDoi="J. Am. Chem. Soc. 2021, 10.1021/jacs.1c12043"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Occhialini-article.pdf"
+        publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Occhialini-ESI.pdf"
+        publinkPublisher="https://pubs.acs.org/doi/10.1021/jacs.1c12043"
+        :pubToc="toc5"
+      />
       <Publication
         pubType="article"
         pubTitle="A change from kinetic to thermodynamic control enables trans-selective stereochemical editing of vicinal diols"

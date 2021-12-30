@@ -13,7 +13,16 @@ export default {
       <div class="flex flex-col">
         <div class="text-2xl font-extrabold my-5">Independent career:</div>
         <Citation
-          Authors="Zhang, Y.; Gu, X.; Wendlandt, A. E."
+          Authors="Occhialini, G.; Palani, V.; Wendlandt, A. E."
+          Title="Catalytic, contra-Thermodynamic Positional Alkene Isomerization"
+          Journal="J. Am. Chem. Soc."
+          Volume="xxxx"
+          Year="2021"
+          Pages="xxxx-xxxx"
+          Link="https://pubs.acs.org/doi/10.1021/jacs.1c12043"
+        />
+        <Citation
+          Authors="Zhang, Y.-A.; Gu, X.; Wendlandt, A. E."
           Title="A change from kinetic to thermodynamic control enables trans-selective stereochemical editing of vicinal diols"
           Journal="J. Am. Chem. Soc."
           Volume="xxxx"
