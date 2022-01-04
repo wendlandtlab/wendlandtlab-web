@@ -1,13 +1,12 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import { useMeta } from 'vue-meta';
+useMeta({
+  title: 'All Citations'
+})
 export default {
   components: {
     Icon,
-  },
-  name: 'All Publications',
-  metaInfo: {
-    // title will be injected into parent titleTemplate
-    title: 'All Publications',
   },
 };
 </script>

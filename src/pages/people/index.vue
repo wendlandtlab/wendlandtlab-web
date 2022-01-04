@@ -1,5 +1,7 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import { useMeta } from 'vue-meta';
+
 import alison from '/@/assets/people/alison/alison.png?url';
 import yuan from '/@/assets/people/yuan/yuan.png?url';
 import vignesh from '/@/assets/people/vignesh/vignesh.png?url';
@@ -16,12 +18,11 @@ import krista from '/@/assets/people/alumni/krista.png?url';
 import lu from '/@/assets/people/alumni/lu.png?url';
 import yong from '/@/assets/people/alumni/yong.png?url';
 
+useMeta({
+  title:'Our Team',
+})
+
 export default {
-  name: 'People',
-  metaInfo: {
-    // title will be injected into parent titleTemplate
-    title: 'Our Team',
-  },
   components: {
     Icon,
   },

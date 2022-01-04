@@ -16,6 +16,9 @@ import messages from '@intlify/vite-plugin-vue-i18n/messages';
 import 'virtual:windi.css';
 import 'virtual:windi-devtools';
 
+// Vue-meta
+import { createMetaManager } from 'vue-meta'
+
 const app = createApp(App);
 
 //
@@ -32,5 +35,7 @@ const router = createRouter({
 app.use(i18n);
 
 app.use(router);
+
+app.use(createMetaManager())
 
 app.mount('#app');

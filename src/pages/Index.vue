@@ -6,19 +6,17 @@
   </div>
 </template>
 <script lang="ts">
+import { useMeta } from 'vue-meta';
 import homepageback from '../assets/homepage.svg?url';
 const image = 'background-image: url(' + homepageback + ')';
+useMeta({
+  title: 'Wendlandt Lab',
+});
 export default {
   setup() {
     return {
       image,
     };
-  },
-  name: 'Home',
-  metaInfo: {
-    title: 'Wendlandt Lab',
-    // override the parent template and just use the above title only
-    titleTemplate: null,
   },
 };
 </script>

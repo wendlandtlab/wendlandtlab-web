@@ -1,16 +1,15 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import { useMeta } from 'vue-meta';
 import toc5 from '/@/assets/publications/toc/JACS-2021-Occhialini.png';
 import toc4 from '/@/assets/publications/toc/JACS-2021-ZhangGu.jpg';
 import toc3 from '/@/assets/publications/toc/JACS-2021-Carder.svg?url';
 import toc2 from '/@/assets/publications/toc/ACSChemBiol-2021-SuhCarder.png';
 import toc1 from '/@/assets/publications/toc/Nature-2020-Wang.svg?url';
+useMeta({
+  title: 'Publications',
+})
 export default {
-  name: 'Publications',
-  metaInfo: {
-    // title will be injected into parent titleTemplate
-    title: 'Publications',
-  },
   components: {
     Icon,
   },
