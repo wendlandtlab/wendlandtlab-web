@@ -1,6 +1,11 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
 export default {
+  name: 'Research',
+  metaInfo: {
+    // title will be injected into parent titleTemplate
+    title: 'Research',
+  },
   components: {
     Icon,
   },
@@ -47,12 +52,24 @@ export default {
               unravel new <b class="text-green-600"> mechanisms</b> using a
               strong background in physical organic techniques, framed by
               meaninful <b class="text-blue-700">applications</b>, such as in
-              the synthesis of bio-relevant molecules. 
+              the synthesis of bio-relevant molecules.
             </p>
           </div>
         </div>
-      <div class="rounded-md mx-auto max-w-screen-xl flex flex-wrap overflow-hidden">
-        <img src="../assets/photos/photochem.jpg" alt="photo-chemistry setup" class="object-cover py-5 w-full h-100"/>
+        <div
+          class="
+            rounded-md
+            mx-auto
+            max-w-screen-xl
+            flex flex-wrap
+            overflow-hidden
+          "
+        >
+          <img
+            src="../assets/photos/photochem.jpg"
+            alt="photo-chemistry setup"
+            class="object-cover py-5 w-full h-100"
+          />
         </div>
         <div class="text-2xl font-sans font-bold my-5">Who funds us:</div>
         <div class="flex flex-wrap justify-evenly px-4 pb-5">
