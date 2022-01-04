@@ -17,6 +17,11 @@ import lu from '/@/assets/people/alumni/lu.png?url';
 import yong from '/@/assets/people/alumni/yong.png?url';
 
 export default {
+  name: 'People',
+  metaInfo: {
+    // title will be injected into parent titleTemplate
+    title: 'Our Team',
+  },
   components: {
     Icon,
   },

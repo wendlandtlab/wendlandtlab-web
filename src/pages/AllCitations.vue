@@ -4,6 +4,11 @@ export default {
   components: {
     Icon,
   },
+  name: 'All Publications',
+  metaInfo: {
+    // title will be injected into parent titleTemplate
+    title: 'All Publications',
+  },
 };
 </script>
 <template>
