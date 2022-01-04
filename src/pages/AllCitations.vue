@@ -1,9 +1,5 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
-import { useMeta } from 'vue-meta';
-useMeta({
-  title: 'All Citations'
-})
 export default {
   components: {
     Icon,
