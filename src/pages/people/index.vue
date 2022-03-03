@@ -106,13 +106,6 @@ export default {
           :Picture="hayden"
           Email="hcarder[at]mit.edu"
         />
-        <TeamMember
-          PersonName="Alex Seim"
-          ProfileLink="/people/alex"
-          Title="Graduate Student (G4)"
-          :Picture="alex"
-          Email="aseim[at]mit.edu"
-        />
       </div>
       <div class="flex flex-col sm:flex-row mx-auto max-w-screen-lg py-5 px-10">
         <div
@@ -172,6 +165,12 @@ export default {
               Title="Undergrad (2019-2020)"
               :Picture="ellie"
               LinkedIn="https://www.linkedin.com/in/ellie-plachinski-8a2168149/"
+            />
+
+<Alumni
+              PersonName="Alexander Seim"
+              Title="M.S. (2022)"
+              :Picture="alex"
             />
           </div>
           <div>
