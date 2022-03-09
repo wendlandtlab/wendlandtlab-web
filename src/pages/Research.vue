@@ -9,61 +9,60 @@ export default {
 <template>
   <div class="flex flex-col min-h-screen">
     <HeaderMenu />
-    <div class="flex-grow">
+    <div>
       <div class="container mx-auto py-5 px-5 max-w-screen-xl">
-        <div class="flex flex-col mx-auto sm:flex-row align-middle px-5">
-          <div
-            class="
-              w-18
-              h-18
-              rounded-full
-              flex
-              px-5
-              mx-5
-              align-middle
-              mx-auto
-              justify-center
-              items-center
-              text-red-700
-              bg-red-200
-            "
-          >
-            <Icon
-              icon="grommet-icons:cycle"
-              width="35"
-              class="iconify-inline"
-            />
-          </div>
-          <div class="text-justify flex-grow text-md text-gray-600 pb-3">
-            <p>
-              We are excited about developing new
-              <b class="text-red-700 text-lg">catalytic methods</b> for
-              selective organic transformations. Although we are excited to
-              explore any area our chemistry and imagination takes us, lately
-              our interest has been captured by new redox-neutral
-              <i>editing</i> approaches to organic synthesis&#8212;particularly
-              those utilizing mild and selective radical chemistry. In
-              identifying important chemical problems, we position ourselves to
-              unravel new <b class="text-green-600"> mechanisms</b> using a
-              strong background in physical organic techniques, framed by
-              meaninful <b class="text-blue-700">applications</b>, such as in
-              the synthesis of bio-relevant molecules.
-            </p>
-          </div>
+        <div class="text-xl text-gray-600 font-sans font-bold my-5">
+          Research in the wendlandt lab:
         </div>
-        <div
-          class="
-            rounded-md
-            mx-auto
-            max-w-screen-xl
-            flex flex-wrap
-            overflow-hidden
-          "
-        >
+
+        <div class="text-justify text-md text-gray-600 pb-3">
+          <p class="mb-2">
+            Research in the Wendlandt lab seeks to develop selective, concise,
+            and synthetically useful chemical methods that are robust,
+            predictable, and accessible to non-specialist users. In addition to
+            the development of enabling technologies, our work seeks to reveal
+            new mechanistic principles that are broadly applicable to organic
+            synthesis and that transform our approach to selective bond
+            construction.
+          </p>
+          <p>
+            Recent work has focused on the development of selective, catalytic
+            isomerization reactions. Using energy harnessed from visible light
+            photons, we have identified chemical tools capable of achieving
+            kinetic-controlled over traditionally thermodynamically controlled
+            processes. We have sought to showcase the transformative potential
+            of these methods in challenging synthetic contexts, including
+            <a
+              href="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-article.pdf"
+              class="text-blue-700 font-bold"
+              >carbohydrate synthesis</a
+            >,
+            <a
+              href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-article.pdf"
+              class="text-blue-700 font-bold"
+              >late-stage stereochemical editing of complex molecules</a
+            >, and
+            <a
+              href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Occhialini-article.pdf"
+              class="text-blue-700 font-bold"
+              >alkene isomerization reactions</a
+            >
+          </p>
+        </div>
+        <div class="text-xl text-gray-600 font-sans font-bold my-1">
+          Thermodynamic equilibrium and kinetic control:
+        </div>
+
+        <div class="flex flex-wrap justify-evenly px-4 pb-5">
           <img
-            src="../assets/photos/photochem.jpg"
-            alt="photo-chemistry setup"
-            class="object-cover py-5 w-full h-100"
+            src="../assets/research/therm-isom.svg?url"
+            alt="thermodynamic isomerization energy diagram"
+            class="object-contain overflow-hidden py-4 h-sm"
+          />
+          <img
+            src="../assets/research/kinetic-isom.svg?url"
+            alt="kinetic isomerization energy diagram"
+            class="object-contain overflow-hidden py-4 h-sm"
           />
         </div>
         <div class="text-2xl font-sans font-bold my-5">Who funds us:</div>
