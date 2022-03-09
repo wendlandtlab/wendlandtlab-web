@@ -9,7 +9,7 @@ export default {
 <template>
   <div class="flex flex-col min-h-screen">
     <HeaderMenu />
-    <div>
+    <div class="flex-grow">
       <div class="container mx-auto py-5 px-5 max-w-screen-xl">
         <div class="text-xl text-gray-600 font-sans font-bold my-5">
           Research in the wendlandt lab:
