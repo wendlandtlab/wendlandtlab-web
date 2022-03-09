@@ -61,7 +61,7 @@ export default {
             between two products. Photochemical reactions can escape this
             limitation by applying an energetic bias (light) such that two
             distinct, irreversible H-atom abstraction (HAA) and donation (HAD)
-            steps can be established. In this photochemical manifold the product
+            steps can be delivered. In this photochemical manifold, the product
             distributions are determined by the kinetic selectivities of each
             step.
           </p>
