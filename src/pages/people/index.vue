@@ -47,7 +47,7 @@ export default {
     <div class="flex-grow">
       <div class="container py-3 pb-3 mx-auto max-w-screen-lg">
         <img
-          src="../../assets/group-photo.jpg"
+          src="../../assets/group-photo.png"
           alt=""
           class="object-auto overflow-hidden rounded-md h-auto w-full"
         />
