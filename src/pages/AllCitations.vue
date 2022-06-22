@@ -13,25 +13,34 @@ export default {
       <div class="flex flex-col">
         <div class="text-2xl font-extrabold my-5">Independent career:</div>
         <Citation
+          Authors="Carder, H. M.; Wang, Y.; Wendlandt, A. E."
+          Title="Selective Axial-to-Equatorial Epimerization of Carbohydrates"
+          Journal="J. Am. Chem. Soc."
+          Volume="xxxx"
+          Year="2022"
+          Pages="xxxx-xxxx"
+          Link="https://pubs.acs.org/doi/10.1021/jacs.2c04743"
+        />
+        <Citation
           Authors="Occhialini, G.; Palani, V.; Wendlandt, A. E."
           Title="Catalytic, contra-Thermodynamic Positional Alkene Isomerization"
           Journal="J. Am. Chem. Soc."
-          Volume="xxxx"
+          Volume="144"
           Year="2021"
-          Pages="xxxx-xxxx"
+          Pages="145-152"
           Link="https://pubs.acs.org/doi/10.1021/jacs.1c12043"
         />
         <Citation
           Authors="Zhang, Y.-A.; Gu, X.; Wendlandt, A. E."
           Title="A change from kinetic to thermodynamic control enables trans-selective stereochemical editing of vicinal diols"
           Journal="J. Am. Chem. Soc."
-          Volume="xxxx"
+          Volume="144"
           Year="2021"
-          Pages="xxxx-xxxx"
+          Pages="599-605"
           Link="https://pubs.acs.org/doi/10.1021/jacs.1c11902"
         />
         <Citation
-          Authors="Carder, H.; Suh, C. E.; Wendlandt, A. E."
+          Authors="Carder, H. M.; Suh, C. E.; Wendlandt, A. E."
           Title="A unified strategy to access 2- and 4-deoxygenated sugars enabled by manganese-promoted 1,2-radical migration"
           Journal="J. Am. Chem. Soc."
           Volume="143"
@@ -67,9 +76,25 @@ export default {
           Link="https://www.science.org/doi/10.1126/science.aay6919"
         />
         <div class="text-2xl font-extrabold mb-5">Patents:</div>
+        <CitationPatent
+            Authors="Wendlandt, A.; Wang, Y.; Carder, H."
+    Title="Selective valorization of biomass sugars"
+    Patent="U.S. Patent WO 2021127642"
+    PubDate="June 24, 2021"
+    Link="https://patentscope.wipo.int/search/en/detail.jsf?docId=US328049193"
+        />
         <div class="text-2xl font-extrabold mb-5">
           Prior to independent career:
         </div>
+        <Citation
+          Authors="Li, Q.; Levi, S. M.; Wagen, C.; Wendlandt, A. E.; Jacobsen, E. N."
+          Title="Site-selective, stereocontrolled glycosylation of minimally protected sugars"
+          Journal="Nature."
+          Volume="xx"
+          Year="2022"
+          Pages="xx-xx"
+          Link="https://www.nature.com/articles/s41586-022-04958-w"
+        />
         <Citation
           Authors="Wendlandt, A. E.; Vangal, P.; Jacobsen, E. N."
           Title="Quaternary stereocentres via an enantioconvergent catalytic SN1 reaction"

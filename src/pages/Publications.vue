@@ -1,5 +1,6 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import toc6 from '/@/assets/publications/toc/JACS-2022-Carder.png';
 import toc5 from '/@/assets/publications/toc/JACS-2021-Occhialini.png';
 import toc4 from '/@/assets/publications/toc/JACS-2021-ZhangGu.jpg';
 import toc3 from '/@/assets/publications/toc/JACS-2021-Carder.svg?url';
@@ -16,6 +17,7 @@ export default {
       toc3,
       toc4,
       toc5,
+      toc6,
     };
   },
 };
@@ -42,6 +44,18 @@ export default {
           career</router-link
         >
       </div>
+      <Publication
+        pubType="article"
+        pubTitle="Selective axial-to-equatorial epimerization of carbohydrates"
+        pubAuthors="Hayden M. Carder, Yong Wang, Alison E. Wendlandt*"
+        pubJournal="JACS"
+        :pubYear="2022"
+        pubDoi="J. Am. Chem. Soc. 2022, 10.1021/jacs.2c04743"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2022-JACS-Carder-article.pdf"
+        publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2022-JACS-Carder-ESI.pdf"
+        publinkPublisher="https://pubs.acs.org/doi/10.1021/jacs.2c04743"
+        :pubToc="toc6"
+      />
       <Publication
         pubType="article"
         pubTitle="Catalytic, contra-thermodynamic positional alkene isomerization"
