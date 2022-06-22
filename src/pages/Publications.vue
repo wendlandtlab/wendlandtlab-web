@@ -121,7 +121,7 @@ export default {
         pubAuthors="Alison E. Wendlandt"
         pubJournal="Science"
         :pubYear="2019"
-        pubDoi="Science, 2019, 366, 304-305"
+        pubDoi="Science, 2019, 10.1126/science.aay6919"
         publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2019-Science-Wendlandt-perspective.pdf"
         publinkPublisher="https://science.sciencemag.org/content/366/6463/304"
       />
