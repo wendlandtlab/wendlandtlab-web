@@ -42,7 +42,7 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob upload-batch --account-name wendlandtlab -d '$web' -s dist
+            az storage blob upload-batch --overwrite --account-name wendlandtlab -d '$web' -s dist
             
       - name: Purge CDN Cache
         uses: azure/CLI@v1
