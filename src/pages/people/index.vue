@@ -166,14 +166,14 @@ export default {
               :Picture="ellie"
               LinkedIn="https://www.linkedin.com/in/ellie-plachinski-8a2168149/"
             />
-
-<Alumni
+          </div>
+          <div>
+            <Alumni
               PersonName="Alexander Seim"
               Title="M.S. (2022)"
               :Picture="alex"
             />
-          </div>
-          <div>
+
             <Alumni
               PersonName="Carolyn Suh "
               Title="M.S. (2020)"
