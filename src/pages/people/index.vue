@@ -2,6 +2,7 @@
 import { Icon } from '@iconify/vue';
 import alison from '/@/assets/people/alison/alison.png?url';
 import yuan from '/@/assets/people/yuan/yuan.png?url';
+import shuo from '/@/assets/people/shuo/shuo.png?url';
 import vignesh from '/@/assets/people/vignesh/vignesh.png?url';
 import gino from '/@/assets/people/gino/gino.png?url';
 import aaron from '/@/assets/people/aaron/aaron.png?url';
@@ -15,6 +16,9 @@ import kathleen from '/@/assets/people/alumni/kathleen.png?url';
 import krista from '/@/assets/people/alumni/krista.png?url';
 import lu from '/@/assets/people/alumni/lu.png?url';
 import yong from '/@/assets/people/alumni/yong.png?url';
+import frank from '/@/assets/people/frank/frank.png?url';
+import wenlai from '/@/assets/people/wenlai.png?url';
+import jason from '/@/assets/people/jason/jason.png?url';
 
 export default {
   components: {
@@ -37,6 +41,10 @@ export default {
       krista,
       lu,
       yong,
+      shuo,
+      frank,
+      wenlai,
+      jason,
     };
   },
 };
@@ -79,32 +87,60 @@ export default {
           Email="palan019[at]mit.edu"
         />
         <TeamMember
+          PersonName="Shuo Zhang"
+          ProfileLink="#"
+          Title="Postdoctoral Fellow"
+          :Picture="shuo"
+          Email="szhang36[at]mit.edu"
+        />
+        <TeamMember
           PersonName="Gino Occhialini"
           ProfileLink="/people/gino"
-          Title="Graduate Student (G4)"
+          Title="Graduate Student"
           :Picture="gino"
           Email="ginoocch[at]mit.edu"
         />
         <TeamMember
           PersonName="Aaron Liu"
           ProfileLink="/people/aaron"
-          Title="Graduate Student (G4)"
+          Title="Graduate Student"
           :Picture="aaron"
           Email="aaronliu[at]mit.edu"
         />
         <TeamMember
           PersonName="Xin Gu"
           ProfileLink="/people/xin"
-          Title="Graduate Student (G4)"
+          Title="Graduate Student"
           :Picture="xin"
           Email="gux[at]mit.edu"
         />
         <TeamMember
           PersonName="Hayden Carder"
           ProfileLink="/people/hayden"
-          Title="Graduate Student (G4)"
+          Title="Graduate Student"
           :Picture="hayden"
           Email="hcarder[at]mit.edu"
+        />
+        <TeamMember
+          PersonName="Frank de Kleijne"
+          ProfileLink="/people/frank"
+          Title="Visiting student"
+          :Picture="frank"
+          Email="frankdk[at]mit.edu"
+        />
+        <TeamMember
+          PersonName="Jason Zhang"
+          ProfileLink="/people/jason"
+          Title="Undergraduate student"
+          :Picture="jason"
+          Email="jsnzhang[at]mit.edu"
+        />
+        <TeamMember
+          PersonName="Wenlai Han"
+          ProfileLink="/people/wenlai"
+          Title="Undergraduate student"
+          :Picture="wenlai"
+          Email="hanw[at]mit.edu"
         />
       </div>
       <div class="flex flex-col sm:flex-row mx-auto max-w-screen-lg py-5 px-10">
