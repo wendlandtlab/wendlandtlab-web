@@ -33,6 +33,7 @@ export default {
             Title="Graduate Student (G4)"
             :Picture="profile"
             Email="gux[at]mit.edu"
+            Pronouns="He/Him"
           />
         </div>
         <div class="flex-1 text-justify">

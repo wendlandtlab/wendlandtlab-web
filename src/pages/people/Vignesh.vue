@@ -36,6 +36,7 @@ export default {
             ProfileLink="/people"
             Email="palan019[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/vignesh-palani-1145b9ba/"
+            Pronouns="He/Him"
           />
         </div>
         <div class="flex-1 text-justify">

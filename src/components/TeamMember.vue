@@ -1,15 +1,28 @@
  <template>
   <div class="px-5">
     <div class="mx-auto w-40 pt-5">
-     <router-link v-if="ProfileLink" :to="ProfileLink"> <img
-        :src="Picture"
-        alt=""
-        class="object-cover hover:opacity-50 h-full w-full overflow-hidden rounded-full shadow"
-      />
+      <router-link v-if="ProfileLink" :to="ProfileLink">
+        <img
+          :src="Picture"
+          alt=""
+          class="
+            object-cover
+            hover:opacity-50
+            h-full
+            w-full
+            overflow-hidden
+            rounded-full
+            shadow
+          "
+        />
       </router-link>
     </div>
     <div class="flex w-full items-center justify-center pt-2 pb-1">
-      <router-link v-if="ProfileLink" :to="ProfileLink"><p class="text-xl font-normal text-gray-800">{{ PersonName }}</p></router-link>
+      <router-link v-if="ProfileLink" :to="ProfileLink"
+        ><p class="text-xl font-normal text-gray-800">
+          {{ PersonName }}
+        </p></router-link
+      >
       <div class="flex justify-center">
         <a v-if="Orcid" :href="Orcid" class="mx-2">
           <div>
@@ -21,7 +34,7 @@
             />
           </div>
         </a>
-                <a v-if="LinkedIn" :href="LinkedIn" class="mx-2">
+        <a v-if="LinkedIn" :href="LinkedIn" class="mx-2">
           <div>
             <Icon
               icon="logos:linkedin-icon"
@@ -35,8 +48,11 @@
     <div class="text-center text-sm text-gray-600">
       <p>{{ Title }}</p>
     </div>
-        <div class="text-center text-sm italic text-gray-600 pb-3">
+    <div class="text-center text-sm italic text-gray-600">
       <p>{{ Email }}</p>
+    </div>
+    <div v-if="Pronouns" class="text-center text-sm italic text-gray-600 pb-3">
+      <p>Pronouns: {{ Pronouns }}</p>
     </div>
   </div>
 </template>
@@ -58,6 +74,7 @@ export default defineComponent({
     Picture: String,
     Email: String,
     LinkedIn: String,
+    Pronouns: String,
   },
 });
 </script>

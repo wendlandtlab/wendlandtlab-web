@@ -35,6 +35,7 @@ export default {
             :Picture="profile"
             Email="hcarder[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/hayden-carder-45757a171/"
+            Pronouns="He/Him"
           />
         </div>
         <div class="flex-1 text-justify">

@@ -19,6 +19,7 @@ import yong from '/@/assets/people/alumni/yong.png?url';
 import frank from '/@/assets/people/frank/frank.png?url';
 import wenlai from '/@/assets/people/wenlai.png?url';
 import jason from '/@/assets/people/jason/jason.png?url';
+import leon from '/@/assets/people/leon/leon.png?url';
 
 export default {
   components: {
@@ -45,6 +46,7 @@ export default {
       frank,
       wenlai,
       jason,
+      leon,
     };
   },
 };
@@ -67,6 +69,7 @@ export default {
           Title="Assistant Professor"
           :Picture="alison"
           Email="awendlan[at]mit.edu"
+          Pronouns="She/Her"
         />
       </div>
       <div
@@ -78,6 +81,7 @@ export default {
           Title="Postdoctoral Fellow"
           :Picture="yuan"
           Email="yazhang[at]mit.edu"
+          Pronouns="He/Him"
         />
         <TeamMember
           PersonName="Vignesh Palani"
@@ -85,6 +89,7 @@ export default {
           Title="Postdoctoral Fellow"
           :Picture="vignesh"
           Email="palan019[at]mit.edu"
+          Pronouns="He/Him"
         />
         <TeamMember
           PersonName="Shuo Zhang"
@@ -92,6 +97,7 @@ export default {
           Title="Postdoctoral Fellow"
           :Picture="shuo"
           Email="szhang36[at]mit.edu"
+          Pronouns="He/Him"
         />
         <TeamMember
           PersonName="Gino Occhialini"
@@ -99,6 +105,7 @@ export default {
           Title="Graduate Student"
           :Picture="gino"
           Email="ginoocch[at]mit.edu"
+          Pronouns="He/Him"
         />
         <TeamMember
           PersonName="Aaron Liu"
@@ -106,6 +113,7 @@ export default {
           Title="Graduate Student"
           :Picture="aaron"
           Email="aaronliu[at]mit.edu"
+          Pronouns="He/Him"
         />
         <TeamMember
           PersonName="Xin Gu"
@@ -113,6 +121,7 @@ export default {
           Title="Graduate Student"
           :Picture="xin"
           Email="gux[at]mit.edu"
+          Pronouns="He/Him"
         />
         <TeamMember
           PersonName="Hayden Carder"
@@ -120,6 +129,7 @@ export default {
           Title="Graduate Student"
           :Picture="hayden"
           Email="hcarder[at]mit.edu"
+          Pronouns="He/Him"
         />
         <TeamMember
           PersonName="Frank de Kleijne"
@@ -127,6 +137,7 @@ export default {
           Title="Visiting student"
           :Picture="frank"
           Email="frankdk[at]mit.edu"
+          Pronouns="He/Him"
         />
         <TeamMember
           PersonName="Jason Zhang"
@@ -134,6 +145,15 @@ export default {
           Title="Undergraduate student"
           :Picture="jason"
           Email="jsnzhang[at]mit.edu"
+          Pronouns="He/Him"
+        />
+        <TeamMember
+          PersonName="Leon Wang"
+          ProfileLink="/people/leon"
+          Title="Undergraduate student"
+          :Picture="leon"
+          Email="leonn037[at]mit.edu"
+          Pronouns="They/He"
         />
         <TeamMember
           PersonName="Wenlai Han"
@@ -141,6 +161,7 @@ export default {
           Title="Undergraduate student"
           :Picture="wenlai"
           Email="hanw[at]mit.edu"
+          Pronouns="He/Him"
         />
       </div>
       <div class="flex flex-col sm:flex-row mx-auto max-w-screen-lg py-5 px-10">

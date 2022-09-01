@@ -45,6 +45,7 @@ export default {
             :Picture="profile"
             Email="frankdk[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/frank-de-kleijne/"
+            Pronouns="He/Him"
           />
         </div>
         <div class="flex-1 text-justify">

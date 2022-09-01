@@ -35,6 +35,7 @@ export default {
             :Picture="profile"
             Email="ginoocch[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/gino-occhialini-4bb670103"
+            Pronouns="He/Him"
           />
         </div>
         <div class="flex-1 text-justify">

@@ -40,6 +40,7 @@ export default {
             ProfileLink="/people"
             :Picture="profile"
             Email="awendlan[at]mit.edu"
+            Pronouns="She/Her"
           />
         </div>
         <div class="flex-1 text-justify">

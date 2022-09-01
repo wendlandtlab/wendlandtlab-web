@@ -34,7 +34,8 @@ export default {
             :Picture="profile"
             Email="yazhang[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/yuan-zhang-531275105"
-            Orcid="https://orcid.org/0000-0002-4565-2809"
+            Orcid="https://orcid.org/0000-0002-4565-2809"            
+            Pronouns="He/Him"
           />
         </div>
         <div class="flex-1 text-justify">

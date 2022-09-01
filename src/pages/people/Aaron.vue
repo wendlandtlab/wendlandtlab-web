@@ -34,6 +34,7 @@ export default {
             :Picture="profile"
             Email="aaronliu[at]mit.edu"
             LinkedIn="https://www.linkedin.com/in/aaronliuhk/"
+            Pronouns="He/Him"
           />
         </div>
         <div class="flex-1 text-justify">
