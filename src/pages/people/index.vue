@@ -20,6 +20,9 @@ import frank from '/@/assets/people/frank/frank.png?url';
 import wenlai from '/@/assets/people/wenlai.png?url';
 import jason from '/@/assets/people/jason/jason.png?url';
 import leon from '/@/assets/people/leon/leon.png?url';
+import daniel from '/@/assets/people/daniel/daniel.jpg?url';
+import lianyan from '/@/assets/people/lianyan/lianyan.jpg?url';
+import jiayi from '/@/assets/people/jiayi/jiayi.jpg?url';
 
 export default {
   components: {
@@ -47,6 +50,9 @@ export default {
       wenlai,
       jason,
       leon,
+      daniel,
+      lianyan,
+      jiayi
     };
   },
 };
@@ -98,6 +104,30 @@ export default {
           :Picture="shuo"
           Email="szhang36[at]mit.edu"
           Pronouns="He/Him"
+        />
+        <TeamMember
+          PersonName="Daniel Gorelik"
+          ProfileLink="#"
+          Title="Postdoctoral Fellow"
+          :Picture="daniel"
+          Email="dgorelik[at]mit.edu"
+          Pronouns="He/Him"
+        />
+        <TeamMember
+          PersonName="Lianyan Xu"
+          ProfileLink="#"
+          Title="Postdoctoral Fellow"
+          :Picture="lianyan"
+          Email="lianyanx[at]mit.edu"
+          Pronouns="She/Her"
+        />
+        <TeamMember
+          PersonName="Jiayi li"
+          ProfileLink="#"
+          Title="Postdoctoral Fellow"
+          :Picture="jiayi"
+          Email="jiayili[at]mit.edu"
+          Pronouns="She/Her"
         />
         <TeamMember
           PersonName="Gino Occhialini"
