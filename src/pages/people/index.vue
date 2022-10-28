@@ -122,7 +122,7 @@ export default {
           Pronouns="She/Her"
         />
         <TeamMember
-          PersonName="Jiayi li"
+          PersonName="Jiayi Li"
           ProfileLink="#"
           Title="Postdoctoral Fellow"
           :Picture="jiayi"
