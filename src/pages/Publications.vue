@@ -46,6 +46,27 @@ export default {
       </div>
       <Publication
         pubType="article"
+        pubTitle="Stereochemical editing logic powered by the epimerization of unactivated tertiary stereocenters"
+        pubAuthors="Yu-An Zhang, Vignesh Palani, Alexander E. Seim, Yong Wang, Kathleen J. Wang, Alison E. Wendlandt*"
+        pubJournal="Science"
+        :pubYear="2022"
+        pubDoi="Science. 2022, 10.1126/science.add6852"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2022-Science-Zhang-Palani-article.pdf"
+        publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2022-Science-Zhang-Palani-ESI.pdf"
+        publinkPublisher="https://www.science.org/doi/10.1126/science.add6852"
+      />
+      <Publication
+        pubType="perspective"
+        pubTitle="A stable alternative to an explosive synthetic reaction (perspective)"
+        pubAuthors="Vignesh Palani, Alison E. Wendlandt*"
+        pubJournal="Nature"
+        :pubYear="2022"
+        pubDoi="Nature. 2022, d41586-022-02952-w"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2022-Nature-Palani-perspective.pdf"
+        publinkPublisher="https://www.nature.com/articles/d41586-022-02952-w"
+      />
+      <Publication
+        pubType="article"
         pubTitle="Selective axial-to-equatorial epimerization of carbohydrates"
         pubAuthors="Hayden M. Carder, Yong Wang, Alison E. Wendlandt*"
         pubJournal="JACS"
@@ -117,7 +138,7 @@ export default {
       />
       <Publication
         pubType="perspective"
-        pubTitle="Photocatalytic deracemization fixes the mix (Perspective)"
+        pubTitle="Photocatalytic deracemization fixes the mix (perspective)"
         pubAuthors="Alison E. Wendlandt"
         pubJournal="Science"
         :pubYear="2019"
