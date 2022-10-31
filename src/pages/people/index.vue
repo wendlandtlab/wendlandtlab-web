@@ -52,7 +52,7 @@ export default {
       leon,
       daniel,
       lianyan,
-      jiayi
+      jiayi,
     };
   },
 };
@@ -138,14 +138,6 @@ export default {
           Pronouns="He/Him"
         />
         <TeamMember
-          PersonName="Aaron Liu"
-          ProfileLink="/people/aaron"
-          Title="Graduate Student"
-          :Picture="aaron"
-          Email="aaronliu[at]mit.edu"
-          Pronouns="He/Him"
-        />
-        <TeamMember
           PersonName="Xin Gu"
           ProfileLink="/people/xin"
           Title="Graduate Student"
@@ -185,31 +177,10 @@ export default {
           Email="leonn037[at]mit.edu"
           Pronouns="They/He"
         />
-        <TeamMember
-          PersonName="Wenlai Han"
-          ProfileLink="/people/wenlai"
-          Title="Undergraduate student"
-          :Picture="wenlai"
-          Email="hanw[at]mit.edu"
-          Pronouns="He/Him"
-        />
       </div>
       <div class="flex flex-col sm:flex-row mx-auto max-w-screen-lg py-5 px-10">
         <div
-          class="
-            w-30
-            h-30
-            mx-auto
-            rounded-full
-            flex-none flex
-            justify-center
-            align-center
-            items-center
-            bg-gray-600
-            text-gray-50 text-2xl
-            italic
-            font-extrabold
-          "
+          class="w-30 h-30 mx-auto rounded-full flex-none flex justify-center align-center items-center bg-gray-600 text-gray-50 text-2xl italic font-extrabold"
         >
           <p>You?</p>
         </div>
@@ -242,19 +213,30 @@ export default {
               LinkedIn="https://www.linkedin.com/in/kristadong/"
             />
             <Alumni
+              PersonName="Wenlai Han"
+              Title="Undergrad (Summer 2022)"
+              :Picture="wenlai"
+            />
+            <Alumni
+              PersonName="Aaron Liu"
+              Title="M.S. (2022)"
+              :Picture="aaron"
+              LinkedIn="https://www.linkedin.com/in/aaronliuhk/"
+            />
+            <Alumni
               PersonName="Zhaohong Lu"
               Title="Postdoc (2019-2020)"
               :Picture="lu"
               LinkedIn="https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/"
             />
+          </div>
+          <div>
             <Alumni
               PersonName="Ellie Plachinski "
               Title="Undergrad (2019-2020)"
               :Picture="ellie"
               LinkedIn="https://www.linkedin.com/in/ellie-plachinski-8a2168149/"
             />
-          </div>
-          <div>
             <Alumni
               PersonName="Alexander Seim"
               Title="M.S. (2022)"
