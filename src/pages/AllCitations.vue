@@ -13,12 +13,30 @@ export default {
       <div class="flex flex-col">
         <div class="text-2xl font-extrabold my-5">Independent career:</div>
         <Citation
+          Authors="Zhang, Y.-A.; Palani, V.; Seim, A. E.; Wang, Y.; Wang, K. J.; Wendlandt, A. E."
+          Title="Stereochemical editing logic powered by the epimerization of unactivated tertiary stereocenters"
+          Journal="Science"
+          Volume="378"
+          Year="2022"
+          Pages="383-390"
+          Link="https://www.science.org/doi/10.1126/science.add6852"
+        />
+        <Citation
+          Authors="Palani, V.; Wendlandt, A. E."
+          Title="A stable alternative to an explosive synthetic reaction"
+          Journal="Nature"
+          Volume="610"
+          Year="2022"
+          Pages="40-41"
+          Link="https://www.nature.com/articles/d41586-022-02952-w"
+        />
+        <Citation
           Authors="Carder, H. M.; Wang, Y.; Wendlandt, A. E."
           Title="Selective Axial-to-Equatorial Epimerization of Carbohydrates"
           Journal="J. Am. Chem. Soc."
-          Volume="xxxx"
+          Volume="144"
           Year="2022"
-          Pages="xxxx-xxxx"
+          Pages="11870-11877"
           Link="https://pubs.acs.org/doi/10.1021/jacs.2c04743"
         />
         <Citation
