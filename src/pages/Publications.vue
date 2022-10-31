@@ -47,7 +47,7 @@ export default {
       <Publication
         pubType="article"
         pubTitle="Stereochemical editing logic powered by the epimerization of unactivated tertiary stereocenters"
-        pubAuthors="Yu-An Zhang, Vignesh Palani, Alexander E. Seim, Yong Wang, Kathleen J. Wang, Alison E. Wendlandt*"
+        pubAuthors="Yu-An Zhang‡, Vignesh Palani‡, Alexander E. Seim, Yong Wang, Kathleen J. Wang, Alison E. Wendlandt* (‡ contributed equally)"
         pubJournal="Science"
         :pubYear="2022"
         pubDoi="Science. 2022, 10.1126/science.add6852"
