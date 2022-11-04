@@ -41,6 +41,7 @@ export default {
             :Picture="profile"
             Email="awendlan[at]mit.edu"
             Pronouns="She/Her"
+            Cv="https://wendlandtlab.blob.core.windows.net/docs/AEW-CV-2022-public.pdf"
           />
         </div>
         <div class="flex-1 text-justify">

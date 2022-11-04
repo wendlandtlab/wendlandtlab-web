@@ -25,23 +25,22 @@
       >
       <div class="flex justify-center">
         <a v-if="Orcid" :href="Orcid" class="mx-2">
-          <div>
-            <Icon
-              icon="cib:orcid"
-              color="#84cc16"
-              width="20"
-              class="iconify-inline"
-            />
-          </div>
+          <Icon
+            icon="cib:orcid"
+            color="#84cc16"
+            width="20"
+            class="iconify-inline"
+          />
         </a>
         <a v-if="LinkedIn" :href="LinkedIn" class="mx-2">
-          <div>
-            <Icon
-              icon="logos:linkedin-icon"
-              width="20"
-              class="iconify-inline"
-            />
-          </div>
+          <Icon icon="logos:linkedin-icon" width="20" class="iconify-inline" />
+        </a>
+        <a v-if="Cv" :href="Cv" class="mx-2 text-purple-700">
+          <Icon
+            icon="academicons:cv-square"
+            width="20"
+            class="iconify-inline"
+          />
         </a>
       </div>
     </div>
@@ -75,6 +74,7 @@ export default defineComponent({
     Email: String,
     LinkedIn: String,
     Pronouns: String,
+    Cv: String,
   },
 });
 </script>
