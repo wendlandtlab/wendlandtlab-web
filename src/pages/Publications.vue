@@ -1,5 +1,6 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import toc7 from '/@/assets/publications/toc/2022-Science-Zhang-Palani-TOC.svg?url';
 import toc6 from '/@/assets/publications/toc/JACS-2022-Carder.png';
 import toc5 from '/@/assets/publications/toc/JACS-2021-Occhialini.png';
 import toc4 from '/@/assets/publications/toc/JACS-2021-ZhangGu.jpg';
@@ -18,6 +19,7 @@ export default {
       toc4,
       toc5,
       toc6,
+      toc7,
     };
   },
 };
@@ -54,6 +56,14 @@ export default {
         publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2022-Science-Zhang-Palani-article.pdf"
         publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2022-Science-Zhang-Palani-ESI.pdf"
         publinkPublisher="https://www.science.org/doi/10.1126/science.add6852"
+        :pubToc="toc7"
+        :newslist="[
+          {
+            source: 'C&E News',
+            newsurl:
+              'https://cen.acs.org/synthesis/Switching-tertiary-stereocenters/100/web/2022/10',
+          },
+        ]"
       />
       <Publication
         pubType="perspective"
@@ -88,6 +98,18 @@ export default {
         publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Occhialini-ESI.pdf"
         publinkPublisher="https://pubs.acs.org/doi/10.1021/jacs.1c12043"
         :pubToc="toc5"
+        :newslist="[
+          {
+            source: 'MIT News',
+            newsurl:
+              'https://news.mit.edu/2022/whimsy-and-alkene-isomerization-wendlandt-lab-0225',
+          },
+                    {
+            source: 'Trends in Chemistry',
+            newsurl:
+              'https://www.sciencedirect.com/science/article/abs/pii/S2589597422000636',
+          },
+        ]"
       />
       <Publication
         pubType="article"
@@ -135,6 +157,23 @@ export default {
         publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-ESI.pdf"
         publinkPublisher="https://www.nature.com/articles/s41586-020-1937-1%20"
         :pubToc="toc1"
+        :newslist="[
+          {
+            source: 'C&E News',
+            newsurl:
+              'https://cen.acs.org/synthesis/Switching-tertiary-stereocenters/100/web/2022/10',
+          },
+          {
+            source: 'In the Pipeline',
+            newsurl:
+              'https://www.science.org/content/blog-post/one-sugar-turns-into-another',
+          },
+          {
+            source: 'MIT News',
+            newsurl:
+              'https://news.mit.edu/2020/mit-chemist-alison-wendlandt-plays-with-space-0903',
+          },
+        ]"
       />
       <Publication
         pubType="perspective"

@@ -1,7 +1,12 @@
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { defineComponent, PropType } from 'vue';
 import { Icon } from '@iconify/vue';
+
+declare interface News {
+  source: string;
+  newsurl: string;
+}
 
 export default defineComponent({
   components: {
@@ -19,6 +24,7 @@ export default defineComponent({
     publinkSi: String,
     publinkPublisher: String,
     pubToc: String,
+    newslist: Array as PropType<Array<News>>,
   },
   computed: {
     containerClasses(): { [key: string]: boolean } {
@@ -64,11 +70,17 @@ export default defineComponent({
         </a>
       </div>
       <div :class="doiClasses">
-        <a :href="publinkPublisher" class=" w-full ml-2">{{ pubDoi }}</a>
+        <a :href="publinkPublisher" class="w-full ml-2">{{ pubDoi }}</a>
       </div>
     </div>
     <div class="text-lg font-bold px-2">{{ pubTitle }}</div>
     <div class="text-sm italic px-2">{{ pubAuthors }}</div>
+    <div v-if="newslist" class="text-sm px-2 flex flex-wrap">
+      <Icon icon="wpf:news" width="20" :inline="true" />
+      <div v-for="(item, index) in newslist" :key="index" class="px-2">
+          <a :href="item.newsurl">{{ item.source }}</a>
+      </div>
+    </div>
     <div class="flex justify-center p-2">
       <img v-if="pubToc" class="flex-initial w-md h-full" :src="pubToc" />
     </div>
