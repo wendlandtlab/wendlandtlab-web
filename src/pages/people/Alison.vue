@@ -41,7 +41,6 @@ export default {
             :Picture="profile"
             Email="awendlan[at]mit.edu"
             Pronouns="She/Her"
-            Cv="https://wendlandtlab.blob.core.windows.net/docs/AEW-CV-2022-public.pdf"
           />
         </div>
         <div class="flex-1 text-justify">
@@ -55,6 +54,9 @@ export default {
             at MIT in 2018. The Wendlandt group is interested in the development
             and mechanistic elucidation of new selective catalytic reactions.
           </p>
+          <router-link to="/aew-cv.pdf" class="text-gray-700 font-bold">
+            Link to curriculum vitae
+          </router-link>
         </div>
       </div>
       <div
