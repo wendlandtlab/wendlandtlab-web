@@ -4,6 +4,7 @@ import profile from '/@/assets/people/alison/alison.png';
 import alison1 from '/@/assets/people/alison/alison-1.png';
 import alison2 from '/@/assets/people/alison/alison-2.png';
 import alison3 from '/@/assets/people/alison/alison-3.png';
+import cv from '/aew-cv.pdf?url';
 export default {
   components: {
     Icon,
@@ -14,6 +15,7 @@ export default {
       alison1,
       alison2,
       alison3,
+      cv
     };
   },
 };
@@ -54,9 +56,9 @@ export default {
             at MIT in 2018. The Wendlandt group is interested in the development
             and mechanistic elucidation of new selective catalytic reactions.
           </p>
-          <router-link to="/aew-cv.pdf" class="text-gray-700 font-bold">
+          <a :href="cv" class="text-gray-700 font-bold">
             Link to curriculum vitae
-          </router-link>
+          </a>
         </div>
       </div>
       <div
