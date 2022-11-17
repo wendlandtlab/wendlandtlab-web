@@ -134,6 +134,12 @@ export default {
         publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Carder-ESI.pdf"
         publinkPublisher="https://pubs.acs.org/doi/full/10.1021/jacs.1c05993"
         :pubToc="toc3"
+        :newslist="[
+          {
+            source: 'Synthesis Workshop',
+            newsurl: 'https://www.youtube.com/watch?v=z0qiNfkdL10',
+          },
+        ]"
       />
       <Publication
         pubType="review"
