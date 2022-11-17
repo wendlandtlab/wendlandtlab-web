@@ -56,7 +56,7 @@ export default {
             at MIT in 2018. The Wendlandt group is interested in the development
             and mechanistic elucidation of new selective catalytic reactions.
           </p>
-          <a :href="cv" class="text-gray-700 font-bold">
+          <a href="https://wendlandtlab.com/aew-cv.pdf" class="text-gray-700 font-bold">
             Link to curriculum vitae
           </a>
         </div>
