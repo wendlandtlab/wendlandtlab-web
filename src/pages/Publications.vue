@@ -63,6 +63,16 @@ export default {
             newsurl:
               'https://cen.acs.org/synthesis/Switching-tertiary-stereocenters/100/web/2022/10',
           },
+          {
+            source: 'Chemistry World',
+            newsurl:
+              'https://www.chemistryworld.com/news/chirality-flipping-reaction-could-completely-change-total-synthesis-strategies/4016501.article',
+          },
+          {
+            source: 'In the pipeline',
+            newsurl:
+              'https://www.science.org/content/blog-post/flip-those-tertiary-centers',
+          },
         ]"
       />
       <Publication
