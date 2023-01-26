@@ -23,6 +23,8 @@ import leon from '/@/assets/people/leon/leon.png?url';
 import daniel from '/@/assets/people/daniel/daniel.jpg?url';
 import lianyan from '/@/assets/people/lianyan/lianyan.jpg?url';
 import jiayi from '/@/assets/people/jiayi/jiayi.jpg?url';
+import sam from '/@/assets/people/sam/sam.jpg?url';
+import yichen from '/@/assets/people/yichen/yichen.jpg?url';
 
 export default {
   components: {
@@ -53,6 +55,8 @@ export default {
       daniel,
       lianyan,
       jiayi,
+      sam,
+      yichen,
     };
   },
 };
@@ -151,6 +155,22 @@ export default {
           Title="Graduate Student"
           :Picture="hayden"
           Email="hcarder[at]mit.edu"
+          Pronouns="He/Him"
+        />
+        <TeamMember
+          PersonName="Sam Liang"
+          ProfileLink="#"
+          Title="Graduate Student"
+          :Picture="sam"
+          Email="liang014[at]mit.edu"
+          Pronouns="He/Him"
+        />
+        <TeamMember
+          PersonName="Yichen Nie"
+          ProfileLink="#"
+          Title="Graduate Student"
+          :Picture="yichen"
+          Email="ycnie[at]mit.edu"
           Pronouns="He/Him"
         />
         <TeamMember
