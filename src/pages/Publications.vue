@@ -1,5 +1,6 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import toc8 from '/@/assets/publications/toc/2023-palani-toc.png?url';
 import toc7 from '/@/assets/publications/toc/2022-Science-Zhang-Palani-TOC.svg?url';
 import toc6 from '/@/assets/publications/toc/JACS-2022-Carder.png';
 import toc5 from '/@/assets/publications/toc/JACS-2021-Occhialini.png';
@@ -20,6 +21,7 @@ export default {
       toc5,
       toc6,
       toc7,
+      toc8,
     };
   },
 };
@@ -48,11 +50,23 @@ export default {
       </div>
       <Publication
         pubType="article"
+        pubTitle="Strain-Inducing Positional Alkene Isomerization"
+        pubAuthors="Vignesh Palani and Alison E. Wendlandt*"
+        pubJournal="J. Am. Chem. Soc."
+        :pubYear="2023"
+        pubDoi="J. Am. Chem. Soc. 2023, 10.1021/jacs.3c06935"
+        publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2023-JACS-Palani-article.pdf"
+        publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2023-JACS-Palani-ESI.pdf"
+        publinkPublisher="https://doi.org/10.1021/jacs.3c06935"
+        :pubToc="toc8"
+      />
+      <Publication
+        pubType="article"
         pubTitle="Stereochemical editing logic powered by the epimerization of unactivated tertiary stereocenters"
         pubAuthors="Yu-An Zhang‡, Vignesh Palani‡, Alexander E. Seim, Yong Wang, Kathleen J. Wang, Alison E. Wendlandt* (‡ contributed equally)"
         pubJournal="Science"
         :pubYear="2022"
-        pubDoi="Science. 2022, 10.1126/science.add6852"
+        pubDoi="Science, 2022, 10.1126/science.add6852"
         publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2022-Science-Zhang-Palani-article.pdf"
         publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2022-Science-Zhang-Palani-ESI.pdf"
         publinkPublisher="https://www.science.org/doi/10.1126/science.add6852"
@@ -81,7 +95,7 @@ export default {
         pubAuthors="Vignesh Palani, Alison E. Wendlandt*"
         pubJournal="Nature"
         :pubYear="2022"
-        pubDoi="Nature. 2022, d41586-022-02952-w"
+        pubDoi="Nature, 2022, d41586-022-02952-w"
         publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2022-Nature-Palani-perspective.pdf"
         publinkPublisher="https://www.nature.com/articles/d41586-022-02952-w"
       />
@@ -168,7 +182,7 @@ export default {
         pubAuthors="Yong Wang, Hayden M. Carder, Alison E. Wendlandt*"
         pubJournal="Nature"
         :pubYear="2020"
-        pubDoi="Nature 2020, 10.1038/s41586-020-1937-1"
+        pubDoi="Nature, 2020, 10.1038/s41586-020-1937-1"
         publinkArticle="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-article.pdf"
         publinkSi="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-ESI.pdf"
         publinkPublisher="https://www.nature.com/articles/s41586-020-1937-1%20"
