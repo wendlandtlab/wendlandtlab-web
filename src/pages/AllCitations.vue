@@ -13,6 +13,15 @@ export default {
       <div class="flex flex-col">
         <div class="text-2xl font-extrabold my-5">Independent career:</div>
         <Citation
+          Authors="Palani, V. and Wendlandt, A. E."
+          Title="Strain-Inducing Positional Alkene Isomerization"
+          Journal="J. Am. Chem. Soc."
+          Volume="xx"
+          Year="2023"
+          Pages="xx-xx"
+          Link="https://pubs.acs.org/doi/10.1021/jacs.3c06935"
+        />
+        <Citation
           Authors="Zhang, Y.-A.; Palani, V.; Seim, A. E.; Wang, Y.; Wang, K. J.; Wendlandt, A. E."
           Title="Stereochemical editing logic powered by the epimerization of unactivated tertiary stereocenters"
           Journal="Science"
