@@ -1,10 +1,10 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
-import profile from '/@/assets/people/vignesh/vignesh.png?url';
-import pic1 from '/@/assets/people/vignesh/vignesh-1.png?url';
-import pic2 from '/@/assets/people/vignesh/vignesh-2.png?url';
-import pic3 from '/@/assets/people/vignesh/vignesh-3.png?url';
-import pic4 from '/@/assets/people/vignesh/vignesh-4.png?url';
+import profile from '/@/assets/people/vignesh/vignesh.jpg?url';
+import pic1 from '/@/assets/people/vignesh/vignesh-1.jpg?url';
+import pic2 from '/@/assets/people/vignesh/vignesh-2.jpg?url';
+import pic3 from '/@/assets/people/vignesh/vignesh-3.jpg?url';
+import pic4 from '/@/assets/people/vignesh/vignesh-4.jpg?url';
 
 export default {
   components: {

@@ -1,10 +1,10 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
-import profile from '/@/assets/people/yuan/yuan.png?url';
-import pic1 from '/@/assets/people/yuan/yuan-1.png?url';
-import pic2 from '/@/assets/people/yuan/yuan-2.png?url';
-import pic3 from '/@/assets/people/yuan/yuan-3.png?url';
-import pic4 from '/@/assets/people/yuan/yuan-4.png?url';
+import profile from '/@/assets/people/yuan/yuan.jpg?url';
+import pic1 from '/@/assets/people/yuan/yuan-1.jpg?url';
+import pic2 from '/@/assets/people/yuan/yuan-2.jpg?url';
+import pic3 from '/@/assets/people/yuan/yuan-3.jpg?url';
+import pic4 from '/@/assets/people/yuan/yuan-4.jpg?url';
 
 export default {
   components: {

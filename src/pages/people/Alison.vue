@@ -1,9 +1,9 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
-import profile from '/@/assets/people/alison/alison.png';
-import alison1 from '/@/assets/people/alison/alison-1.png';
-import alison2 from '/@/assets/people/alison/alison-2.png';
-import alison3 from '/@/assets/people/alison/alison-3.png';
+import profile from '/@/assets/people/alison/alison.jpg';
+import alison1 from '/@/assets/people/alison/alison-1.jpg';
+import alison2 from '/@/assets/people/alison/alison-2.jpg';
+import alison3 from '/@/assets/people/alison/alison-3.jpg';
 import cv from '/aew-cv.pdf?url';
 export default {
   components: {
