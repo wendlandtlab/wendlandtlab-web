@@ -2,6 +2,8 @@
 import { Icon } from '@iconify/vue';
 import alison from '/@/assets/people/alison/alison.jpg?url';
 import yuan from '/@/assets/people/yuan/yuan.jpg?url';
+import tae from '/@/assets/people/tae/tae.jpg?url';
+import em from '/@/assets/people/em.jpg?url';
 import shuo from '/@/assets/people/shuo/shuo.jpg?url';
 import vignesh from '/@/assets/people/vignesh/vignesh.jpg?url';
 import gino from '/@/assets/people/gino/gino.jpg?url';
@@ -34,6 +36,8 @@ export default {
     return {
       alison,
       yuan,
+      tae,
+      em,
       vignesh,
       gino,
       aaron,
@@ -67,7 +71,7 @@ export default {
     <div class="flex-grow">
       <div class="container py-3 pb-3 mx-auto max-w-screen-lg">
         <img
-          src="../../assets/group-photo.png"
+          src="../../assets/group-photo.jpg"
           alt=""
           class="object-auto overflow-hidden rounded-md h-auto w-full"
         />
@@ -76,7 +80,7 @@ export default {
         <TeamMember
           PersonName="Alison Wendlandt"
           ProfileLink="/people/alison"
-          Title="Assistant Professor"
+          Title="Associate Professor"
           :Picture="alison"
           Email="awendlan[at]mit.edu"
           Pronouns="She/Her"
@@ -93,14 +97,7 @@ export default {
           Email="yazhang[at]mit.edu"
           Pronouns="He/Him"
         />
-        <TeamMember
-          PersonName="Vignesh Palani"
-          ProfileLink="/people/vignesh"
-          Title="Postdoctoral Fellow"
-          :Picture="vignesh"
-          Email="palan019[at]mit.edu"
-          Pronouns="He/Him"
-        />
+        
         <TeamMember
           PersonName="Shuo Zhang"
           ProfileLink="#"
@@ -126,12 +123,12 @@ export default {
           Pronouns="She/Her"
         />
         <TeamMember
-          PersonName="Jiayi Li"
+          PersonName="Tae Hwang"
           ProfileLink="#"
           Title="Postdoctoral Fellow"
-          :Picture="jiayi"
-          Email="jiayili[at]mit.edu"
-          Pronouns="She/Her"
+          :Picture="tae"
+          Email="thwang1[at]mit.edu"
+          Pronouns="He/Him"
         />
         <TeamMember
           PersonName="Gino Occhialini"
@@ -173,14 +170,7 @@ export default {
           Email="ycnie[at]mit.edu"
           Pronouns="He/Him"
         />
-        <TeamMember
-          PersonName="Frank de Kleijne"
-          ProfileLink="/people/frank"
-          Title="Visiting student"
-          :Picture="frank"
-          Email="frankdk[at]mit.edu"
-          Pronouns="He/Him"
-        />
+
         <TeamMember
           PersonName="Jason Zhang"
           ProfileLink="/people/jason"
@@ -196,6 +186,14 @@ export default {
           :Picture="leon"
           Email="leonn037[at]mit.edu"
           Pronouns="They/He"
+        />
+        <TeamMember
+          PersonName="Em Ball"
+          ProfileLink="/people/em"
+          Title="Undergraduate student"
+          :Picture="em"
+          Email="ekball[at]mit.edu"
+          Pronouns="They/Them"
         />
       </div>
       <div class="flex flex-col sm:flex-row mx-auto max-w-screen-lg py-5 px-10">
@@ -238,6 +236,18 @@ export default {
               :Picture="wenlai"
             />
             <Alumni
+              PersonName="Frank de Kleijne"
+              Title="Visiting Student (2022)"
+              :Picture="frank"
+              
+            />
+            <Alumni
+              PersonName="Jiayi Li"
+              Title="Postdoc (2022-2023)"
+              :Picture="jiayi"
+              
+            />
+            <Alumni
               PersonName="Aaron Liu"
               Title="M.S. (2022)"
               :Picture="aaron"
@@ -251,6 +261,12 @@ export default {
             />
           </div>
           <div>
+            <Alumni
+              PersonName="Vignesh Palani"
+              Title="Postdoc (2021-2023)"
+              :Picture="vignesh"
+              
+            />
             <Alumni
               PersonName="Ellie Plachinski "
               Title="Undergrad (2019-2020)"
