@@ -1,33 +1,25 @@
  <template>
-
-    <div class="flex mx-auto max-w-screen-lg pt-5 items-center px-5">
-      <img
-        :src="Picture"
-        alt=""
-        class="object-cover h-20 w-20 mr-4 overflow-hidden rounded-full shadow"
-      />
+  <div class="flex  pt-5 items-center ">
+    <img
+      :src="Picture"
+      alt=""
+      class="object-cover h-20 w-20 mr-4 overflow-hidden rounded-full shadow"
+    />
+    <div class="flex-col items-center">
       <div class="text-xl font-normal text-gray-800">
         {{ PersonName }}
+        <a v-if="LinkedIn" :href="LinkedIn" class="pl-2">
+          <Icon icon="logos:linkedin-icon" width="20" :inline="true"/>
+        </a>
       </div>
-      <div class="pl-2 text-sm text-gray-600">
+      <div class="text-sm text-gray-600">
         {{ Title }}
       </div>
-      <a v-if="Orcid" :href="Orcid" class="pl-2">
-        <div>
-          <Icon
-            icon="cib:orcid"
-            color="#84cc16"
-            width="20"
-            class="iconify-inline"
-          />
-        </div>
-      </a>
-      <a v-if="LinkedIn" :href="LinkedIn" class="pl-2">
-        <div>
-          <Icon icon="logos:linkedin-icon" width="30" class="iconify-inline" />
-        </div>
-      </a>
+      <div v-if="CurrentPos" class="text-sm text-gray-600">
+        {{ CurrentPos }}
+      </div>
     </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -46,6 +38,7 @@ export default defineComponent({
     Title: String,
     Picture: String,
     Email: String,
+    CurrentPos: String,
     LinkedIn: String,
   },
 });
