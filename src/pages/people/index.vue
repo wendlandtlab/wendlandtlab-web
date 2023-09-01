@@ -97,7 +97,7 @@ export default {
           Email="yazhang[at]mit.edu"
           Pronouns="He/Him"
         />
-        
+
         <TeamMember
           PersonName="Shuo Zhang"
           ProfileLink="#"
@@ -216,13 +216,13 @@ export default {
       </div>
       <div class="max-w-screen-lg mx-auto px-5 py-5">
         <p class="text-2xl text-gray-800 font-extrabold">Alumni</p>
-        <div class="flex flex-col lg:flex-row">
-          <div>
+        <div class="grid justify-items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
             <Alumni
               PersonName="Johanna Barbour"
               Title="M.S. (2020)"
               :Picture="johanna"
-              LinkedIn="https://www.linkedin.com/in/johbrbr?trk=people-guest_people_search-card"
+              LinkedIn="https://www.linkedin.com/in/johbrbr/"
+              CurrentPos="R&D Scientist II, Form Energy"
             />
             <Alumni
               PersonName="Krista Dong "
@@ -234,18 +234,18 @@ export default {
               PersonName="Wenlai Han"
               Title="Undergrad (Summer 2022)"
               :Picture="wenlai"
+              LinkedIn="https://www.linkedin.com/in/wenlai-han/"
             />
             <Alumni
               PersonName="Frank de Kleijne"
               Title="Visiting Student (2022)"
               :Picture="frank"
-              
+              LinkedIn="https://www.linkedin.com/in/frank-de-kleijne"
             />
             <Alumni
               PersonName="Jiayi Li"
               Title="Postdoc (2022-2023)"
               :Picture="jiayi"
-              
             />
             <Alumni
               PersonName="Aaron Liu"
@@ -259,13 +259,11 @@ export default {
               :Picture="lu"
               LinkedIn="https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/"
             />
-          </div>
-          <div>
             <Alumni
               PersonName="Vignesh Palani"
               Title="Postdoc (2021-2023)"
               :Picture="vignesh"
-              
+              LinkedIn="https://www.linkedin.com/in/vignesh-palani-1145b9ba/"
             />
             <Alumni
               PersonName="Ellie Plachinski "
@@ -278,7 +276,6 @@ export default {
               Title="M.S. (2022)"
               :Picture="alex"
             />
-
             <Alumni
               PersonName="Carolyn Suh "
               Title="M.S. (2020)"
@@ -297,7 +294,6 @@ export default {
               :Picture="yong"
               LinkedIn="https://www.linkedin.com/in/yong-wang-5a30b470/"
             />
-          </div>
         </div>
       </div>
     </div>
