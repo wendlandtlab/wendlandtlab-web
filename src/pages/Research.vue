@@ -88,7 +88,7 @@ export default {
             installation of stereocenters remains one of the chemist's greatest
             tools and challenges. In traditional synthetic strategies, the
             desired stereochemistry is conferred during the core synthesis, and
-            often synthetic approahces are built around desired stereochemical
+            often synthetic approaches are built around desired stereochemical
             outcomes. Late-stage stereochemical
             <a
               href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-article.pdf"
