@@ -1,6 +1,6 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
-import profile from '/@/assets/people/leon/leon.png?url';
+import profile from '/@/assets/people/leon/leon.jpg?url';
 import pic1 from '/@/assets/people/leon/leon-1.jpg?url';
 import pic2 from '/@/assets/people/leon/leon-2.jpg?url';
 import pic3 from '/@/assets/people/leon/leon-3.jpg?url';
