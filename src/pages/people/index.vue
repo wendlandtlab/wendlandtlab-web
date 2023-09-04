@@ -249,13 +249,15 @@ export default {
               PersonName="Jiayi Li"
               Title="Postdoc (2022-2023)"
               :Picture="jiayi"
-              CurrentPos="National Institutes of Health"
+              LinkedIn="https://www.linkedin.com/in/jiayi-li-51018216a/"
+              CurrentPos="Postdoc, Food and Drug Administration"
             />
             <Alumni
               PersonName="Aaron Liu"
               Title="M.S. (2022)"
               :Picture="aaron"
               LinkedIn="https://www.linkedin.com/in/aaronliuhk/"
+              CurrentPos="Morgan Stanley"
             />
             <Alumni
               PersonName="Zhaohong Lu"
@@ -282,18 +284,21 @@ export default {
               PersonName="Alexander Seim"
               Title="M.S. (2022)"
               :Picture="alex"
+              CurrentPos="Treeline Biosciences"
             />
             <Alumni
               PersonName="Carolyn Suh "
               Title="M.S. (2020)"
               :Picture="carolyn"
               LinkedIn="https://www.linkedin.com/in/carolyn-suh/"
+              CurrentPos="Senior Scientist, Kalsec Inc."
             />
             <Alumni
               PersonName="Kathleen Wang"
               Title="M.S. (2020)"
               :Picture="kathleen"
               LinkedIn="https://www.linkedin.com/in/kathleenjwang/"
+              CurrentPos="Consultant, N-SIDE"
             />
             <Alumni
               PersonName="Yong Wang"
