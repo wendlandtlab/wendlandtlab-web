@@ -229,70 +229,83 @@ export default {
               Title="Undergrad (2019-2020)"
               :Picture="krista"
               LinkedIn="https://www.linkedin.com/in/kristadong/"
+              CurrentPos="PhD Student, Caltech"
             />
             <Alumni
               PersonName="Wenlai Han"
               Title="Undergrad (Summer 2022)"
               :Picture="wenlai"
               LinkedIn="https://www.linkedin.com/in/wenlai-han/"
+              CurrentPos="PhD Student, MIT"
             />
             <Alumni
               PersonName="Frank de Kleijne"
               Title="Visiting Student (2022)"
               :Picture="frank"
               LinkedIn="https://www.linkedin.com/in/frank-de-kleijne"
+              CurrentPos="PhD Student, Radbaud University"
             />
             <Alumni
               PersonName="Jiayi Li"
               Title="Postdoc (2022-2023)"
               :Picture="jiayi"
+              LinkedIn="https://www.linkedin.com/in/jiayi-li-51018216a/"
+              CurrentPos="Postdoc, Food and Drug Administration"
             />
             <Alumni
               PersonName="Aaron Liu"
               Title="M.S. (2022)"
               :Picture="aaron"
               LinkedIn="https://www.linkedin.com/in/aaronliuhk/"
+              CurrentPos="Morgan Stanley"
             />
             <Alumni
               PersonName="Zhaohong Lu"
               Title="Postdoc (2019-2020)"
               :Picture="lu"
               LinkedIn="https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/"
+              CurrentPos="Professor, Xiamen University (China)"
             />
             <Alumni
               PersonName="Vignesh Palani"
               Title="Postdoc (2021-2023)"
               :Picture="vignesh"
               LinkedIn="https://www.linkedin.com/in/vignesh-palani-1145b9ba/"
+              CurrentPos="Professor, IISc Bangalore (India)"
             />
             <Alumni
               PersonName="Ellie Plachinski "
               Title="Undergrad (2019-2020)"
               :Picture="ellie"
               LinkedIn="https://www.linkedin.com/in/ellie-plachinski-8a2168149/"
+              CurrentPos="PhD Student, UW Madison"
             />
             <Alumni
               PersonName="Alexander Seim"
               Title="M.S. (2022)"
               :Picture="alex"
+              CurrentPos="Treeline Biosciences"
             />
             <Alumni
               PersonName="Carolyn Suh "
               Title="M.S. (2020)"
               :Picture="carolyn"
               LinkedIn="https://www.linkedin.com/in/carolyn-suh/"
+              CurrentPos="Senior Scientist, Kalsec Inc."
             />
             <Alumni
               PersonName="Kathleen Wang"
               Title="M.S. (2020)"
               :Picture="kathleen"
               LinkedIn="https://www.linkedin.com/in/kathleenjwang/"
+              CurrentPos="Consultant, N-SIDE"
             />
             <Alumni
               PersonName="Yong Wang"
               Title="Postdoc (2019-2020)"
               :Picture="yong"
               LinkedIn="https://www.linkedin.com/in/yong-wang-5a30b470/"
+              CurrentPos="Principal Scientist, Genentech"
             />
         </div>
       </div>
