@@ -243,7 +243,7 @@ export default defineComponent({
         <input
           type="text"
           class="w-full px-3 py-2 mb-5 text-gray-700 border rounded-md focus:outline-none focus:border-blue-500"
-          placeholder="Search by author, journal, or year"
+          placeholder="Search by title, author, journal, or year"
           v-model="searchterm"
         />
         <router-link to="./AllCitations" class="text-xl text-gray-700 font-extrabold text-center">
