@@ -15,16 +15,16 @@ const pubs = [
     // see src/types/Publication.ts for the Publication interface
 
     // generally articles have the following fields:
-    // pubType, title, authors, journal, year, doi, articleLink, esiLink, publisherLink, toc, volume, pages
+    // pubType='article', title, authors, journal, year, doi, articleLink, esiLink, publisherLink, toc, volume, pages
 
     // generally patents have the following fields:
-    // pubType, authors, title, patent, date, publisherLink
+    // pubType='patent', authors, title, patent, date, publisherLink
 
     // generally perspectives have the following fields:
-    // pubType, title, authors, journal, year, doi, publisherLink, toc, volume, pages
+    // pubType='perspective', title, authors, journal, year, doi, publisherLink, toc, volume, pages
 
     // generally reviews have the following fields:
-    // pubType, title, authors, journal, year, doi, publisherLink, toc, volume, pages
+    // pubType='review', title, authors, journal, year, doi, publisherLink, toc, volume, pages
 
     // newslist is a list of news articles about the publication
     // each news article is a News object
