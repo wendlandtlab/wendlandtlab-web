@@ -5,6 +5,13 @@ import pic1 from '/@/assets/people/xin/xin-1.jpg?url';
 import pic2 from '/@/assets/people/xin/xin-2.jpg?url';
 import pic3 from '/@/assets/people/xin/xin-3.jpg?url';
 import pic4 from '/@/assets/people/xin/xin-4.jpg?url';
+import pubs from '/@/data/publications';
+
+const fullname = 'Xin Gu';
+
+const filteredPubs = pubs.filter(pub => {
+  return pub.authors.toLowerCase().includes(fullname.toLowerCase());
+});
 
 export default {
   components: {
@@ -17,6 +24,7 @@ export default {
       pic2,
       pic3,
       pic4,
+      filteredPubs,
     };
   },
 };
@@ -44,6 +52,14 @@ export default {
             lab of Professor David Nagib. After graduation, Xin decided to move
             to the east coast and joined the Wendlandt lab. Outside of lab, Xin
             enjoys eating and video games.
+          </p>
+          <p class="mt-4">
+            Publications in the lab:
+            <CitationRefactor
+              v-for="pub in filteredPubs"
+              :key="pub"
+              :publication="pub"
+            />
           </p>
         </div>
       </div>

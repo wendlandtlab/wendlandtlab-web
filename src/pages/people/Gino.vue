@@ -6,6 +6,14 @@ import pic2 from '/@/assets/people/gino/gino-2.jpg?url';
 import pic3 from '/@/assets/people/gino/gino-3.jpg?url';
 import pic4 from '/@/assets/people/gino/gino-4.jpg?url';
 
+import pubs from '/@/data/publications';
+
+const fullname = 'Gino Occhialini';
+
+const filteredPubs = pubs.filter(pub => {
+  return pub.authors.toLowerCase().includes(fullname.toLowerCase());
+});
+
 export default {
   components: {
     Icon,
@@ -17,6 +25,7 @@ export default {
       pic2,
       pic3,
       pic4,
+      filteredPubs,
     };
   },
 };
@@ -25,7 +34,9 @@ export default {
   <div class="flex flex-col min-h-screen">
     <HeaderMenu />
     <div class="flex-grow">
-      <div class="flex flex-col sm:flex-row mx-auto max-w-screen-xl py-10 px-6 items-center">
+      <div
+        class="flex flex-col sm:flex-row mx-auto max-w-screen-xl py-10 px-6 items-center"
+      >
         <div class="flex-initial">
           <TeamMember
             PersonName="Gino Occhialini"
@@ -44,20 +55,26 @@ export default {
             at the University of Texas at Dallas. While there, he conducted
             research under Professor Ronald Smaldone focusing on covalent
             organic frameworks and porous organic polymers. For this work, Gino
-            was awarded a Goldwater scholarship in 2017. In his free time, Gino served
-            as a workshop leader in various chemistry classes.
-            Interested in branching out to methodology research and mechanistic study, he attended MIT to pursue his Ph.D. under Professor
-            Alison Wendlandt. Gino's studies at MIT are funded under an NSF GRFP.
+            was awarded a Goldwater scholarship in 2017. In his free time, Gino
+            served as a workshop leader in various chemistry classes. Interested
+            in branching out to methodology research and mechanistic study, he
+            attended MIT to pursue his Ph.D. under Professor Alison Wendlandt.
+            Gino's studies at MIT are funded under an NSF GRFP.
           </p>
           <p>Fan Facts:</p>
-          <p>
-            - Gino designed and manages this website.
-          </p>
+          <p>- Gino designed and manages this website.</p>
           <p>
             - Gino built a 3d-printer, which he consistently breaks and fixes.
           </p>
-                    <p>
-            - Gino has an identical twin brother.
+          <p class="mb-4">- Gino has an identical twin brother.</p>
+
+          <p>
+            Publications in the lab:
+            <CitationRefactor
+              v-for="pub in filteredPubs"
+              :key="pub"
+              :publication="pub"
+            />
           </p>
         </div>
       </div>

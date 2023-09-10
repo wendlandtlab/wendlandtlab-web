@@ -4,6 +4,29 @@ import Publication from '/@/types/Publication'
 import { defineComponent } from 'vue';
 import pubs from '/@/data/publications'
 
+// we don't want any of the original data to be changed so we make a deep copy of the data
+const publist = JSON.parse(JSON.stringify(pubs)) as Publication[]; 
+
+// don't include patents in the publication list
+const pubsNoPatents = publist.filter((pub) => {
+  return pub.pubType !== 'patent';
+});
+
+// for each publication with pubType == 'perspective' append (perspective) to the end of the title
+pubsNoPatents.forEach((pub) => {
+  if (pub.pubType === 'perspective') {
+    pub.title = pub.title + ' (perspective)';
+  }
+});
+
+// if a publication contains ‡ in the authors list, append (‡ contributed equally) to the end of the authors list
+pubsNoPatents.forEach((pub) => {
+  if (pub.authors.includes('‡')) {
+    pub.authors = pub.authors + ' (‡ contributed equally)';
+  }
+});
+
+
 export default defineComponent({
   components: {
     Icon,
@@ -11,7 +34,7 @@ export default defineComponent({
   name: 'Publications',
   data() {
     return {
-      pubList: pubs,
+      pubList: pubsNoPatents,
       searchterm: '',
     };
   },

@@ -19,7 +19,11 @@ export default defineComponent({
 });
 </script>
 <template>
-  <div class="mb-5">
-<a :href="publication.publisherLink">{{ publication.abbreviatedAuthors }} {{ publication.citationTitle }}. <i> {{ publication.journal }} </i> <b> {{ publication.year }}</b>, <i> {{ publication.volume }}</i>, {{ publication.pages }}.</a>
-  </div>
+  <div class="mb-3">
+<a v-if="publication.pubType == 'article'" :href="publication.publisherLink">{{ publication.abbreviatedAuthors }} {{ publication.title }}. <i> {{ publication.journal }} </i> <b> {{ publication.year }}</b>, <i> {{ publication.volume }}</i>, {{ publication.pages }}.</a>
+<a v-if="publication.pubType == 'perspective'" :href="publication.publisherLink">{{ publication.abbreviatedAuthors }} {{ publication.title }}. <i> {{ publication.journal }} </i> <b> {{ publication.year }}</b>, <i> {{ publication.volume }}</i>, {{ publication.pages }}.</a>
+<a v-if="publication.pubType == 'review'" :href="publication.publisherLink">{{ publication.abbreviatedAuthors }} {{ publication.title }}. <i> {{ publication.journal }} </i> <b> {{ publication.year }}</b>, <i> {{ publication.volume }}</i>, {{ publication.pages }}.</a>
+<a v-if="publication.pubType == 'patent'" :href="publication.publisherLink">{{ publication.abbreviatedAuthors }} {{ publication.title }}. {{ publication.patent }}, {{ publication.date }}.</a>
+
+</div>
 </template>
