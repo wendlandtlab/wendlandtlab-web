@@ -1,9 +1,25 @@
 <script lang="ts">
 import { Icon } from '@iconify/vue';
+import pubs from '/@/data/publications';
+
+// filter pubs by pubType to include only 'article' or 'perspective' or 'review'
+const pubsFiltered = pubs.filter((pub) => {
+  return (
+    pub.pubType === 'article' ||
+    pub.pubType === 'perspective' ||
+    pub.pubType === 'review'
+  );
+});
+
 export default {
   components: {
     Icon,
   },
+  data() {
+    return {
+      pubList: pubsFiltered,
+    };
+  }
 };
 </script>
 <template>
@@ -12,95 +28,10 @@ export default {
     <div class="container px-5 flex-grow max-w-screen-lg mx-auto">
       <div class="flex flex-col">
         <div class="text-2xl font-extrabold my-5">Independent career:</div>
-        <Citation
-          Authors="Palani, V. and Wendlandt, A. E."
-          Title="Strain-Inducing Positional Alkene Isomerization"
-          Journal="J. Am. Chem. Soc."
-          Volume="xx"
-          Year="2023"
-          Pages="xx-xx"
-          Link="https://pubs.acs.org/doi/10.1021/jacs.3c06935"
-        />
-        <Citation
-          Authors="Zhang, Y.-A.; Palani, V.; Seim, A. E.; Wang, Y.; Wang, K. J.; Wendlandt, A. E."
-          Title="Stereochemical editing logic powered by the epimerization of unactivated tertiary stereocenters"
-          Journal="Science"
-          Volume="378"
-          Year="2022"
-          Pages="383-390"
-          Link="https://www.science.org/doi/10.1126/science.add6852"
-        />
-        <Citation
-          Authors="Palani, V.; Wendlandt, A. E."
-          Title="A stable alternative to an explosive synthetic reaction"
-          Journal="Nature"
-          Volume="610"
-          Year="2022"
-          Pages="40-41"
-          Link="https://www.nature.com/articles/d41586-022-02952-w"
-        />
-        <Citation
-          Authors="Carder, H. M.; Wang, Y.; Wendlandt, A. E."
-          Title="Selective Axial-to-Equatorial Epimerization of Carbohydrates"
-          Journal="J. Am. Chem. Soc."
-          Volume="144"
-          Year="2022"
-          Pages="11870-11877"
-          Link="https://pubs.acs.org/doi/10.1021/jacs.2c04743"
-        />
-        <Citation
-          Authors="Occhialini, G.; Palani, V.; Wendlandt, A. E."
-          Title="Catalytic, contra-Thermodynamic Positional Alkene Isomerization"
-          Journal="J. Am. Chem. Soc."
-          Volume="144"
-          Year="2021"
-          Pages="145-152"
-          Link="https://pubs.acs.org/doi/10.1021/jacs.1c12043"
-        />
-        <Citation
-          Authors="Zhang, Y.-A.; Gu, X.; Wendlandt, A. E."
-          Title="A change from kinetic to thermodynamic control enables trans-selective stereochemical editing of vicinal diols"
-          Journal="J. Am. Chem. Soc."
-          Volume="144"
-          Year="2021"
-          Pages="599-605"
-          Link="https://pubs.acs.org/doi/10.1021/jacs.1c11902"
-        />
-        <Citation
-          Authors="Carder, H. M.; Suh, C. E.; Wendlandt, A. E."
-          Title="A unified strategy to access 2- and 4-deoxygenated sugars enabled by manganese-promoted 1,2-radical migration"
-          Journal="J. Am. Chem. Soc."
-          Volume="143"
-          Year="2021"
-          Pages="13798-13805"
-          Link="https://pubs.acs.org/doi/full/10.1021/jacs.1c05993"
-        />
-        <Citation
-          Authors="Suh, C. E.; Carder, H.; Wendlandt, A. E."
-          Title="Selective transformations of carbohydrates inspired by radical based enzymatic mechanisms"
-          Journal="ACS Chem. Biol."
-          Volume="16"
-          Year="2021"
-          Pages="1814-1828"
-          Link="https://pubs.acs.org/doi/10.1021/acschembio.1c00190"
-        />
-        <Citation
-          Authors="Wang, Y.; Carder, H.; Wendlandt, A. E."
-          Title="Synthesis of rare sugar isomers through site-selective epimerization"
-          Journal="Nature."
-          Volume="578"
-          Year="2020"
-          Pages="403-408"
-          Link="https://www.nature.com/articles/s41586-020-1937-1"
-        />
-        <Citation
-          Authors="Wendlandt, A. E."
-          Title="Photocatalytic deracemization fixes the mix"
-          Journal="Science."
-          Volume="366"
-          Year="2019"
-          Pages="304-305"
-          Link="https://www.science.org/doi/10.1126/science.aay6919"
+        <CitationRefactor
+          v-for="pub in pubList"
+          :key="pub"
+          :publication="pub"
         />
         <div class="text-2xl font-extrabold mb-5">Patents:</div>
         <CitationPatent

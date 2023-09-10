@@ -2,25 +2,7 @@
 <script lang="ts">
 import { defineComponent, PropType } from 'vue';
 import { Icon } from '@iconify/vue';
-
-declare interface News {
-  source: string;
-  newsurl: string;
-}
-
-declare interface Publication {
-  pubType: string;
-  title: string;
-  authors: string;
-  journal: string;
-  year: number;
-  doi: string;
-  articleLink: string;
-  esiLink: string;
-  publisherLink: string;
-  toc: string;
-  newslist: Array<News>;
-}
+import Publication from '/@/types/Publication'
 
 export default defineComponent({
   components: {
