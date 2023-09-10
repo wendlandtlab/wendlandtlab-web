@@ -4,8 +4,11 @@ import Publication from '/@/types/Publication'
 import { defineComponent } from 'vue';
 import pubs from '/@/data/publications'
 
+// we don't want any of the original data to be changed so we make a deep copy of the data
+const publist = JSON.parse(JSON.stringify(pubs)) as Publication[]; 
+
 // don't include patents in the publication list
-const pubsNoPatents = pubs.filter((pub) => {
+const pubsNoPatents = publist.filter((pub) => {
   return pub.pubType !== 'patent';
 });
 
