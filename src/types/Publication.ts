@@ -6,11 +6,12 @@ interface News {
 interface Publication {
     pubType: string;
     title: string;
-    citationTitle: string;
     authors: string;
     abbreviatedAuthors: string;
+    patent: string;
     journal: string;
     year: number;
+    date: string;
     volume: number | string;
     pages: string;
     doi: string;

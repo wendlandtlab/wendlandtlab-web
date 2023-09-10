@@ -5,6 +5,13 @@ import pic1 from '/@/assets/people/yuan/yuan-1.jpg?url';
 import pic2 from '/@/assets/people/yuan/yuan-2.jpg?url';
 import pic3 from '/@/assets/people/yuan/yuan-3.jpg?url';
 import pic4 from '/@/assets/people/yuan/yuan-4.jpg?url';
+import pubs from '/@/data/publications';
+
+const fullname = 'Yu-an Zhang';
+
+const filteredPubs = pubs.filter(pub => {
+  return pub.authors.toLowerCase().includes(fullname.toLowerCase());
+});
 
 export default {
   components: {
@@ -17,6 +24,7 @@ export default {
       pic2,
       pic3,
       pic4,
+      filteredPubs,
     };
   },
 };
@@ -66,6 +74,14 @@ export default {
             occasionally.
           </p>
           <p>- He hates snow.</p>
+          <p class="mt-4">
+            Publications in the lab:
+            <CitationRefactor
+              v-for="pub in filteredPubs"
+              :key="pub"
+              :publication="pub"
+            />
+          </p>
         </div>
       </div>
       <ProfilePicture :imgurls="[pic1, pic2, pic3, pic4]" />

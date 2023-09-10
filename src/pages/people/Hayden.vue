@@ -6,6 +6,15 @@ import pic2 from '/@/assets/people/hayden/hayden-2.jpg?url';
 import pic3 from '/@/assets/people/hayden/hayden-3.jpg?url';
 import pic4 from '/@/assets/people/hayden/hayden-4.jpg?url';
 
+import pubs from '/@/data/publications';
+
+const fullname = 'Hayden M. Carder';
+
+const filteredPubs = pubs.filter(pub => {
+  return pub.authors.toLowerCase().includes(fullname.toLowerCase());
+});
+
+
 export default {
   components: {
     Icon,
@@ -17,6 +26,7 @@ export default {
       pic2,
       pic3,
       pic4,
+      filteredPubs,
     };
   },
 };
@@ -64,6 +74,15 @@ export default {
           </p>
           <p>
             - He likes to travel to visit family, go hiking, or go to the beach.
+          </p>
+
+          <p class="mt-4">
+            Publications in the lab:
+            <CitationRefactor
+              v-for="pub in filteredPubs"
+              :key="pub"
+              :publication="pub"
+            />
           </p>
         </div>
       </div>

@@ -10,6 +10,31 @@ import toc1 from '/@/assets/publications/toc/Nature-2020-Wang.svg?url';
 import Publication from '/@/types/Publication'
 
 const pubs = [
+    // pubs is a list of publications, patents, etc.
+    // each publication is a Publication object
+    // see src/types/Publication.ts for the Publication interface
+
+    // generally articles have the following fields:
+    // pubType, title, authors, journal, year, doi, articleLink, esiLink, publisherLink, toc, volume, pages
+
+    // generally patents have the following fields:
+    // pubType, authors, title, patent, date, publisherLink
+
+    // generally perspectives have the following fields:
+    // pubType, title, authors, journal, year, doi, publisherLink, toc, volume, pages
+
+    // generally reviews have the following fields:
+    // pubType, title, authors, journal, year, doi, publisherLink, toc, volume, pages
+
+    // newslist is a list of news articles about the publication
+    // each news article is a News object
+    // see src/types/Publication.ts for the News interface
+    // each news article has the following fields:
+    // source, newsurl
+
+    // for citations abbreviatedAuthors is determined from authors
+    // it can also be set manually by adding the field abbreviatedAuthors
+
     {
         pubType: 'article',
         title: 'Strain-Inducing Positional Alkene Isomerization',
@@ -31,7 +56,7 @@ const pubs = [
         title:
             'Stereochemical editing logic powered by the epimerization of unactivated tertiary stereocenters',
         authors:
-            'Yu-An Zhang‡, Vignesh Palani‡, Alexander E. Seim, Yong Wang, Kathleen J. Wang, Alison E. Wendlandt* (‡ contributed equally)',
+            'Yu-An Zhang‡, Vignesh Palani‡, Alexander E. Seim, Yong Wang, Kathleen J. Wang, Alison E. Wendlandt*',
         journal: 'Science',
         year: 2022,
         doi: 'Science, 2022, 10.1126/science.add6852',
@@ -64,8 +89,6 @@ const pubs = [
     {
         pubType: 'perspective',
         title:
-            'A stable alternative to an explosive synthetic reaction (perspective)',
-        citationTitle:
             'A stable alternative to an explosive synthetic reaction',
         authors: 'Vignesh Palani, Alison E. Wendlandt*',
         journal: 'Nature',
@@ -126,7 +149,7 @@ const pubs = [
         title:
             'A change from kinetic to thermodynamic control enables trans-selective stereochemical editing of vicinal diols',
         authors:
-            'Yu-an Zhang‡, Xin Gu‡, Alison E. Wendlandt* (‡ contributed equally)',
+            'Yu-an Zhang‡, Xin Gu‡, Alison E. Wendlandt*',
         journal: 'J. Am. Chem. Soc.',
         year: 2021,
         doi: 'J. Am. Chem. Soc. 2021, 10.1021/jacs.1c11902',
@@ -167,7 +190,7 @@ const pubs = [
         title:
             'Selective transformations of carbohydrates inspired by radical-based enzymatic mechanisms',
         authors:
-            'Carolyn E. Suh‡, Hayden M. Carder‡, Alison E. Wendlandt* (‡ contributed equally)',
+            'Carolyn E. Suh‡, Hayden M. Carder‡, Alison E. Wendlandt*',
         journal: 'ACS Chem. Biol.',
         year: 2021,
         doi: 'ACS Chem. Biol. 2021, 10.1021/acschembio.1c00190',
@@ -177,6 +200,14 @@ const pubs = [
         toc: toc2,
         volume: 16,
         pages: '1814-1828',
+    },
+    {
+        pubType: "patent",
+        authors: "Alison Wendlandt, Yong Wang, and Hayden M. Carder",
+        title: "Selective valorization of biomass sugars",
+        patent: "U.S. Patent WO 2021127642",
+        date: "June 24, 2021",
+        publisherLink: "https://patentscope.wipo.int/search/en/detail.jsf?docId=US328049193",
     },
     {
         pubType: 'article',
@@ -214,8 +245,7 @@ const pubs = [
     },
     {
         pubType: 'perspective',
-        title: 'Photocatalytic deracemization fixes the mix (perspective)',
-        citationTitle: 'Photocatalytic deracemization fixes the mix',
+        title: 'Photocatalytic deracemization fixes the mix',
         authors: 'Alison E. Wendlandt',
         journal: 'Science',
         year: 2019,
@@ -267,13 +297,6 @@ pubs.forEach((pub) => {
     // if abbreviatedAuthors is not defined, then set it
     if (!pub.abbreviatedAuthors) {
         pub.abbreviatedAuthors = abbreviateAuthors(pub.authors);
-    }
-});
-
-pubs.forEach((pub) => {
-    // if citationTitle is not defined, then set it
-    if (!pub.citationTitle) {
-        pub.citationTitle = pub.title;
     }
 });
 

@@ -4,6 +4,26 @@ import Publication from '/@/types/Publication'
 import { defineComponent } from 'vue';
 import pubs from '/@/data/publications'
 
+// don't include patents in the publication list
+const pubsNoPatents = pubs.filter((pub) => {
+  return pub.pubType !== 'patent';
+});
+
+// for each publication with pubType == 'perspective' append (perspective) to the end of the title
+pubsNoPatents.forEach((pub) => {
+  if (pub.pubType === 'perspective') {
+    pub.title = pub.title + ' (perspective)';
+  }
+});
+
+// if a publication contains ‡ in the authors list, append (‡ contributed equally) to the end of the authors list
+pubsNoPatents.forEach((pub) => {
+  if (pub.authors.includes('‡')) {
+    pub.authors = pub.authors + ' (‡ contributed equally)';
+  }
+});
+
+
 export default defineComponent({
   components: {
     Icon,
@@ -11,7 +31,7 @@ export default defineComponent({
   name: 'Publications',
   data() {
     return {
-      pubList: pubs,
+      pubList: pubsNoPatents,
       searchterm: '',
     };
   },

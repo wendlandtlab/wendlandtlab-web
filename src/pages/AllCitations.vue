@@ -11,6 +11,10 @@ const pubsFiltered = pubs.filter((pub) => {
   );
 });
 
+const patents = pubs.filter((pub) => {
+  return pub.pubType === 'patent';
+});
+
 export default {
   components: {
     Icon,
@@ -18,6 +22,7 @@ export default {
   data() {
     return {
       pubList: pubsFiltered,
+      patentList: patents,
     };
   }
 };
@@ -34,12 +39,10 @@ export default {
           :publication="pub"
         />
         <div class="text-2xl font-extrabold mb-5">Patents:</div>
-        <CitationPatent
-            Authors="Wendlandt, A.; Wang, Y.; Carder, H."
-    Title="Selective valorization of biomass sugars"
-    Patent="U.S. Patent WO 2021127642"
-    PubDate="June 24, 2021"
-    Link="https://patentscope.wipo.int/search/en/detail.jsf?docId=US328049193"
+        <CitationRefactor
+          v-for="pub in patentList"
+          :key="pub"
+          :publication="pub"
         />
         <div class="text-2xl font-extrabold mb-5">
           Prior to independent career:
