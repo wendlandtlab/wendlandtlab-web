@@ -9,6 +9,7 @@
 import homepageback from '../assets/homepage.svg?url';
 const image = 'background-image: url(' + homepageback + ')';
 export default {
+  name: 'Index',
   setup() {
     return {
       image,
