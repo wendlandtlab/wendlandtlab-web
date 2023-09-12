@@ -6,12 +6,8 @@ import { useRoute } from 'vue-router/auto';
 import group from '/@/data/people';
 import pubs from '/@/data/publications';
 import Person from '/@/types/Person';
+import Publication from '/@/types/Publication';
 
-const fullname = 'Gino Occhialini';
-
-const filteredPubs = pubs.filter(pub => {
-  return pub.authors.toLowerCase().includes(fullname.toLowerCase());
-});
 
 export default defineComponent({
   components: {
@@ -21,6 +17,10 @@ export default defineComponent({
     const route = useRoute();
     const id = route.params.id;
     const member = group.get(id) as Person;
+
+    const filteredPubs = pubs.filter(pub => {
+      return pub.authors.toLowerCase().includes(member.publicationName.toLowerCase());
+    }) as Publication[];
 
     return {
       filteredPubs,
@@ -54,7 +54,7 @@ export default defineComponent({
             {{ member.bio }}
           </div>
           <div v-if="member.funFacts">
-          <div class="font-bold pt-4">Fan Facts:</div>
+         <div class="font-bold pt-4">Fan Facts:</div>
           <ul>
             <li v-for="fact in member.funFacts" :key="fact">- {{ fact }}</li>
           </ul>

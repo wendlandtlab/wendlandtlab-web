@@ -45,5 +45,12 @@ group.set('gino', {
     ]
 } as Person )
 
+// for each person, if publicationName isn't defined set it as name.
+for (const [key, value] of group.entries()) {
+    if (value.publicationName === undefined) {
+        value.publicationName = value.name;
+    }
+    group.set(key, value);
+}
 
 export default group as Map<string, Person>;
