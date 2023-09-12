@@ -3,6 +3,7 @@ import { Icon } from '@iconify/vue';
 import { defineComponent } from 'vue';
 import Person from '/@/types/Person';
 import group from '/@/data/people' ;
+import alumni from '/@/data/alumni';
 import alison from '/@/assets/people/alison/alison.jpg?url';
 
 const groupValues = Array.from(group.values()) as Person[];
@@ -20,6 +21,7 @@ export default defineComponent({
   setup() {
     return {
       groupArray,
+      alumni,
       alison
     };
   },
@@ -81,8 +83,17 @@ export default defineComponent({
       <div class="max-w-screen-lg mx-auto px-5 py-5">
         <p class="text-2xl text-gray-800 font-extrabold">Alumni</p>
         <div
-          class="grid justify-items-start grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
-        ></div>
+          class="grid justify-items-start grid-cols-1 pb-5 md:grid-cols-2 lg:grid-cols-3"
+        >
+          <Alumni
+            v-for="member in alumni" :key="member"
+                :PersonName="member.name"
+                :Title="member.position"
+                :Picture="member.profilePic"
+                :LinkedIn="member.linkedin"
+                :CurrentPos="member.currentPos"
+              />        
+        </div>
       </div>
     </div>
     <FooterBox />

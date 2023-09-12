@@ -13,6 +13,7 @@ interface Person {
     funFacts: string[];
     orcid: string;
     profilePhotos: string[];
+    currentPos: string;
 }
 
 export default Person;
