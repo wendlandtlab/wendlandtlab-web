@@ -51,6 +51,8 @@ declare module 'vue-router/auto/routes' {
     '/people/Leon': RouteRecordInfo<'/people/Leon', '/people/Leon', Record<never, never>, Record<never, never>>,
     '/people/Xin': RouteRecordInfo<'/people/Xin', '/people/Xin', Record<never, never>, Record<never, never>>,
     '/people/Yuan': RouteRecordInfo<'/people/Yuan', '/people/Yuan', Record<never, never>, Record<never, never>>,
+    '/peopledev/': RouteRecordInfo<'/peopledev/', '/peopledev', Record<never, never>, Record<never, never>>,
+    '/peopledev/[id]': RouteRecordInfo<'/peopledev/[id]', '/peopledev/:id', { id: ParamValue<true> }, { id: ParamValue<false> }>,
     '/Publications': RouteRecordInfo<'/Publications', '/Publications', Record<never, never>, Record<never, never>>,
     '/Research': RouteRecordInfo<'/Research', '/Research', Record<never, never>, Record<never, never>>,
   }
