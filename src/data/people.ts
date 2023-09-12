@@ -40,10 +40,6 @@ group.set('gino', {
         new URL('/@/assets/people/gino/gino-4.jpg', import.meta.url).href,
     ]
 } as Person )
-// get url for /@/assets/people/alison/alison.jpg
-
-
-
 
 // for each person, if publicationName isn't defined set it as name.
 for (const [key, value] of group.entries()) {
