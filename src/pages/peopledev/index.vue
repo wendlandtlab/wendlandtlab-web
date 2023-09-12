@@ -3,7 +3,14 @@ import { Icon } from '@iconify/vue';
 import { defineComponent } from 'vue';
 import Person from '/@/types/Person';
 import group from '/@/data/people' ;
-const groupArray = Array.from(group.values()) as Person[];
+
+const groupValues = Array.from(group.values()) as Person[];
+const groupKeys = Array.from(group.keys()) as String[];
+
+// zip arrays together
+const groupArray = groupValues.map((value, index) => {
+  return { ...value, id: groupKeys[index] };
+}) as Person[];
 
 export default defineComponent({
   components: {

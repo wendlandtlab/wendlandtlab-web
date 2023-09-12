@@ -1,4 +1,5 @@
 interface Person {
+    id: string;
     name: string;
     publicationName: string;
     position: string;
