@@ -16,8 +16,6 @@
     "types": [
       "vite/client",
       "node",
-      "@intlify/vite-plugin-vue-i18n/client",
-      "vite-plugin-pages/client"
     ],
     "incremental": false,
     "skipLibCheck": true,
@@ -36,7 +34,8 @@
     "src/**/*.d.ts",
     "src/**/*.tsx",
     "src/**/*.vue",
-    "./vite-env.d.ts"
+    "./vite-env.d.ts",
+    "typed-router.d.ts"
   ],
   "exclude": [
     "dist",

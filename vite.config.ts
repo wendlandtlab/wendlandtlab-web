@@ -3,12 +3,12 @@ import { resolve } from 'path'
 import path from 'path';
 import vue from '@vitejs/plugin-vue';
 import WindiCSS from 'vite-plugin-windicss';
-import VueI18n from '@intlify/vite-plugin-vue-i18n';
-import ViteComponents from 'vite-plugin-components';
+import VueI18nPlugin from '@intlify/unplugin-vue-i18n/vite'
+import Components from 'unplugin-vue-components/vite'
 import PurgeIcons from 'vite-plugin-purge-icons';
-import ViteFonts from 'vite-plugin-fonts';
 import svgLoader from 'vite-svg-loader';
-import Pages from 'vite-plugin-pages';
+import Unfonts from 'unplugin-fonts/vite'
+import VueRouter from 'unplugin-vue-router/vite'
 // https://vitejs.dev/config/
 export default defineConfig({
   server: {
@@ -20,15 +20,16 @@ export default defineConfig({
     },
   },
   plugins: [
+    VueRouter({
+      
+    }),
     vue(),
+    Components({ /* options */ }),
     // https://github.com/jpkleemans/vite-svg-loader
     svgLoader(),
-    // https://github.com/antfu/vite-plugin-components
-    ViteComponents({
-      extensions: ['vue'],
-    }),
+
     // vhttps://github.com/stafyniaksacha/vite-plugin-fonts#readme
-    ViteFonts({
+    Unfonts({ 
       google: {
         families: ['Open Sans', 'Montserrat', 'Fira Sans'],
       },
@@ -45,9 +46,9 @@ export default defineConfig({
     }),
 
     // https://github.com/intlify/vite-plugin-vue-i18n
-    VueI18n({
+    VueI18nPlugin({
       include: [path.resolve(__dirname, './locales/**')],
     }),
-    Pages(),
   ],
+  base: './',
 });

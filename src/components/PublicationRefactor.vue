@@ -40,6 +40,15 @@ export default defineComponent({
         'bg-green-200 text-green-700': this.publication.pubType === 'perspective',
       };
     },
+    tocBorder(): { [key: string]: boolean } {
+      return {
+        'flex justify-center bg-white p-2 border-solid border-5 border-t-0 rounded-b-md': true,
+        'border-red-50': this.publication.pubType === 'review',
+        'border-green-50': this.publication.pubType === 'perspective',
+        'border-blue-50': this.publication.pubType === 'article'
+      };
+
+    }
   },
 });
 </script>
@@ -62,6 +71,7 @@ export default defineComponent({
         <a :href="publication.publisherLink" class="w-full ml-2">{{ publication.doi }} </a>
       </div>
     </div>
+    <div class="  ">
     <div class="text-lg font-bold px-2">{{ publication.title }}</div>
     <div class="text-sm italic px-2">{{ publication.authors }}</div>
     <div v-if="publication.newslist" class="text-sm px-2 flex flex-wrap">
@@ -70,8 +80,9 @@ export default defineComponent({
           <a :href="item.newsurl">{{ item.source }}</a>
       </div>
     </div>
-    <div class="flex justify-center p-2">
-      <img v-if="publication.toc" class="flex-initial w-md h-full" :src="publication.toc" />
+    <div v-if="publication.toc" :class="tocBorder">
+      <img class="flex-initial w-md h-full" :src="publication.toc" />
+    </div>
     </div>
   </div>
 </template>

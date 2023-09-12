@@ -187,7 +187,7 @@
   </Popover>
 </template>
 
-<script>
+<script lang="ts">
 import {
   Popover,
   PopoverButton,
@@ -195,20 +195,10 @@ import {
   PopoverPanel,
 } from '@headlessui/vue';
 import {
-  BookmarkAltIcon,
-  CalendarIcon,
-  ChartBarIcon,
-  CursorClickIcon,
-  MenuIcon,
-  PhoneIcon,
-  PlayIcon,
-  RefreshIcon,
-  ShieldCheckIcon,
-  SupportIcon,
-  ViewGridIcon,
-  XIcon,
-} from '@heroicons/vue/outline';
-import { ChevronDownIcon } from '@heroicons/vue/solid';
+  Bars3Icon as MenuIcon,
+  XMarkIcon as XIcon,
+} from '@heroicons/vue/24/outline';
+import { ChevronDownIcon } from '@heroicons/vue/24/solid';
 
 export default {
   components: {

@@ -2,15 +2,14 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import '@purge-icons/generated';
 import { createI18n } from 'vue-i18n';
-
+import 'unfonts.css'
 import './styles/base.css';
 
 // Router
-import { createRouter, createWebHistory } from 'vue-router'
-import routes from 'virtual:generated-pages'
+import { createRouter, createWebHistory } from 'vue-router/auto'
 
 // i18n
-import messages from '@intlify/vite-plugin-vue-i18n/messages';
+import messages from '@intlify/unplugin-vue-i18n/messages';
 
 // WindiCSS
 import 'virtual:windi.css';
@@ -26,7 +25,6 @@ const i18n = createI18n({
 
 const router = createRouter({
   history: createWebHistory(),
-  routes,
 })
 
 app.use(i18n);
