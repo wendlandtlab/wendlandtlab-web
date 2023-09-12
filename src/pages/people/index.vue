@@ -49,10 +49,11 @@ export default defineComponent({
       <div
         class="flex flex-wrap justify-evenly py-5 px-4 mx-auto max-w-screen-lg"
       >
+
           <TeamMember
             v-for="member in groupArray" :key="member"
             :PersonName="member.name"
-            :ProfileLink="`/people/${member.id}`"
+            :ProfileLink="member.profile ? `/people/${member.id}`: '/people'"
             :Title="member.position"
             :Picture="member.profilePic"
             :Email="member.email + `[at]mit.edu`"
