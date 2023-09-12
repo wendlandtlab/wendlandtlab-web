@@ -69,7 +69,7 @@ export default defineComponent({
             <li v-for="fact in member.funFacts" :key="fact">- {{ fact }}</li>
           </ul>
         </div>
-        <div v-if="filteredPubs">
+        <div v-if="filteredPubs.length > 0">
           <div class="font-bold pt-4">Publications in the lab:</div>
           <CitationRefactor
             v-for="pub in filteredPubs"
