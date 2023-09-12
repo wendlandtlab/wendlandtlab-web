@@ -17,19 +17,15 @@ import Person from '/@/types/Person'
 
 const group : Map<string, Person> = new Map();
 
-import ginoprofile from '/@/assets/people/gino/gino.jpg?url';
-import ginopic1 from '/@/assets/people/gino/gino-1.jpg?url';
-import ginopic2 from '/@/assets/people/gino/gino-2.jpg?url';
-import ginopic3 from '/@/assets/people/gino/gino-3.jpg?url';
-import ginopic4 from '/@/assets/people/gino/gino-4.jpg?url';
 group.set('gino', {
     name: 'Gino Occhialini',
+    profile: true,
     position: 'PhD Student',
     email: 'ginoocch',
     linkedin: 'https://www.linkedin.com/in/gino-occhialini-4bb670103',
     github: 'ginoocch',
     pronouns: 'he/him',
-    profilePic: ginoprofile,
+    profilePic: new URL('/@/assets/people/gino/gino.jpg', import.meta.url).href,
     bio: `Gino grew up in central Texas, and completed his B.S. in Chemistry at the University of Texas at Dallas. While there, he conducted research under Professor Ronald Smaldone focusing on covalent organic frameworks and porous organic polymers. For this work, Gino was awarded a Goldwater scholarship in 2017. In his free time, Gino served as a workshop leader in various chemistry classes. Interested in branching out to methodology research and mechanistic study, he attended MIT to pursue his Ph.D. under Professor Alison Wendlandt. Gino's studies at MIT are funded under an NSF GRFP.`,
     funFacts: [
         "Gino designed and manages this website.",
@@ -38,17 +34,24 @@ group.set('gino', {
     ],
     orcid: 'https://orcid.org/0000-0001-9682-1740',
     profilePhotos: [
-        ginopic1,
-        ginopic2,
-        ginopic3,
-        ginopic4,
+        new URL('/@/assets/people/gino/gino-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/gino/gino-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/gino/gino-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/gino/gino-4.jpg', import.meta.url).href,
     ]
 } as Person )
+// get url for /@/assets/people/alison/alison.jpg
+
+
+
 
 // for each person, if publicationName isn't defined set it as name.
 for (const [key, value] of group.entries()) {
     if (value.publicationName === undefined) {
         value.publicationName = value.name;
+    }
+    if (value.profile === undefined) {
+        value.profile = false;
     }
     group.set(key, value);
 }

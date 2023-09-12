@@ -1,5 +1,6 @@
 interface Person {
     id: string;
+    profile: boolean;
     name: string;
     publicationName: string;
     position: string;

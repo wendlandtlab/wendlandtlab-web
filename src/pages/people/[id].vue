@@ -16,7 +16,17 @@ export default defineComponent({
   setup() {
     const route = useRoute();
     const id = route.params.id;
+
+    // if id is not in group, redirect back to people page
+    if (!group.has(id)) {
+      window.location.href = '/people';
+    }
+
     const member = group.get(id) as Person;
+
+    if (!member.profile) {
+      window.location.href = '/people';
+    }
 
     const filteredPubs = pubs.filter(pub => {
       return pub.authors.toLowerCase().includes(member.publicationName.toLowerCase());
