@@ -2,6 +2,7 @@
 import Person from '/@/types/Person'
 
 // name: string;
+// profile: boolean; false if not defined
 // publicationName: string; name if not defined.
 // position: string;
 // email: string;
