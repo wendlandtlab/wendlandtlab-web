@@ -21,9 +21,7 @@ export default defineConfig({
   },
   plugins: [
     VueRouter({
-      /* options */
-      routesFolder: 'src/pages',
-      extensions: ['.vue'],
+      
     }),
     vue(),
     Components({ /* options */ }),
