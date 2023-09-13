@@ -1,12 +1,3 @@
-import toc8 from '/@/assets/publications/toc/2023-palani-toc.png?url';
-import toc7 from '/@/assets/publications/toc/2022-Science-Zhang-Palani-TOC.svg?url';
-import toc6 from '/@/assets/publications/toc/JACS-2022-Carder.png?url';
-import toc5 from '/@/assets/publications/toc/JACS-2021-Occhialini.png?url';
-import toc4 from '/@/assets/publications/toc/JACS-2021-ZhangGu.jpg?url';
-import toc3 from '/@/assets/publications/toc/JACS-2021-Carder.svg?url';
-import toc2 from '/@/assets/publications/toc/ACSChemBiol-2021-SuhCarder.png?url';
-import toc1 from '/@/assets/publications/toc/Nature-2020-Wang.svg?url';
-
 import Publication from '/@/types/Publication'
 
 const pubs = [
@@ -47,7 +38,7 @@ const pubs = [
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2023-JACS-Palani-ESI.pdf',
         publisherLink: 'https://doi.org/10.1021/jacs.3c06935',
-        toc: toc8,
+        toc: new URL('/@/assets/publications/toc/2023-palani-toc.png', import.meta.url).href,
         volume: 'xxx',
         pages: 'xxx-xxx',
     },
@@ -65,7 +56,7 @@ const pubs = [
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2022-Science-Zhang-Palani-ESI.pdf',
         publisherLink: 'https://www.science.org/doi/10.1126/science.add6852',
-        toc: toc7,
+        toc: new URL('/@/assets/publications/toc/2022-Science-Zhang-Palani-TOC.svg', import.meta.url).href,
         volume: 378,
         pages: '383-390',
         newslist: [
@@ -112,7 +103,7 @@ const pubs = [
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2022-JACS-Carder-ESI.pdf',
         publisherLink: 'https://pubs.acs.org/doi/10.1021/jacs.2c04743',
-        toc: toc6,
+        toc: new URL('/@/assets/publications/toc/JACS-2022-Carder.png', import.meta.url).href,
         volume: 144,
         pages: '11870-11877',
     },
@@ -128,7 +119,7 @@ const pubs = [
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Occhialini-ESI.pdf',
         publisherLink: 'https://pubs.acs.org/doi/10.1021/jacs.1c12043',
-        toc: toc5,
+        toc: new URL('/@/assets/publications/toc/JACS-2021-Occhialini.png', import.meta.url).href,
         volume: 144,
         pages: '145-152',
         newslist: [
@@ -158,7 +149,7 @@ const pubs = [
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-ESI.pdf',
         publisherLink: 'https://pubs.acs.org/doi/10.1021/jacs.1c11902',
-        toc: toc4,
+        toc: new URL('/@/assets/publications/toc/JACS-2021-ZhangGu.jpg', import.meta.url).href,
         volume: 144,
         pages: '599-605',
     },
@@ -175,7 +166,7 @@ const pubs = [
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Carder-ESI.pdf',
         publisherLink: 'https://pubs.acs.org/doi/full/10.1021/jacs.1c05993',
-        toc: toc3,
+        toc: new URL('/@/assets/publications/toc/JACS-2021-Carder.svg', import.meta.url).href,
         volume: 143,
         pages: '13798-13805',
         newslist: [
@@ -197,7 +188,7 @@ const pubs = [
         articleLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2021-ACSChemBiol-SuhCarder-review.pdf',
         publisherLink: 'https://pubs.acs.org/doi/10.1021/acschembio.1c00190',
-        toc: toc2,
+        toc: new URL('/@/assets/publications/toc/ACSChemBiol-2021-SuhCarder.png', import.meta.url).href,
         volume: 16,
         pages: '1814-1828',
     },
@@ -222,7 +213,7 @@ const pubs = [
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-ESI.pdf',
         publisherLink: 'https://www.nature.com/articles/s41586-020-1937-1%20',
-        toc: toc1,
+        toc: new URL('/@/assets/publications/toc/Nature-2020-Wang.svg', import.meta.url).href,
         volume: 578,
         pages: '403-408',
         newslist: [
