@@ -18,7 +18,7 @@ import Person from '/@/types/Person'
 
 const alumni = [
     {
-        name: 'Johanna Barbour',
+        name: 'Jonah Barbour',
         position: 'M.S. (2020)',
         profilePic: new URL('/@/assets/people/alumni/johanna.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/johbrbr/",
