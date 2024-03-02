@@ -191,29 +191,7 @@ group.set('gux ', {
     ],
 } as Person)
 
-group.set('hcarder ', {
-    name: 'Hayden Carder',
-    publicationName: 'Hayden M. Carder',
-    profile: true,
-    bio: 'Hayden Carder grew up in the western suburbs of Chicago, IL. He completed his B.S. in Chemistry at University of Rochester. While at UR, he conducted research under Professor Benjamin Miller focusing on two unique project areas: the development/application of a label-free multiplex biosensor and the synthesis of RNA targeting molecules. While there, he served as a workshop leader in various chemistry classes for 3 years. Interested in the application of new methodologies for the synthesis of biomolecules, he attended MIT to pursue his Ph.D. under Professor Alison Wendlandt. Outside of chemistry, Hayden enjoys cooking and making furniture in his spare time.',
-    funFacts: [
-        'Hayden has a dog named Gambit, a border collie aussie mix. Gambit’s greatest joys in life are fetch and invading your personal space (for love).',
-        'He uses the lab office freezer to store his excess homemade apple sauce and jelly.',
-        'He likes to travel to visit family, go hiking, or go to the beach.'
-    ],
-    linkedin: 'https://www.linkedin.com/in/hayden-carder-45757a171/',
-    orcid: 'https://orcid.org/0000-0003-3811-5375',
-    position: 'Graduate student',
-    email: 'hcarder',
-    pronouns: 'He/Him',
-    profilePhotos: [
-        new URL('/@/assets/people/hayden/hayden-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/hayden/hayden-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/hayden/hayden-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/hayden/hayden-4.jpg', import.meta.url).href,
-    ],
-    profilePic: new URL('/@/assets/people/hayden/hayden.jpg', import.meta.url).href,
-} as Person)
+
 
 group.set('liang014 ', {
     name: 'Sam Liang',
@@ -237,6 +215,7 @@ group.set('liang014 ', {
 
 group.set('ycnie ', {
     name: 'Yichen Nie',
+    profile: true,
     position: 'Graduate student',
     email: 'ycnie',
     pronouns: 'He/Him',
@@ -350,7 +329,7 @@ group.set('ekball ', {
     email: 'ekball',
     pronouns: 'They/Them',
     bio: 'Em is from West Des Moines, Iowa, and is a Chemistry major in the Class of 2025. They are a thrower (discus, hammer, shot put, javelin) on the MIT Track and Field team. Their hobbies are rollerblading around campus and singing in MIT’s Centrifugues a capella group. Fun facts about Em are that they can wiggle their ears, and they are staunchly anti orange juice. Em is very excited for the opportunities that research in the Wendlandt lab offers.',
-    profilePic: new URL('/@/assets/people/em.jpg', import.meta.url).href,
+    profilePic: new URL('/@/assets/people/em/em.jpg', import.meta.url).href,
 } as Person)
 
 

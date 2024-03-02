@@ -34,14 +34,14 @@ const alumni = [
     {
         name: 'Jiayi Li',
         position: 'Postdoc (2022-2023)',
-        profilePic: new URL('/@/assets/people/jiayi/jiayi.jpg', import.meta.url).href,
+        profilePic: new URL('/@/assets/people/alumni/jiayi.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/jiayi-li-51018216a/",
         currentPos: "Postdoc, Food and Drug Administration"
     },
     {
         name: 'Aaron Liu',
         position: 'M.S. (2022)',
-        profilePic: new URL('/@/assets/people/aaron/aaron.jpg', import.meta.url).href,
+        profilePic: new URL('/@/assets/people/alumni/aaron.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/aaronliuhk/",
         currentPos: "Morgan Stanley"
     },
@@ -55,9 +55,17 @@ const alumni = [
     {
         name: 'Vignesh Palani',
         position: 'Postdoc (2021-2023)',
-        profilePic: new URL('/@/assets/people/vignesh/vignesh.jpg', import.meta.url).href,
+        profilePic: new URL('/@/assets/people/alumni/vignesh.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/vignesh-palani-1145b9ba/",
         currentPos: "Professor, IISc Bangalore (India)"
+    },
+    {
+        name: 'Hayden Carder',
+        linkedin: 'https://www.linkedin.com/in/hayden-carder-45757a171/',
+        position: 'Ph.D. (2023)',
+        email: 'hcarder',
+        profilePic: new URL('/@/assets/people/alumni/hayden.jpg', import.meta.url).href,
+        currentPos: "Postdoc, Arnold Group, Caltech"
     },
     {
         name: 'Ellie Plachinski',
@@ -69,7 +77,7 @@ const alumni = [
     {
         name: 'Alexander Seim',
         position: 'M.S. (2022)',
-        profilePic: new URL('/@/assets/people/alex/alex.jpg', import.meta.url).href,
+        profilePic: new URL('/@/assets/people/alumni/alex.jpg', import.meta.url).href,
         currentPos: "Treeline Biosciences",
         linkedin: "https://www.linkedin.com/in/alex-seim-218724228"
     },
