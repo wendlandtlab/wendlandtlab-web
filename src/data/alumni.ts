@@ -32,13 +32,6 @@ const alumni = [
         currentPos: "PhD Student, Caltech"
     },
     {
-        name: 'Wenlai Han',
-        position: 'Undergrad (Summer 2022)',
-        profilePic: new URL('/@/assets/people/wenlai.jpg', import.meta.url).href,
-        linkedin: "https://www.linkedin.com/in/wenlai-han/",
-        currentPos: "PhD Student, MIT"
-    },
-    {
         name: 'Jiayi Li',
         position: 'Postdoc (2022-2023)',
         profilePic: new URL('/@/assets/people/jiayi/jiayi.jpg', import.meta.url).href,
