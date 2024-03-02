@@ -252,12 +252,20 @@ group.set('sygong36', {
     profile: true,
     position: 'Graduate student',
     email: 'sygong36',
-    bio: '',
+    bio: 'Siyuan (Gary) Gong grew up in Kunming, China. He went to high school in Buchanan, MI and enrolled in an early college program at Clarkson University in Potsdam, NY. In 2019, he began pursuing a bachelor’s degree in chemistry at the Ohio State University. He joined Professor David Nagib’s lab where he investigated protecting group-free remote desaturation via O-benzoyl hydroxylamines. After obtaining his B.S. degree in 2023, he joined the Wendlandt lab to continue his journey in the world of radical chemistry.',
     pronouns: 'He/Him',
     funFacts: [
-        ''
+        'Despite coming from a part of China renowned for using copious amounts of mushrooms in their cuisine, Gary does not touch mushrooms at all.',
+        'Gary hopes that a Minas Tirith Trebuchet Lego set will come out someday.',
+        'Gary knew how to play the Hulusi but might have forgotten it over the years.',
     ],
     profilePic: new URL('/@/assets/people/gary/gary.jpg', import.meta.url).href,
+    profilePhotos: [
+        new URL('/@/assets/people/gary/gary-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/gary/gary-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/gary/gary-3.jpg', import.meta.url).href,
+        // new URL('/@/assets/people/kara/kara-4.jpg', import.meta.url).href,
+    ],
 } as Person)
 
 group.set('hanw', {
