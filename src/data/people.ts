@@ -322,7 +322,7 @@ group.set('leonn037 ', {
     ],
 } as Person)
 
-group.set('ekball ', {
+group.set('ekball', {
     name: 'Em Ball',
     profile: true,
     position: 'Undergraduate student',
