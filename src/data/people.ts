@@ -267,7 +267,7 @@ group.set('sygong36', {
         new URL('/@/assets/people/gary/gary-1.jpg', import.meta.url).href,
         new URL('/@/assets/people/gary/gary-2.jpg', import.meta.url).href,
         new URL('/@/assets/people/gary/gary-3.jpg', import.meta.url).href,
-        // new URL('/@/assets/people/kara/kara-4.jpg', import.meta.url).href,
+        new URL('/@/assets/people/gary/gary-4.jpg', import.meta.url).href,
     ],
 } as Person)
 
