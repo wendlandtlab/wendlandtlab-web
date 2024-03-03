@@ -276,7 +276,7 @@ group.set('hanw', {
     profile: true,
     position: 'Graduate student',
     email: 'hanw',
-    bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Pursuing undergraduate degree at Carleton College (Northfield, Minnesota), he deepened his interests for chemistry nurtured by the excellent teaching of now Emeritus Professor David Alberg. While at Carleton, he was fortunate to work with Professor Matt Whited, leveraging metal-ligand cooperative design of PSiP pincer-type cobalt silylenes for group transfer catalysis. Wenlai was also excited about algorithms and human-computer interaction which led to his study and degree in Computer Science at Carleton. During the summer of 2022, Wenlai visited the Wendlandt group investigating photochemical epimerization of primary amines with Dr. Yuan Zhang, and he is excited to continue his journey at the Wendlandt lab pursuing his PhD.',
+    bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
     pronouns: 'He/Him',
     funFacts: [
         'Wenlai has a minor in voice music performance.',
