@@ -16,7 +16,7 @@ import Person from '/@/types/Person'
 // profilePhotos: string[];
 
 
-const group : Map<string, Person> = new Map();
+const group: Map<string, Person> = new Map();
 
 group.set('yazhang', {
     name: 'Yuan Zhang',
@@ -40,7 +40,7 @@ group.set('yazhang', {
         new URL('/@/assets/people/yuan/yuan-3.jpg', import.meta.url).href,
         new URL('/@/assets/people/yuan/yuan-4.jpg', import.meta.url).href,
     ]
-} as Person )
+} as Person)
 
 group.set('szhang36', {
     name: 'Shuo Zhang',
@@ -48,7 +48,7 @@ group.set('szhang36', {
     email: 'szhang36',
     pronouns: 'He/Him',
     profilePic: new URL('/@/assets/people/shuo/shuo.jpg', import.meta.url).href,
-} as Person )
+} as Person)
 
 group.set('dgorelik', {
     name: 'Daniel Gorelik',
@@ -56,23 +56,97 @@ group.set('dgorelik', {
     email: 'dgorelik',
     pronouns: 'He/Him',
     profilePic: new URL('/@/assets/people/daniel/daniel.jpg', import.meta.url).href,
-} as Person )
+} as Person)
 
 group.set('lianyanx ', {
     name: 'Lianyan Xu',
+    profile: true,
     position: 'Postdoctoral fellow',
     email: 'lianyanx',
     pronouns: 'She/Her',
     profilePic: new URL('/@/assets/people/lianyan/lianyan.jpg', import.meta.url).href,
-} as Person )
+    bio: `Lianyan is originally from New Jersey and received her bachelors at Vanderbilt University in 2016. For her Ph.D. she worked with Professor Steven D. Townsend, where she enhanced her knowledge in the glycosciences. Her graduate work at Vanderbilt focused on the synthesis of carbohydrate derivatives and glycoconjugates to explore their antibiofilm, antibacterial and anticancer properties. After earning her Ph.D. in 2022, she then moved back to the east coast to join the Wendlandt group for her postdoctoral studies. Outside of lab, Lianyan enjoys painting, traveling, and exploring the local restaurant scene.`,
+    profilePhotos: [
+        new URL('/@/assets/people/lianyan/lianyan-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/lianyan/lianyan-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/lianyan/lianyan-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/lianyan/lianyan-4.jpg', import.meta.url).href,
+    ],
+    linkedin: "www.linkedin.com/in/lianyan-x-3a23a88b",
+    orcid: "https://orcid.org/0000-0002-1462-0804",
+} as Person)
 
 group.set('thwang1 ', {
     name: 'Tae Hwang',
+    profile: true,
     position: 'Postdoctoral fellow',
     email: 'thwang1',
     pronouns: 'He/Him',
+    bio: `Tae was born and raised in Seoul, Korea. In his adolescence, he moved to Glenview, Illinois and stayed in the Midwest until he received his B.S. in chemistry from the University of Illinois at Urbana-Champaign. While at UIUC, he worked on total synthesis of sesquiterpene-tropolones under the guidance of Prof. David Sarlah. Thereafter, he moved to the Bay Area and pursued his career in industry as a medicinal chemist at Gilead. To deepen his expertise in total synthesis, he moved to Texas and joined the lab of Prof. John L. Wood at Baylor University where he completed the syntheses of norabietane diterpenoids and diketopiperazines. In 2023, he began his post-doctoral studies under Prof. Alison Wendlandt at MIT. Outside of chemistry, he likes to spend time with his wife and two cats, and explore Greater Boston area.`,
     profilePic: new URL('/@/assets/people/tae/tae.jpg', import.meta.url).href,
-} as Person )
+    profilePhotos: [
+        new URL('/@/assets/people/tae/tae-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/tae/tae-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/tae/tae-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/tae/tae-4.jpg', import.meta.url).href,
+    ],
+    linkedin: "https://www.linkedin.com/in/taehwan-hwang-38ab58130/",
+    orcid: "https://orcid.org/0000-0002-8396-0255",
+} as Person)
+
+group.set('zhangrh', {
+    name: 'Ronghua Zhang',
+    profile: true,
+    position: 'Postdoctoral fellow',
+    email: 'zhangrh',
+    pronouns: 'He/Him',
+    profilePic: new URL('/@/assets/people/ronghua/ronghua.jpg', import.meta.url).href,
+    bio: `Ronghua was born and raised in Taizhou, China, and he completed his bachelor's degree in chemical engineering at Zhejiang University of Technology in 2017. He then pursued his master's studies at East China Normal University under the guidance of Prof. Junliang Zhang, focusing on the design of chiral ligands and asymmetric catalysis. In 2020, he relocated to Hong Kong to embark on his Ph.D. journey in the group of Prof. Jianwei Sun at the Hong Kong University of Science and Technology, focusing on the design, synthesis, and application of novel chiral frameworks. In 2023, Ronghua joined the Wendlandt Group to explore radical-mediated transformations. Outside the laboratory, Ronghua finds joy in engaging in sports and savoring delectable cuisines either at local eateries or crafted in his own kitchen.`,
+    funFacts: [
+        "There are two chiral phosphine ligands named after Ronghua: Rong-Phos (published) and Hua-Phos (unpublished).",
+    ],
+    linkedin: 'https://www.linkedin.com/in/ronghua-zhang-a4a095223/',
+    orcid: "https://orcid.org/0000-0001-9279-8790",
+    profilePhotos: [
+        new URL('/@/assets/people/ronghua/ronghua-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/ronghua/ronghua-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/ronghua/ronghua-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/ronghua/ronghua-4.jpg', import.meta.url).href,
+    ],
+} as Person)
+
+group.set('jinzhu ', {
+    name: 'Jin Zhu',
+    profile: true,
+    position: 'Postdoctoral fellow',
+    email: 'jinzhu',
+    pronouns: 'She/Her',
+    profilePic: new URL('/@/assets/people/jin/jin.jpg', import.meta.url).href,
+    bio: `Jin was born and grew up in Jiangsu, China. She graduated from Nanjing University with a B. A . in Chemistry in 2018, where she studied in the group of Professor Shaolin Zhu for her undergraduate thesis. During the four years, she tried multiple projects, including Photo-induced decarboxylative esterification of NHPI esters and NiH-catalyzed remote functionalization of alkenes. In 2023, she got her PhD degree under the supervision of Professor Yiming Wang at the University of Pittsburgh. During graduate school, she initiated and developed the cationic Ir species-catalyzed stereoselective functionalization of alkynes.`,
+    funFacts: [
+        "She is a splatoon fan. She has dedicated over 2,500 hours to playing the video game, with a highest rank of top 5000.",
+    ],
+} as Person)
+
+group.set('qxu111', {
+    name: 'Qian Xu',
+    profile: true,
+    position: 'Postdoctoral fellow',
+    email: 'qxu111',
+    pronouns: 'He/Him',
+    profilePic: new URL('/@/assets/people/qian/qian.jpg', import.meta.url).href,
+    bio: `Qian Xu grew up in Shiyan, Hubei Province, China. He obtained his bachelor’s degree of Science from Nanjing University in 2018. In the same year, he moved to University of Minnesota, Twin Cities, and joined the research group of Prof. Thomas. R. Hoye. In the Hoye lab, he developed several thermal, reagent- and additive-free cycloaddition reactions to generate reactive intermediates, and studied their structures and reactivities. In 2024, he joined the Wendlandt lab to explore photochemical reactions. He enjoys out-door running.`,
+    funFacts: [
+        "Qian used to like heavily seasoned food but now he loves food that maintains its original flavor.",
+    ],
+    profilePhotos: [
+        new URL('/@/assets/people/qian/qian-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/qian/qian-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/qian/qian-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/qian/qian-4.jpg', import.meta.url).href,
+    ],
+} as Person)
+
 
 group.set('gino', {
     name: 'Gino Occhialini',
@@ -81,7 +155,7 @@ group.set('gino', {
     email: 'ginoocch',
     linkedin: 'https://www.linkedin.com/in/gino-occhialini-4bb670103',
     github: 'ginoocch',
-    pronouns: 'he/him',
+    pronouns: 'He/Him',
     profilePic: new URL('/@/assets/people/gino/gino.jpg', import.meta.url).href,
     bio: `Gino grew up in central Texas, and completed his B.S. in Chemistry at the University of Texas at Dallas. While there, he conducted research under Professor Ronald Smaldone focusing on covalent organic frameworks and porous organic polymers. For this work, Gino was awarded a Goldwater scholarship in 2017. In his free time, Gino served as a workshop leader in various chemistry classes. Interested in branching out to methodology research and mechanistic study, he attended MIT to pursue his Ph.D. under Professor Alison Wendlandt. Gino's studies at MIT are funded under an NSF GRFP.`,
     funFacts: [
@@ -96,14 +170,14 @@ group.set('gino', {
         new URL('/@/assets/people/gino/gino-3.jpg', import.meta.url).href,
         new URL('/@/assets/people/gino/gino-4.jpg', import.meta.url).href,
     ],
-} as Person )
+} as Person)
 
 group.set('gux ', {
     name: 'Xin Gu',
     profile: true,
     position: 'Graduate student',
     email: 'gux',
-    bio:'Xin was born and raised in Taizhou, China before moving to the Ohio State University to pursue bachelor’s degree in chemistry. At the Ohio State, Xin worked on three-component Minisci reaction in the lab of Professor David Nagib. After graduation, Xin decided to move to the east coast and joined the Wendlandt lab. Outside of lab, Xin enjoys eating and video games.',
+    bio: 'Xin was born and raised in Taizhou, China before moving to the Ohio State University to pursue bachelor’s degree in chemistry. At the Ohio State, Xin worked on three-component Minisci reaction in the lab of Professor David Nagib. After graduation, Xin decided to move to the east coast and joined the Wendlandt lab. Outside of lab, Xin enjoys eating and video games.',
     pronouns: 'He/Him',
     funFacts: [
         'Xin has no fun facts - Xin',
@@ -115,47 +189,109 @@ group.set('gux ', {
         new URL('/@/assets/people/xin/xin-3.jpg', import.meta.url).href,
         new URL('/@/assets/people/xin/xin-4.jpg', import.meta.url).href,
     ],
-} as Person )
+} as Person)
 
-group.set('hcarder ', {
-    name: 'Hayden Carder',
-    publicationName: 'Hayden M. Carder',
-    profile: true,
-    bio: 'Hayden Carder grew up in the western suburbs of Chicago, IL. He completed his B.S. in Chemistry at University of Rochester. While at UR, he conducted research under Professor Benjamin Miller focusing on two unique project areas: the development/application of a label-free multiplex biosensor and the synthesis of RNA targeting molecules. While there, he served as a workshop leader in various chemistry classes for 3 years. Interested in the application of new methodologies for the synthesis of biomolecules, he attended MIT to pursue his Ph.D. under Professor Alison Wendlandt. Outside of chemistry, Hayden enjoys cooking and making furniture in his spare time.',
-    funFacts: [
-        'Hayden has a dog named Gambit, a border collie aussie mix. Gambit’s greatest joys in life are fetch and invading your personal space (for love).',
-        'He uses the lab office freezer to store his excess homemade apple sauce and jelly.',
-        'He likes to travel to visit family, go hiking, or go to the beach.'
-    ],
-    linkedin: 'https://www.linkedin.com/in/hayden-carder-45757a171/',
-    orcid: 'https://orcid.org/0000-0003-3811-5375',
-    position: 'Graduate student',
-    email: 'hcarder',
-    pronouns: 'He/Him',
-    profilePhotos: [
-        new URL('/@/assets/people/hayden/hayden-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/hayden/hayden-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/hayden/hayden-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/hayden/hayden-4.jpg', import.meta.url).href,
-    ],
-    profilePic: new URL('/@/assets/people/hayden/hayden.jpg', import.meta.url).href,
-} as Person )
+
 
 group.set('liang014 ', {
     name: 'Sam Liang',
+    profile: true,
+    bio: 'Sam grew up in Southern China and moved to the US with his parents when he was fifteen. During high school, Sam took AP Chemistry and fell in love with the subject. During undergrad, he worked on the synthesis of ruthenium-doped fluorene polymer under the lab of Professor Jeffery Byers and the synthesis of asymmetric functionalized rotaxane under the lab of Professor Severin Scheneebeli (Purdue University). Wanting to learn more about organic catalysis and method development, Sam joined the Wendlandt after graduating from Middlebury.',
+    funFacts: [
+        'Before going to Middlebury for undergrad, Sam has never seen snow in his entire life '
+    ],
     position: 'Graduate student',
     email: 'liang014',
     pronouns: 'He/Him',
+    linkedin: "https://www.linkedin.com/in/huiming-sam-liang-415a3b194/",
     profilePic: new URL('/@/assets/people/sam/sam.jpg', import.meta.url).href,
-} as Person )
+    profilePhotos: [
+        new URL('/@/assets/people/sam/sam-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/sam/sam-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/sam/sam-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/sam/sam-4.jpg', import.meta.url).href,
+    ],
+} as Person)
 
 group.set('ycnie ', {
     name: 'Yichen Nie',
+    profile: true,
     position: 'Graduate student',
     email: 'ycnie',
     pronouns: 'He/Him',
     profilePic: new URL('/@/assets/people/yichen/yichen.jpg', import.meta.url).href,
-} as Person )
+    bio: 'Yichen was born in Shenzhen, a city in southern China known for its electronics and information industry. In 2018, he moved to Beijing and studied at Peking University. As an undergraduate, he entered Professor Rong Zhu’s lab and worked on transition metal-catalyzed synthetic methodologies. In 2022, he started pursuing his Ph.D. at MIT and is now co-advised by Professor Jeremiah Johnson and Professor Alison Wendlandt. Yichen is excited to work on the interface of materials chemistry and synthetic organic chemistry. In his spare time, he loves traveling, cooking, and collecting mineral specimens.',
+    profilePhotos: [
+        new URL('/@/assets/people/yichen/yichen-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/yichen/yichen-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/yichen/yichen-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/yichen/yichen-4.jpg', import.meta.url).href,
+    ],
+} as Person)
+
+group.set('karam987', {
+    name: 'Kara Moulton',
+    profile: true,
+    position: 'Graduate student',
+    email: 'karam987',
+    bio: 'Kara is a graduate student from Sterling, Massachusetts. She received a B.S. in Chemistry from Saint Joseph’s University in May 2023. There, she conducted research in two groups, on the synthesis and characterization of highly strained, pyramidalized alkenes, as well as the role of the heme a formyl group in Cytochrome c Oxidase. For these works, Kara was awarded a Goldwater scholarship in 2022. Kara’s studies at MIT are funded under an NSF GRFP. Outside of chemistry, Kara enjoys running, baking, and reading.',
+    pronouns: 'She/Her',
+    funFacts: [
+        'Kara has run 2 half marathons.',
+        'She is currently working on getting her Canadian citizenship.',
+        'She loves plants!'
+    ],
+    profilePic: new URL('/@/assets/people/kara/kara.jpg', import.meta.url).href,
+    profilePhotos: [
+        new URL('/@/assets/people/kara/kara-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/kara/kara-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/kara/kara-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/kara/kara-4.jpg', import.meta.url).href,
+    ],
+} as Person)
+
+group.set('sygong36', {
+    name: 'Gary Gong',
+    profile: true,
+    position: 'Graduate student',
+    email: 'sygong36',
+    bio: 'Siyuan (Gary) Gong grew up in Kunming, China. He went to high school in Buchanan, MI and enrolled in an early college program at Clarkson University in Potsdam, NY. In 2019, he began pursuing a bachelor’s degree in chemistry at the Ohio State University. He joined Professor David Nagib’s lab where he investigated protecting group-free remote desaturation via O-benzoyl hydroxylamines. After obtaining his B.S. degree in 2023, he joined the Wendlandt lab to continue his journey in the world of radical chemistry.',
+    pronouns: 'He/Him',
+    funFacts: [
+        'Despite coming from a part of China renowned for using copious amounts of mushrooms in their cuisine, Gary does not touch mushrooms at all.',
+        'Gary hopes that a Minas Tirith Trebuchet Lego set will come out someday.',
+        'Gary knew how to play the Hulusi but might have forgotten it over the years.',
+    ],
+    profilePic: new URL('/@/assets/people/gary/gary.jpg', import.meta.url).href,
+    profilePhotos: [
+        new URL('/@/assets/people/gary/gary-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/gary/gary-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/gary/gary-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/gary/gary-4.jpg', import.meta.url).href,
+    ],
+} as Person)
+
+group.set('hanw', {
+    name: 'Wenlai Han',
+    profile: true,
+    position: 'Graduate student',
+    email: 'hanw',
+    bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
+    pronouns: 'He/Him',
+    funFacts: [
+        'Wenlai has a minor in voice music performance.',
+        'Wenlai (used to) makes videos.'
+    ],
+    linkedin: 'https://www.linkedin.com/in/wenlai-han/',
+    orcid: "https://orcid.org/0000-0001-8648-2300",
+    profilePic: new URL('/@/assets/people/wenlai/wenlai.jpg', import.meta.url).href,
+    profilePhotos: [
+        new URL('/@/assets/people/wenlai/wenlai-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/wenlai/wenlai-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/wenlai/wenlai-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/wenlai/wenlai-4.jpg', import.meta.url).href,
+    ],
+} as Person)
 
 group.set('jsnzhang ', {
     name: 'Jason Zhang',
@@ -176,7 +312,7 @@ group.set('jsnzhang ', {
         new URL('/@/assets/people/jason/jason3.jpg', import.meta.url).href,
         new URL('/@/assets/people/jason/jason4.jpg', import.meta.url).href,
     ],
-} as Person )
+} as Person)
 
 group.set('leonn037 ', {
     name: 'Leon Wang',
@@ -196,17 +332,17 @@ group.set('leonn037 ', {
         new URL('/@/assets/people/leon/leon-3.jpg', import.meta.url).href,
         new URL('/@/assets/people/leon/leon-4.jpg', import.meta.url).href,
     ],
-} as Person )
+} as Person)
 
-group.set('ekball ', {
+group.set('ekball', {
     name: 'Em Ball',
     profile: true,
     position: 'Undergraduate student',
     email: 'ekball',
     pronouns: 'They/Them',
     bio: 'Em is from West Des Moines, Iowa, and is a Chemistry major in the Class of 2025. They are a thrower (discus, hammer, shot put, javelin) on the MIT Track and Field team. Their hobbies are rollerblading around campus and singing in MIT’s Centrifugues a capella group. Fun facts about Em are that they can wiggle their ears, and they are staunchly anti orange juice. Em is very excited for the opportunities that research in the Wendlandt lab offers.',
-    profilePic: new URL('/@/assets/people/em.jpg', import.meta.url).href,
-} as Person )
+    profilePic: new URL('/@/assets/people/em/em.jpg', import.meta.url).href,
+} as Person)
 
 
 // for each person, if publicationName isn't defined set it as name.

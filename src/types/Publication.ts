@@ -2,7 +2,7 @@ interface News {
     source: string;
     newsurl: string;
 }
-  
+
 interface Publication {
     pubType: string;
     title: string;

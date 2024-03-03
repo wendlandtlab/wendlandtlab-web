@@ -6,11 +6,12 @@ export default {
   },
 };
 </script>
+
 <template>
   <div class="flex flex-col min-h-screen">
     <HeaderMenu />
     <div class="flex-grow">
-      <div class="container mx-auto py-5 px-5 max-w-screen-xl">
+      <div class="container mx-auto py-5 px-5 max-w-screen-lg">
         <div class="text-xl text-gray-600 font-sans font-bold my-2">
           Research in the Wendlandt Lab:
         </div>
@@ -30,21 +31,12 @@ export default {
             kinetic-control over traditionally thermodynamically controlled
             processes. We have sought to showcase the transformative potential
             of these methods in challenging synthetic contexts, including
-            <a
-              href="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-article.pdf"
-              class="text-blue-700 font-bold"
-              >carbohydrate synthesis</a
-            >,
-            <a
-              href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-article.pdf"
-              class="text-blue-700 font-bold"
-              >late-stage stereochemical editing of complex molecules</a
-            >, and
-            <a
-              href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Occhialini-article.pdf"
-              class="text-blue-700 font-bold"
-              >alkene isomerization reactions.</a
-            >
+            <a href="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-article.pdf"
+              class="text-blue-700 font-bold">carbohydrate synthesis</a>,
+            <a href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-article.pdf"
+              class="text-blue-700 font-bold">late-stage stereochemical editing of complex molecules</a>, and
+            <a href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Occhialini-article.pdf"
+              class="text-blue-700 font-bold">alkene isomerization reactions.</a>
           </p>
         </div>
         <div class="text-xl text-gray-600 font-sans font-bold my-1">
@@ -67,16 +59,10 @@ export default {
           </p>
         </div>
         <div class="flex flex-wrap justify-evenly px-4 pb-5">
-          <img
-            src="../assets/research/therm-isom.svg?url"
-            alt="thermodynamic isomerization energy diagram"
-            class="object-contain overflow-hidden py-2 w-120"
-          />
-          <img
-            src="../assets/research/kinetic-isom.svg?url"
-            alt="kinetic isomerization energy diagram"
-            class="object-contain overflow-hidden py-2 w-120"
-          />
+          <img src="../assets/research/therm-isom.svg?url" alt="thermodynamic isomerization energy diagram"
+            class="object-contain overflow-hidden py-2 w-120" />
+          <img src="../assets/research/kinetic-isom.svg?url" alt="kinetic isomerization energy diagram"
+            class="object-contain overflow-hidden py-2 w-120" />
         </div>
         <div class="text-xl text-gray-600 font-sans font-bold my-1">
           Stereochemical editing:
@@ -90,11 +76,8 @@ export default {
             desired stereochemistry is conferred during the core synthesis, and
             often synthetic approaches are built around desired stereochemical
             outcomes. Late-stage stereochemical
-            <a
-              href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-article.pdf"
-              class="text-blue-700 font-bold"
-              >editing</a
-            >
+            <a href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-article.pdf"
+              class="text-blue-700 font-bold">editing</a>
             delivers the ability to diversify this approach. Imagine a molecule
             as a jigsaw puzzle, with the intricate spatial arangement of atoms
             in space as the pieces. To change one piece, would you rather take
@@ -102,21 +85,12 @@ export default {
           </p>
         </div>
         <div class="flex flex-wrap justify-evenly px-4 pb-5">
-          <img
-            src="../assets/research/streptomycin.svg?url"
-            alt="streptomycin structure"
-            class="object-contain overflow-hidden rounded-md py-2 w-64"
-          />
-          <img
-            src="../assets/research/puzzle.svg?url"
-            alt="puzzle analogy"
-            class="object-contain overflow-hidden py-2 w-sm"
-          />
-          <img
-            src="../assets/research/puzzle-part.svg?url"
-            alt="puzzle visual of molecule"
-            class="object-contain overflow-hidden rounded-md py-2 w-sm"
-          />
+          <img src="../assets/research/streptomycin.svg?url" alt="streptomycin structure"
+            class="object-contain overflow-hidden rounded-md py-2 w-64" />
+          <img src="../assets/research/puzzle.svg?url" alt="puzzle analogy"
+            class="object-contain overflow-hidden py-2 w-sm" />
+          <img src="../assets/research/puzzle-part.svg?url" alt="puzzle visual of molecule"
+            class="object-contain overflow-hidden rounded-md py-2 w-sm" />
         </div>
         <div class="text-xl text-gray-600 font-sans font-bold my-1">
           Selective synthesis of "rare" monosaccharides:
@@ -142,23 +116,14 @@ export default {
             envision radical reactions can enable the divergent synthesis of
             rare and unnatural sugars from unprotected biomass-derived
             precursors (ie
-            <a
-              href="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-article.pdf"
-              class="text-blue-700 font-bold"
-              >epimerization</a
-            >,
-            <a
-              href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Carder-article.pdf"
-              class="text-blue-700 font-bold"
-              >deoxygenation</a
-            >).
+            <a href="https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-article.pdf"
+              class="text-blue-700 font-bold">epimerization</a>,
+            <a href="https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Carder-article.pdf"
+              class="text-blue-700 font-bold">deoxygenation</a>).
           </p>
         </div>
         <div class="mx-auto">
-          <img
-            src="../assets/research/sugars.svg?url"
-            alt="streptomycin structure"
-            class="
+          <img src="../assets/research/sugars.svg?url" alt="streptomycin structure" class="
               object-contain
               overflow-hidden
               rounded-md
@@ -166,37 +131,19 @@ export default {
               w-screen-sm
               lg:w-screen-lg
               mx-auto
-            "
-          />
+            " />
         </div>
         <div class="text-xl font-sans font-bold my-5">Who funds us:</div>
         <div class="flex flex-wrap justify-evenly px-4 pb-5">
           <a href="https://www.mit.edu/">
-            <img
-              src="../assets/mit-logo-notext.svg?url"
-              alt="MIT"
-              class="object-contain overflow-hidden py-4 h-30"
-            />
+            <img src="../assets/mit-logo-notext.svg?url" alt="MIT" class="object-contain overflow-hidden py-4 h-30" />
           </a>
           <a href="https://www.nih.gov/">
-            <img
-              src="../assets/nih-logo.svg?url"
-              alt="NIH"
-              class="object-contain overflow-hidden py-4 h-30"
-          /></a>
-          <a
-            href="https://www.acs.org/content/acs/en/funding/grants/petroleum-research-fund.html"
-            ><img
-              src="../assets/prf-logo.jpg"
-              alt="ACS PRF"
-              class="object-contain overflow-hidden-md py-4 h-30"
-          /></a>
-          <a href="https://www.beckman-foundation.org/"
-            ><img
-              src="../assets/beckman-logo.png"
-              alt="Beckman Foundation"
-              class="object-contain overflow-hidden py-4 h-30"
-          /></a>
+            <img src="../assets/nih-logo.svg?url" alt="NIH" class="object-contain overflow-hidden py-4 h-30" /></a>
+          <a href="https://www.acs.org/content/acs/en/funding/grants/petroleum-research-fund.html"><img
+              src="../assets/prf-logo.jpg" alt="ACS PRF" class="object-contain overflow-hidden-md py-4 h-30" /></a>
+          <a href="https://www.beckman-foundation.org/"><img src="../assets/beckman-logo.png" alt="Beckman Foundation"
+              class="object-contain overflow-hidden py-4 h-30" /></a>
         </div>
       </div>
     </div>
