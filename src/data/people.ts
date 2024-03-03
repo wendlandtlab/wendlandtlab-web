@@ -221,8 +221,11 @@ group.set('ycnie ', {
     pronouns: 'He/Him',
     profilePic: new URL('/@/assets/people/yichen/yichen.jpg', import.meta.url).href,
     bio: 'Yichen was born in Shenzhen, a city in southern China known for its electronics and information industry. In 2018, he moved to Beijing and studied at Peking University. As an undergraduate, he entered Professor Rong Zhu’s lab and worked on transition metal-catalyzed synthetic methodologies. In 2022, he started pursuing his Ph.D. at MIT and is now co-advised by Professor Jeremiah Johnson and Professor Alison Wendlandt. Yichen is excited to work on the interface of materials chemistry and synthetic organic chemistry. In his spare time, he loves traveling, cooking, and collecting mineral specimens.',
-    funFacts: [
-        ''
+    profilePhotos: [
+        new URL('/@/assets/people/yichen/yichen-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/yichen/yichen-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/yichen/yichen-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/yichen/yichen-4.jpg', import.meta.url).href,
     ],
 } as Person)
 
@@ -276,7 +279,8 @@ group.set('hanw', {
     bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Pursuing undergraduate degree at Carleton College (Northfield, Minnesota), he deepened his interests for chemistry nurtured by the excellent teaching of now Emeritus Professor David Alberg. While at Carleton, he was fortunate to work with Professor Matt Whited, leveraging metal-ligand cooperative design of PSiP pincer-type cobalt silylenes for group transfer catalysis. Wenlai was also excited about algorithms and human-computer interaction which led to his study and degree in Computer Science at Carleton. During the summer of 2022, Wenlai visited the Wendlandt group investigating photochemical epimerization of primary amines with Dr. Yuan Zhang, and he is excited to continue his journey at the Wendlandt lab pursuing his PhD.',
     pronouns: 'He/Him',
     funFacts: [
-        'Wenlai has a minor in voice music performance.'
+        'Wenlai has a minor in voice music performance.',
+        'Wenlai (used to) makes videos.'
     ],
     linkedin: 'https://www.linkedin.com/in/wenlai-han/',
     orcid: "https://orcid.org/0000-0001-8648-2300",
