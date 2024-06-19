@@ -58,24 +58,6 @@ group.set('dgorelik', {
     profilePic: new URL('/@/assets/people/daniel/daniel.jpg', import.meta.url).href,
 } as Person)
 
-group.set('lianyanx ', {
-    name: 'Lianyan Xu',
-    profile: true,
-    position: 'Postdoctoral fellow',
-    email: 'lianyanx',
-    pronouns: 'She/Her',
-    profilePic: new URL('/@/assets/people/lianyan/lianyan.jpg', import.meta.url).href,
-    bio: `Lianyan is originally from New Jersey and received her bachelors at Vanderbilt University in 2016. For her Ph.D. she worked with Professor Steven D. Townsend, where she enhanced her knowledge in the glycosciences. Her graduate work at Vanderbilt focused on the synthesis of carbohydrate derivatives and glycoconjugates to explore their antibiofilm, antibacterial and anticancer properties. After earning her Ph.D. in 2022, she then moved back to the east coast to join the Wendlandt group for her postdoctoral studies. Outside of lab, Lianyan enjoys painting, traveling, and exploring the local restaurant scene.`,
-    profilePhotos: [
-        new URL('/@/assets/people/lianyan/lianyan-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/lianyan/lianyan-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/lianyan/lianyan-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/lianyan/lianyan-4.jpg', import.meta.url).href,
-    ],
-    linkedin: "www.linkedin.com/in/lianyan-x-3a23a88b",
-    orcid: "https://orcid.org/0000-0002-1462-0804",
-} as Person)
-
 group.set('thwang1 ', {
     name: 'Tae Hwang',
     profile: true,
