@@ -29,7 +29,7 @@ const alumni = [
         position: 'Ph.D. (2024)',
         profilePic: new URL('/@/assets/people/alumni/xin.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/xin-gu-77a1a5228/",
-        currentPos: "Postdoc Researcher, Eli Lilly"
+        currentPos: "Postdoc Scientist, Eli Lilly"
     },
     {
         name: 'Jonah Barbour',
