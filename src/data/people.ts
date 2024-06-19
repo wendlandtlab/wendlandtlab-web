@@ -172,27 +172,6 @@ group.set('gino', {
     ],
 } as Person)
 
-group.set('gux ', {
-    name: 'Xin Gu',
-    profile: true,
-    position: 'Graduate student',
-    email: 'gux',
-    bio: 'Xin was born and raised in Taizhou, China before moving to the Ohio State University to pursue bachelor’s degree in chemistry. At the Ohio State, Xin worked on three-component Minisci reaction in the lab of Professor David Nagib. After graduation, Xin decided to move to the east coast and joined the Wendlandt lab. Outside of lab, Xin enjoys eating and video games.',
-    pronouns: 'He/Him',
-    funFacts: [
-        'Xin has no fun facts - Xin',
-    ],
-    profilePic: new URL('/@/assets/people/xin/xin.jpg', import.meta.url).href,
-    profilePhotos: [
-        new URL('/@/assets/people/xin/xin-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/xin/xin-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/xin/xin-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/xin/xin-4.jpg', import.meta.url).href,
-    ],
-} as Person)
-
-
-
 group.set('liang014 ', {
     name: 'Sam Liang',
     profile: true,
