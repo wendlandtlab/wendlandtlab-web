@@ -18,6 +18,20 @@ import Person from '/@/types/Person'
 
 const alumni = [
     {
+        name: 'Yuan Zhang',
+        position: 'Postdoc (2020-2024)',
+        profilePic: new URL('/@/assets/people/alumni/yuan.jpg', import.meta.url).href,
+        linkedin: "https://www.linkedin.com/in/yuan-zhang-531275105/",
+        currentPos: "Asst. Prof., Iowa State University"
+    },
+    {
+        name: 'Daniel Gorelik',
+        position: 'Postdoc (2022-2024)',
+        profilePic: new URL('/@/assets/people/alumni/daniel.jpg', import.meta.url).href,
+        linkedin: "https://www.linkedin.com/in/daniel-gorelik-2a89732a4/",
+        currentPos: " "
+    },
+    {
         name: 'Lianyan Xu',
         position: 'Postdoc (2022-2024)',
         profilePic: new URL('/@/assets/people/alumni/lianyan.jpg', import.meta.url).href,
@@ -32,39 +46,11 @@ const alumni = [
         currentPos: "Postdoc Scientist, Eli Lilly"
     },
     {
-        name: 'Jonah Barbour',
-        position: 'M.S. (2020)',
-        profilePic: new URL('/@/assets/people/alumni/johanna.jpg', import.meta.url).href,
-        linkedin: "https://www.linkedin.com/in/johbrbr/",
-        currentPos: "R&D Scientist II, Form Energy"
-    },
-    {
-        name: 'Krista Dong',
-        position: 'Undergrad (2019-2020)',
-        profilePic: new URL('/@/assets/people/alumni/krista.jpg', import.meta.url).href,
-        linkedin: "https://www.linkedin.com/in/kristadong/",
-        currentPos: "PhD Student, Caltech"
-    },
-    {
         name: 'Jiayi Li',
         position: 'Postdoc (2022-2023)',
         profilePic: new URL('/@/assets/people/alumni/jiayi.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/jiayi-li-51018216a/",
         currentPos: "Postdoc, Food and Drug Administration"
-    },
-    {
-        name: 'Aaron Liu',
-        position: 'M.S. (2022)',
-        profilePic: new URL('/@/assets/people/alumni/aaron.jpg', import.meta.url).href,
-        linkedin: "https://www.linkedin.com/in/aaronliuhk/",
-        currentPos: "Morgan Stanley"
-    },
-    {
-        name: 'Zhaohong Lu',
-        position: 'Postdoc (2019-2020)',
-        profilePic: new URL('/@/assets/people/alumni/lu.jpg', import.meta.url).href,
-        linkedin: "https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/",
-        currentPos: "Professor, Xiamen University (China)"
     },
     {
         name: 'Vignesh Palani',
@@ -82,11 +68,11 @@ const alumni = [
         currentPos: "Postdoc, Arnold Group, Caltech"
     },
     {
-        name: 'Ellie Plachinski',
-        position: 'Undergrad (2019-2020)',
-        profilePic: new URL('/@/assets/people/alumni/ellie.jpg', import.meta.url).href,
-        linkedin: "https://www.linkedin.com/in/ellie-plachinski-8a2168149/",
-        currentPos: "PhD Student, UW Madison"
+        name: 'Aaron Liu',
+        position: 'M.S. (2022)',
+        profilePic: new URL('/@/assets/people/alumni/aaron.jpg', import.meta.url).href,
+        linkedin: "https://www.linkedin.com/in/aaronliuhk/",
+        currentPos: "Morgan Stanley"
     },
     {
         name: 'Alexander Seim',
@@ -96,11 +82,39 @@ const alumni = [
         linkedin: "https://www.linkedin.com/in/alex-seim-218724228"
     },
     {
+        name: 'Zhaohong Lu',
+        position: 'Postdoc (2019-2020)',
+        profilePic: new URL('/@/assets/people/alumni/lu.jpg', import.meta.url).href,
+        linkedin: "https://www.linkedin.com/in/zhaohong-lu-b8a3aa190/",
+        currentPos: "Professor, Xiamen University (China)"
+    },
+    {
+        name: 'Jonah Barbour',
+        position: 'M.S. (2020)',
+        profilePic: new URL('/@/assets/people/alumni/johanna.jpg', import.meta.url).href,
+        linkedin: "https://www.linkedin.com/in/johbrbr/",
+        currentPos: "R&D Scientist II, Form Energy"
+    },
+    {
         name: 'Carolyn Suh',
         position: 'M.S. (2020)',
         profilePic: new URL('/@/assets/people/alumni/carolyn.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/carolyn-suh/",
         currentPos: "Senior Scientist, Kalsec Inc."
+    },
+    {
+        name: 'Krista Dong',
+        position: 'Undergrad (2019-2020)',
+        profilePic: new URL('/@/assets/people/alumni/krista.jpg', import.meta.url).href,
+        linkedin: "https://www.linkedin.com/in/kristadong/",
+        currentPos: "PhD Student, Caltech"
+    },
+    {
+        name: 'Ellie Plachinski',
+        position: 'Undergrad (2019-2020)',
+        profilePic: new URL('/@/assets/people/alumni/ellie.jpg', import.meta.url).href,
+        linkedin: "https://www.linkedin.com/in/ellie-plachinski-8a2168149/",
+        currentPos: "PhD Student, UW Madison"
     },
     {
         name: 'Kathleen Wang',

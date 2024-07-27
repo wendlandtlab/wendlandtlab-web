@@ -18,30 +18,6 @@ import Person from '/@/types/Person'
 
 const group: Map<string, Person> = new Map();
 
-group.set('yazhang', {
-    name: 'Yuan Zhang',
-    profile: true,
-    publicationName: 'Yu-an Zhang',
-    position: 'Postdoctoral fellow',
-    email: 'yazhang',
-    linkedin: 'https://www.linkedin.com/in/yuan-zhang-531275105',
-    pronouns: 'He/Him',
-    profilePic: new URL('/@/assets/people/yuan/yuan.jpg', import.meta.url).href,
-    bio: `Yuan was born and raised in Guangzhou (Canton), China. After finishing high school, he went to Peking University Health Science Center where he obtained his bachelor degree in pharmaceutical science and master degree in medicinal chemistry. His master projects in Prof. Yanxing Jia’s group focused on the total syntheses of ergot alkaloids. Continuing his passion for total synthesis, he moved to the US in 2014 and performed graduate research in the group of Prof. Scott Snyder first at the Scripps Research Institute (Florida), and later at the University of Chicago where he accomplished the syntheses of multiple halogenated cyclic ether and meroterpenoid natural products. In 2020, Yuan joined the Wendlandt Group to explore radical-mediated transformations. Outside the lab, Yuan enjoys playing fingerstyle guitar, hiking and tasting great foods in the local restaurants or prepared by his girlfriend.`,
-    funFacts: [
-        "Yuan used to play a lot poker with the students from the financial mathematic program, but he quit after they got fancy jobs in trading firms and kept raising the buy-in price.",
-        "He watches random funny animal videos every day and visits the zoo occasionally.",
-        "He hates snow."
-    ],
-    orcid: 'https://orcid.org/0000-0002-4565-2809',
-    profilePhotos: [
-        new URL('/@/assets/people/yuan/yuan-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/yuan/yuan-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/yuan/yuan-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/yuan/yuan-4.jpg', import.meta.url).href,
-    ]
-} as Person)
-
 group.set('szhang36', {
     name: 'Shuo Zhang',
     position: 'Postdoctoral fellow',
@@ -50,13 +26,6 @@ group.set('szhang36', {
     profilePic: new URL('/@/assets/people/shuo/shuo.jpg', import.meta.url).href,
 } as Person)
 
-group.set('dgorelik', {
-    name: 'Daniel Gorelik',
-    position: 'Postdoctoral fellow',
-    email: 'dgorelik',
-    pronouns: 'He/Him',
-    profilePic: new URL('/@/assets/people/daniel/daniel.jpg', import.meta.url).href,
-} as Person)
 
 group.set('thwang1 ', {
     name: 'Tae Hwang',
