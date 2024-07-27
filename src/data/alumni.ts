@@ -29,7 +29,7 @@ const alumni = [
         position: 'Postdoc (2022-2024)',
         profilePic: new URL('/@/assets/people/alumni/daniel.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/daniel-gorelik-2a89732a4/",
-        currentPos: " "
+        currentPos: "Process Chem Scientist, ORIC"
     },
     {
         name: 'Lianyan Xu',

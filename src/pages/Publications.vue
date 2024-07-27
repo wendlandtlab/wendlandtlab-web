@@ -5,7 +5,7 @@ import { defineComponent } from 'vue';
 import pubs from '/@/data/publications'
 
 // we don't want any of the original data to be changed so we make a deep copy of the data
-const publist = JSON.parse(JSON.stringify(pubs)) as Publication[]; 
+const publist = JSON.parse(JSON.stringify(pubs)) as Publication[];
 
 // don't include patents in the publication list
 const pubsNoPatents = publist.filter((pub) => {
@@ -59,20 +59,13 @@ export default defineComponent({
     <HeaderMenu />
     <div class="flex-grow mx-auto">
       <div class="lg:w-screen-lg mx-5 px-5 py-5">
-        <input
-          type="text"
+        <input type="text"
           class="w-full px-3 py-2 mb-5 text-gray-700 border rounded-md focus:outline-none focus:border-blue-500"
-          placeholder="Search by title, author, journal, or year"
-          v-model="searchterm"
-        />
+          placeholder="Search by title, author, journal, or year" v-model="searchterm" />
         <router-link to="./AllCitations" class="text-xl text-gray-700 font-extrabold text-center">
-            Click Here: all citations including work prior to independent career
-      </router-link>
-        <PublicationRefactor
-          v-for="pub in filteredPubs"
-          :key="pub"
-          :publication="pub"
-        />
+          Click Here: all citations including work prior to independent career
+        </router-link>
+        <PublicationRefactor v-for="pub in filteredPubs" :key="pub" :publication="pub" />
 
       </div>
     </div>

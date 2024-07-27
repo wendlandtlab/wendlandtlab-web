@@ -29,14 +29,14 @@ const pubs = [
     {
         pubType: 'article',
         title: 'The sugar cube: Network control and emergence in stereoediting reactions',
-        authors: 'Hayden M. Carder‡, Gino Occhialini‡, Giovanni Bistoni, Christoph Riplinger, Eugene E. Kwan  Alison E. Wendlandt*',
+        authors: 'Hayden M. Carder‡, Gino Occhialini‡, Giovanni Bistoni, Christoph Riplinger, Eugene E. Kwan, Alison E. Wendlandt*',
         journal: 'Science',
         year: 2024,
         doi: 'Science, 2024, 10.1126/science.adp2447',
-        // articleLink:
-        //     'https://wendlandtlab.blob.core.windows.net/pubs/2023-JACS-Palani-article.pdf',
-        // esiLink:
-        //     'https://wendlandtlab.blob.core.windows.net/pubs/2023-JACS-Palani-ESI.pdf',
+        articleLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2024-Science-CarderOcchialini.pdf',
+        esiLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2024-Science-CarderOcchialini-ESI.pdf',
         publisherLink: 'https://www.science.org/doi/10.1126/science.adp2447',
         toc: new URL('/@/assets/publications/toc/2024-Science-Carder-Occhialini2.jpeg', import.meta.url).href,
         volume: 'xxx',
