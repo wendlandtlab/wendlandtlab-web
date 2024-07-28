@@ -28,8 +28,23 @@ const pubs = [
 
     {
         pubType: 'article',
+        title: 'The sugar cube: Network control and emergence in stereoediting reactions',
+        authors: 'Hayden M. Carder‡, Gino Occhialini‡, Giovanni Bistoni, Christoph Riplinger, Eugene E. Kwan, Alison E. Wendlandt*',
+        journal: 'Science',
+        year: 2024,
+        doi: 'Science, 2024, 10.1126/science.adp2447',
+        articleLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2024-Science-CarderOcchialini.pdf',
+        esiLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2024-Science-CarderOcchialini-ESI.pdf',
+        publisherLink: 'https://www.science.org/doi/10.1126/science.adp2447',
+        toc: new URL('/@/assets/publications/toc/2024-Science-Carder-Occhialini.jpeg', import.meta.url).href,
+        volume: '385',
+        pages: '456-463',
+    }, {
+        pubType: 'article',
         title: 'Strain-Inducing Positional Alkene Isomerization',
-        authors: 'Vignesh Palani and Alison E. Wendlandt*',
+        authors: 'Vignesh Palani, Alison E. Wendlandt*',
         journal: 'J. Am. Chem. Soc.',
         year: 2023,
         doi: 'J. Am. Chem. Soc. 2023, 10.1021/jacs.3c06935',
@@ -39,8 +54,8 @@ const pubs = [
             'https://wendlandtlab.blob.core.windows.net/pubs/2023-JACS-Palani-ESI.pdf',
         publisherLink: 'https://doi.org/10.1021/jacs.3c06935',
         toc: new URL('/@/assets/publications/toc/2023-palani-toc.png', import.meta.url).href,
-        volume: 'xxx',
-        pages: 'xxx-xxx',
+        volume: '36',
+        pages: '20053–20061',
     },
     {
         pubType: 'article',
@@ -212,7 +227,7 @@ const pubs = [
             'https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-article.pdf',
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2020-Nature-Wang-ESI.pdf',
-        publisherLink: 'https://www.nature.com/articles/s41586-020-1937-1%20',
+        publisherLink: 'https://www.nature.com/articles/s41586-020-1937-1',
         toc: new URL('/@/assets/publications/toc/Nature-2020-Wang.svg', import.meta.url).href,
         volume: 578,
         pages: '403-408',
@@ -264,7 +279,7 @@ function abbreviateName(name: string): string {
     if (nameParts.length === 2) {
         return `${lastNameClean}, ${firstName}`;
     }
-    
+
     const middleInitials = nameParts.slice(1, nameParts.length - 1);
     const middleInitialsString = middleInitials.join(' ');
     const middleInitialsStringAbbreviated = middleInitialsString
@@ -277,7 +292,7 @@ function abbreviateName(name: string): string {
 }
 
 function abbreviateAuthors(authors: string): string {
-    const authorsArray = authors.replace(', and ',', ').replace(' and ',', ').split(', ');
+    const authorsArray = authors.replace(', and ', ', ').replace(' and ', ', ').split(', ');
     const authorsArrayAbbreviated = authorsArray.map((author) => {
         return abbreviateName(author);
     });
