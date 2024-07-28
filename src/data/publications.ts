@@ -38,9 +38,9 @@ const pubs = [
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2024-Science-CarderOcchialini-ESI.pdf',
         publisherLink: 'https://www.science.org/doi/10.1126/science.adp2447',
-        toc: new URL('/@/assets/publications/toc/2024-Science-Carder-Occhialini2.jpeg', import.meta.url).href,
-        volume: 'xxx',
-        pages: 'xxx',
+        toc: new URL('/@/assets/publications/toc/2024-Science-Carder-Occhialini.jpeg', import.meta.url).href,
+        volume: '385',
+        pages: '456-463',
     }, {
         pubType: 'article',
         title: 'Strain-Inducing Positional Alkene Isomerization',
