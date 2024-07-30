@@ -37,7 +37,7 @@ const pubs = [
             'https://wendlandtlab.blob.core.windows.net/pubs/2024-Science-CarderOcchialini.pdf',
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2024-Science-CarderOcchialini-ESI.pdf',
-        publisherLink: 'https://www.science.org/doi/10.1126/science.adp2447',
+        publisherLink: 'https://www.science.org/stoken/author-tokens/ST-2006/full',
         toc: new URL('/@/assets/publications/toc/2024-Science-Carder-Occhialini.jpeg', import.meta.url).href,
         volume: '385',
         pages: '456-463',
