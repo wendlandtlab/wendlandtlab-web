@@ -41,6 +41,13 @@ const pubs = [
         toc: new URL('/@/assets/publications/toc/2024-Science-Carder-Occhialini.jpeg', import.meta.url).href,
         volume: '385',
         pages: '456-463',
+        newslist: [
+            {
+                source: 'C&E News',
+                newsurl:
+                    'https://cen.acs.org/synthesis/reaction-mechanisms/Network-control-theory-governs-isomerization/102/i24?sc=230901_cenrssfeed_eng_latestnewsrss_cen',
+            },
+        ],
     }, {
         pubType: 'article',
         title: 'Strain-Inducing Positional Alkene Isomerization',
