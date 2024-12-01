@@ -38,8 +38,8 @@ const pubs = [
             'https://wendlandtlab.blob.core.windows.net/pubs/2024-Nature-GuZhang-ESI.pdf',
         publisherLink: 'https://www.nature.com/articles/s41586-024-07988-8',
         toc: new URL('/@/assets/publications/toc/2024-Nature-GuZhang.jpeg', import.meta.url).href,
-        // volume: 'XXX',
-        // pages: 'XXX',
+        volume: '634',
+        pages: '352-358',
         // newslist: [
         //     {
         //         source: 'C&E News',
