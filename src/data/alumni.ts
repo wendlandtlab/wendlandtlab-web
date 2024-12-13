@@ -18,6 +18,13 @@ import Person from '/@/types/Person'
 
 const alumni = [
     {
+        name: 'Gino Occhialini',
+        linkedin: 'https://www.linkedin.com/in/ginoocch/',
+        position: 'Ph.D. (2024)',
+        profilePic: new URL('/@/assets/people/alumni/gino.jpg', import.meta.url).href,
+        currentPos: "Postdoc, Reisman Group, Caltech"
+    },
+    {
         name: 'Yuan Zhang',
         position: 'Postdoc (2020-2024)',
         profilePic: new URL('/@/assets/people/alumni/yuan.jpg', import.meta.url).href,
