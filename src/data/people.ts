@@ -98,30 +98,48 @@ group.set('qxu111', {
     ],
 } as Person)
 
-
-group.set('gino', {
-    name: 'Gino Occhialini',
-    profile: true,
-    position: 'Graduate student',
-    email: 'ginoocch',
-    linkedin: 'https://www.linkedin.com/in/gino-occhialini-4bb670103',
-    github: 'ginoocch',
-    pronouns: 'He/Him',
-    profilePic: new URL('/@/assets/people/gino/gino.jpg', import.meta.url).href,
-    bio: `Gino grew up in central Texas, and completed his B.S. in Chemistry at the University of Texas at Dallas. While there, he conducted research under Professor Ronald Smaldone focusing on covalent organic frameworks and porous organic polymers. For this work, Gino was awarded a Goldwater scholarship in 2017. In his free time, Gino served as a workshop leader in various chemistry classes. Interested in branching out to methodology research and mechanistic study, he attended MIT to pursue his Ph.D. under Professor Alison Wendlandt. Gino's studies at MIT are funded under an NSF GRFP.`,
-    funFacts: [
-        "Gino designed and manages this website.",
-        "Gino built a 3d-printer, which he consistently breaks and fixes.",
-        "Gino has an identical twin brother."
-    ],
-    orcid: 'https://orcid.org/0000-0001-9682-1740',
-    profilePhotos: [
-        new URL('/@/assets/people/gino/gino-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/gino/gino-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/gino/gino-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/gino/gino-4.jpg', import.meta.url).href,
-    ],
+group.set('s_gandhi', {
+    name: 'Shivaani Gandhi',
+    profile: false,
+    position: 'Postdoctoral fellow',
+    email: 's_gandhi',
+    // pronouns: 'He/Him',
+    profilePic: new URL('/@/assets/people/shivaani/shivaani.jpg', import.meta.url).href,
+    // bio: `Qian Xu grew up in Shiyan, Hubei Province, China. He obtained his bachelor’s degree of Science from Nanjing University in 2018. In the same year, he moved to University of Minnesota, Twin Cities, and joined the research group of Prof. Thomas. R. Hoye. In the Hoye lab, he developed several thermal, reagent- and additive-free cycloaddition reactions to generate reactive intermediates, and studied their structures and reactivities. In 2024, he joined the Wendlandt lab to explore photochemical reactions. He enjoys out-door running.`,
+    // funFacts: [
+    //     "Qian used to like heavily seasoned food but now he loves food that maintains its original flavor.",
+    // ],
+    // profilePhotos: [
+    //     new URL('/@/assets/people/qian/qian-1.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/qian/qian-2.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/qian/qian-3.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/qian/qian-4.jpg', import.meta.url).href,
+    // ],
 } as Person)
+
+// group.set('gino', {
+//     name: 'Gino Occhialini',
+//     profile: true,
+//     position: 'Graduate student',
+//     email: 'ginoocch',
+//     linkedin: 'https://www.linkedin.com/in/gino-occhialini-4bb670103',
+//     github: 'ginoocch',
+//     pronouns: 'He/Him',
+//     profilePic: new URL('/@/assets/people/gino/gino.jpg', import.meta.url).href,
+//     bio: `Gino grew up in central Texas, and completed his B.S. in Chemistry at the University of Texas at Dallas. While there, he conducted research under Professor Ronald Smaldone focusing on covalent organic frameworks and porous organic polymers. For this work, Gino was awarded a Goldwater scholarship in 2017. In his free time, Gino served as a workshop leader in various chemistry classes. Interested in branching out to methodology research and mechanistic study, he attended MIT to pursue his Ph.D. under Professor Alison Wendlandt. Gino's studies at MIT are funded under an NSF GRFP.`,
+//     funFacts: [
+//         "Gino designed and manages this website.",
+//         "Gino built a 3d-printer, which he consistently breaks and fixes.",
+//         "Gino has an identical twin brother."
+//     ],
+//     orcid: 'https://orcid.org/0000-0001-9682-1740',
+//     profilePhotos: [
+//         new URL('/@/assets/people/gino/gino-1.jpg', import.meta.url).href,
+//         new URL('/@/assets/people/gino/gino-2.jpg', import.meta.url).href,
+//         new URL('/@/assets/people/gino/gino-3.jpg', import.meta.url).href,
+//         new URL('/@/assets/people/gino/gino-4.jpg', import.meta.url).href,
+//     ],
+// } as Person)
 
 group.set('liang014 ', {
     name: 'Sam Liang',
@@ -159,24 +177,25 @@ group.set('ycnie ', {
     ],
 } as Person)
 
-group.set('karam987', {
-    name: 'Kara Moulton',
+group.set('hanw', {
+    name: 'Wenlai Han',
     profile: true,
     position: 'Graduate student',
-    email: 'karam987',
-    bio: 'Kara is a graduate student from Sterling, Massachusetts. She received a B.S. in Chemistry from Saint Joseph’s University in May 2023. There, she conducted research in two groups, on the synthesis and characterization of highly strained, pyramidalized alkenes, as well as the role of the heme a formyl group in Cytochrome c Oxidase. For these works, Kara was awarded a Goldwater scholarship in 2022. Kara’s studies at MIT are funded under an NSF GRFP. Outside of chemistry, Kara enjoys running, baking, and reading.',
-    pronouns: 'She/Her',
+    email: 'hanw',
+    bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
+    pronouns: 'He/Him',
     funFacts: [
-        'Kara has run 2 half marathons.',
-        'She is currently working on getting her Canadian citizenship.',
-        'She loves plants!'
+        'Wenlai has a minor in voice music performance.',
+        'Wenlai (used to) makes videos.'
     ],
-    profilePic: new URL('/@/assets/people/kara/kara.jpg', import.meta.url).href,
+    linkedin: 'https://www.linkedin.com/in/wenlai-han/',
+    orcid: "https://orcid.org/0000-0001-8648-2300",
+    profilePic: new URL('/@/assets/people/wenlai/wenlai.jpg', import.meta.url).href,
     profilePhotos: [
-        new URL('/@/assets/people/kara/kara-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/kara/kara-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/kara/kara-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/kara/kara-4.jpg', import.meta.url).href,
+        new URL('/@/assets/people/wenlai/wenlai-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/wenlai/wenlai-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/wenlai/wenlai-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/wenlai/wenlai-4.jpg', import.meta.url).href,
     ],
 } as Person)
 
@@ -201,47 +220,113 @@ group.set('sygong36', {
     ],
 } as Person)
 
-group.set('hanw', {
-    name: 'Wenlai Han',
+group.set('karam987', {
+    name: 'Kara Moulton',
     profile: true,
     position: 'Graduate student',
-    email: 'hanw',
-    bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
-    pronouns: 'He/Him',
+    email: 'karam987',
+    bio: 'Kara is a graduate student from Sterling, Massachusetts. She received a B.S. in Chemistry from Saint Joseph’s University in May 2023. There, she conducted research in two groups, on the synthesis and characterization of highly strained, pyramidalized alkenes, as well as the role of the heme a formyl group in Cytochrome c Oxidase. For these works, Kara was awarded a Goldwater scholarship in 2022. Kara’s studies at MIT are funded under an NSF GRFP. Outside of chemistry, Kara enjoys running, baking, and reading.',
+    pronouns: 'She/Her',
     funFacts: [
-        'Wenlai has a minor in voice music performance.',
-        'Wenlai (used to) makes videos.'
+        'Kara has run 2 half marathons.',
+        'She is currently working on getting her Canadian citizenship.',
+        'She loves plants!'
     ],
-    linkedin: 'https://www.linkedin.com/in/wenlai-han/',
-    orcid: "https://orcid.org/0000-0001-8648-2300",
-    profilePic: new URL('/@/assets/people/wenlai/wenlai.jpg', import.meta.url).href,
+    profilePic: new URL('/@/assets/people/kara/kara.jpg', import.meta.url).href,
     profilePhotos: [
-        new URL('/@/assets/people/wenlai/wenlai-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/wenlai/wenlai-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/wenlai/wenlai-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/wenlai/wenlai-4.jpg', import.meta.url).href,
+        new URL('/@/assets/people/kara/kara-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/kara/kara-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/kara/kara-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/kara/kara-4.jpg', import.meta.url).href,
     ],
 } as Person)
 
-group.set('jsnzhang ', {
-    name: 'Jason Zhang',
-    profile: true,
-    position: 'Undergraduate student',
-    email: 'jsnzhang',
-    pronouns: 'He/Him',
-    bio: 'Jason was born in Chicago and raised in Bowling Green, Kentucky. He attended high school at the Carol Martin Gatton Academy of Mathematics and Sciences, where he first gained research experience under the supervision of Professor Yongming Deng. Currently, Jason is a first-year undergraduate student at MIT who hopes to study chemistry to develop chemical reactions to gain a deeper understanding of the world and to help improve people’s quality of life.',
-    funFacts: [
-        'Jason is an Eagle Scout and enjoys taking hikes in nature.',
-        'Jason has played clarinet for 8 years, and he currently is a member of the MIT Wind Ensemble.',
-        'Jason witnessed the MIThenge, which is where sunlight passes through the entire infinite corridor. This event only happens twice a year.'
-    ],
-    profilePic: new URL('/@/assets/people/jason/jason.jpg', import.meta.url).href,
+group.set('geastham', {
+    name: 'Georgia Eastham',
+    profile: false,
+    position: 'Graduate student',
+    email: 'geastham',
+    // bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
+    // pronouns: 'He/Him',
+    // funFacts: [
+    //     'Wenlai has a minor in voice music performance.',
+    //     'Wenlai (used to) makes videos.'
+    // ],
+    // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
+    // orcid: "https://orcid.org/0000-0001-8648-2300",
+    profilePic: new URL('/@/assets/people/georgia/georgia.jpg', import.meta.url).href,
+    // profilePhotos: [
+    //     new URL('/@/assets/people/wenlai/wenlai-1.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/wenlai/wenlai-2.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/wenlai/wenlai-3.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/wenlai/wenlai-4.jpg', import.meta.url).href,
+    // ],
+} as Person)
+
+group.set('frankdk', {
+    name: 'Frank de Kleijne',
+    profile: false,
+    position: 'Graduate student',
+    email: 'frankdk',
+    // bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
+    // pronouns: 'He/Him',
+    // funFacts: [
+    //     'Wenlai has a minor in voice music performance.',
+    //     'Wenlai (used to) makes videos.'
+    // ],
+    // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
+    // orcid: "https://orcid.org/0000-0001-8648-2300",
+    profilePic: new URL('/@/assets/people/frank/frank.jpg', import.meta.url).href,
     profilePhotos: [
-        new URL('/@/assets/people/jason/jason1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jason/jason2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jason/jason3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jason/jason4.jpg', import.meta.url).href,
+        new URL('/@/assets/people/frank/frank1.jpeg', import.meta.url).href,
+        new URL('/@/assets/people/frank/frank2.jpeg', import.meta.url).href,
+        new URL('/@/assets/people/frank/frank3.jpeg', import.meta.url).href,
+        new URL('/@/assets/people/frank/frank4.jpeg', import.meta.url).href,
     ],
+} as Person)
+
+group.set('clian6', {
+    name: 'Christina Lian',
+    profile: false,
+    position: 'Graduate student',
+    email: 'clian6',
+    // bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
+    // pronouns: 'He/Him',
+    // funFacts: [
+    //     'Wenlai has a minor in voice music performance.',
+    //     'Wenlai (used to) makes videos.'
+    // ],
+    // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
+    // orcid: "https://orcid.org/0000-0001-8648-2300",
+    profilePic: new URL('/@/assets/people/christina/christina.jpg', import.meta.url).href,
+    // profilePhotos: [
+    //     new URL('/@/assets/people/wenlai/wenlai-1.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/wenlai/wenlai-2.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/wenlai/wenlai-3.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/wenlai/wenlai-4.jpg', import.meta.url).href,
+    // ],
+} as Person)
+
+group.set('sunnytan', {
+    name: 'Sunny Tang',
+    profile: false,
+    position: 'Graduate student',
+    email: 'sunnytan',
+    // bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
+    // pronouns: 'He/Him',
+    // funFacts: [
+    //     'Wenlai has a minor in voice music performance.',
+    //     'Wenlai (used to) makes videos.'
+    // ],
+    // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
+    // orcid: "https://orcid.org/0000-0001-8648-2300",
+    profilePic: new URL('/@/assets/people/sunny/sunny.jpg', import.meta.url).href,
+    // profilePhotos: [
+    //     new URL('/@/assets/people/wenlai/wenlai-1.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/wenlai/wenlai-2.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/wenlai/wenlai-3.jpg', import.meta.url).href,
+    //     new URL('/@/assets/people/wenlai/wenlai-4.jpg', import.meta.url).href,
+    // ],
 } as Person)
 
 group.set('leonn037 ', {
@@ -264,15 +349,15 @@ group.set('leonn037 ', {
     ],
 } as Person)
 
-group.set('ekball', {
-    name: 'Em Ball',
-    profile: true,
-    position: 'Undergraduate student',
-    email: 'ekball',
-    pronouns: 'They/Them',
-    bio: 'Em is from West Des Moines, Iowa, and is a Chemistry major in the Class of 2025. They are a thrower (discus, hammer, shot put, javelin) on the MIT Track and Field team. Their hobbies are rollerblading around campus and singing in MIT’s Centrifugues a capella group. Fun facts about Em are that they can wiggle their ears, and they are staunchly anti orange juice. Em is very excited for the opportunities that research in the Wendlandt lab offers.',
-    profilePic: new URL('/@/assets/people/em/em.jpg', import.meta.url).href,
-} as Person)
+// group.set('ekball', {
+//     name: 'Em Ball',
+//     profile: true,
+//     position: 'Undergraduate student',
+//     email: 'ekball',
+//     pronouns: 'They/Them',
+//     bio: 'Em is from West Des Moines, Iowa, and is a Chemistry major in the Class of 2025. They are a thrower (discus, hammer, shot put, javelin) on the MIT Track and Field team. Their hobbies are rollerblading around campus and singing in MIT’s Centrifugues a capella group. Fun facts about Em are that they can wiggle their ears, and they are staunchly anti orange juice. Em is very excited for the opportunities that research in the Wendlandt lab offers.',
+//     profilePic: new URL('/@/assets/people/em/em.jpg', import.meta.url).href,
+// } as Person)
 
 
 // for each person, if publicationName isn't defined set it as name.
