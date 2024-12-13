@@ -99,29 +99,29 @@ group.set('qxu111', {
 } as Person)
 
 
-group.set('gino', {
-    name: 'Gino Occhialini',
-    profile: true,
-    position: 'Graduate student',
-    email: 'ginoocch',
-    linkedin: 'https://www.linkedin.com/in/gino-occhialini-4bb670103',
-    github: 'ginoocch',
-    pronouns: 'He/Him',
-    profilePic: new URL('/@/assets/people/gino/gino.jpg', import.meta.url).href,
-    bio: `Gino grew up in central Texas, and completed his B.S. in Chemistry at the University of Texas at Dallas. While there, he conducted research under Professor Ronald Smaldone focusing on covalent organic frameworks and porous organic polymers. For this work, Gino was awarded a Goldwater scholarship in 2017. In his free time, Gino served as a workshop leader in various chemistry classes. Interested in branching out to methodology research and mechanistic study, he attended MIT to pursue his Ph.D. under Professor Alison Wendlandt. Gino's studies at MIT are funded under an NSF GRFP.`,
-    funFacts: [
-        "Gino designed and manages this website.",
-        "Gino built a 3d-printer, which he consistently breaks and fixes.",
-        "Gino has an identical twin brother."
-    ],
-    orcid: 'https://orcid.org/0000-0001-9682-1740',
-    profilePhotos: [
-        new URL('/@/assets/people/gino/gino-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/gino/gino-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/gino/gino-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/gino/gino-4.jpg', import.meta.url).href,
-    ],
-} as Person)
+// group.set('gino', {
+//     name: 'Gino Occhialini',
+//     profile: true,
+//     position: 'Graduate student',
+//     email: 'ginoocch',
+//     linkedin: 'https://www.linkedin.com/in/gino-occhialini-4bb670103',
+//     github: 'ginoocch',
+//     pronouns: 'He/Him',
+//     profilePic: new URL('/@/assets/people/gino/gino.jpg', import.meta.url).href,
+//     bio: `Gino grew up in central Texas, and completed his B.S. in Chemistry at the University of Texas at Dallas. While there, he conducted research under Professor Ronald Smaldone focusing on covalent organic frameworks and porous organic polymers. For this work, Gino was awarded a Goldwater scholarship in 2017. In his free time, Gino served as a workshop leader in various chemistry classes. Interested in branching out to methodology research and mechanistic study, he attended MIT to pursue his Ph.D. under Professor Alison Wendlandt. Gino's studies at MIT are funded under an NSF GRFP.`,
+//     funFacts: [
+//         "Gino designed and manages this website.",
+//         "Gino built a 3d-printer, which he consistently breaks and fixes.",
+//         "Gino has an identical twin brother."
+//     ],
+//     orcid: 'https://orcid.org/0000-0001-9682-1740',
+//     profilePhotos: [
+//         new URL('/@/assets/people/gino/gino-1.jpg', import.meta.url).href,
+//         new URL('/@/assets/people/gino/gino-2.jpg', import.meta.url).href,
+//         new URL('/@/assets/people/gino/gino-3.jpg', import.meta.url).href,
+//         new URL('/@/assets/people/gino/gino-4.jpg', import.meta.url).href,
+//     ],
+// } as Person)
 
 group.set('liang014 ', {
     name: 'Sam Liang',
@@ -223,26 +223,26 @@ group.set('hanw', {
     ],
 } as Person)
 
-group.set('jsnzhang ', {
-    name: 'Jason Zhang',
-    profile: true,
-    position: 'Undergraduate student',
-    email: 'jsnzhang',
-    pronouns: 'He/Him',
-    bio: 'Jason was born in Chicago and raised in Bowling Green, Kentucky. He attended high school at the Carol Martin Gatton Academy of Mathematics and Sciences, where he first gained research experience under the supervision of Professor Yongming Deng. Currently, Jason is a first-year undergraduate student at MIT who hopes to study chemistry to develop chemical reactions to gain a deeper understanding of the world and to help improve people’s quality of life.',
-    funFacts: [
-        'Jason is an Eagle Scout and enjoys taking hikes in nature.',
-        'Jason has played clarinet for 8 years, and he currently is a member of the MIT Wind Ensemble.',
-        'Jason witnessed the MIThenge, which is where sunlight passes through the entire infinite corridor. This event only happens twice a year.'
-    ],
-    profilePic: new URL('/@/assets/people/jason/jason.jpg', import.meta.url).href,
-    profilePhotos: [
-        new URL('/@/assets/people/jason/jason1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jason/jason2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jason/jason3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jason/jason4.jpg', import.meta.url).href,
-    ],
-} as Person)
+// group.set('jsnzhang ', {
+//     name: 'Jason Zhang',
+//     profile: true,
+//     position: 'Undergraduate student',
+//     email: 'jsnzhang',
+//     pronouns: 'He/Him',
+//     bio: 'Jason was born in Chicago and raised in Bowling Green, Kentucky. He attended high school at the Carol Martin Gatton Academy of Mathematics and Sciences, where he first gained research experience under the supervision of Professor Yongming Deng. Currently, Jason is a first-year undergraduate student at MIT who hopes to study chemistry to develop chemical reactions to gain a deeper understanding of the world and to help improve people’s quality of life.',
+//     funFacts: [
+//         'Jason is an Eagle Scout and enjoys taking hikes in nature.',
+//         'Jason has played clarinet for 8 years, and he currently is a member of the MIT Wind Ensemble.',
+//         'Jason witnessed the MIThenge, which is where sunlight passes through the entire infinite corridor. This event only happens twice a year.'
+//     ],
+//     profilePic: new URL('/@/assets/people/jason/jason.jpg', import.meta.url).href,
+//     profilePhotos: [
+//         new URL('/@/assets/people/jason/jason1.jpg', import.meta.url).href,
+//         new URL('/@/assets/people/jason/jason2.jpg', import.meta.url).href,
+//         new URL('/@/assets/people/jason/jason3.jpg', import.meta.url).href,
+//         new URL('/@/assets/people/jason/jason4.jpg', import.meta.url).href,
+//     ],
+// } as Person)
 
 group.set('leonn037 ', {
     name: 'Leon Wang',
@@ -264,15 +264,15 @@ group.set('leonn037 ', {
     ],
 } as Person)
 
-group.set('ekball', {
-    name: 'Em Ball',
-    profile: true,
-    position: 'Undergraduate student',
-    email: 'ekball',
-    pronouns: 'They/Them',
-    bio: 'Em is from West Des Moines, Iowa, and is a Chemistry major in the Class of 2025. They are a thrower (discus, hammer, shot put, javelin) on the MIT Track and Field team. Their hobbies are rollerblading around campus and singing in MIT’s Centrifugues a capella group. Fun facts about Em are that they can wiggle their ears, and they are staunchly anti orange juice. Em is very excited for the opportunities that research in the Wendlandt lab offers.',
-    profilePic: new URL('/@/assets/people/em/em.jpg', import.meta.url).href,
-} as Person)
+// group.set('ekball', {
+//     name: 'Em Ball',
+//     profile: true,
+//     position: 'Undergraduate student',
+//     email: 'ekball',
+//     pronouns: 'They/Them',
+//     bio: 'Em is from West Des Moines, Iowa, and is a Chemistry major in the Class of 2025. They are a thrower (discus, hammer, shot put, javelin) on the MIT Track and Field team. Their hobbies are rollerblading around campus and singing in MIT’s Centrifugues a capella group. Fun facts about Em are that they can wiggle their ears, and they are staunchly anti orange juice. Em is very excited for the opportunities that research in the Wendlandt lab offers.',
+//     profilePic: new URL('/@/assets/people/em/em.jpg', import.meta.url).href,
+// } as Person)
 
 
 // for each person, if publicationName isn't defined set it as name.
