@@ -235,6 +235,10 @@ group.set('geastham', {
     ],
     linkedin: 'https://www.linkedin.com/in/georgia-eastham-4510971aa/',
     profilePic: new URL('/@/assets/people/georgia/georgia.jpg', import.meta.url).href,
+    profilePhotos: [
+        new URL('/@/assets/people/georgia/georgia-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/georgia/georgia-2.jpg', import.meta.url).href,
+    ],
 } as Person)
 
 group.set('frankdk', {
