@@ -47,7 +47,7 @@ export default {
         </div>
         <div class="flex-1 text-justify">
           <p class="mb-4">
-            Alison Wendlandt is currently the Green CD Assistant Professor of
+            Alison Wendlandt is currently an Associate Professor of
             Chemistry at the Massachusetts institute of Technology. Alison is
             originally from Colorado, and received her B.S. from the University
             of Chicago and her Ph.D. (2015) from the University of Wisconsin -

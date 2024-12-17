@@ -100,21 +100,23 @@ group.set('qxu111', {
 
 group.set('s_gandhi', {
     name: 'Shivaani Gandhi',
-    profile: false,
+    profile: true,
     position: 'Postdoctoral fellow',
     email: 's_gandhi',
-    // pronouns: 'He/Him',
+    pronouns: 'She/Her',
     profilePic: new URL('/@/assets/people/shivaani/shivaani.jpg', import.meta.url).href,
-    // bio: `Qian Xu grew up in Shiyan, Hubei Province, China. He obtained his bachelor’s degree of Science from Nanjing University in 2018. In the same year, he moved to University of Minnesota, Twin Cities, and joined the research group of Prof. Thomas. R. Hoye. In the Hoye lab, he developed several thermal, reagent- and additive-free cycloaddition reactions to generate reactive intermediates, and studied their structures and reactivities. In 2024, he joined the Wendlandt lab to explore photochemical reactions. He enjoys out-door running.`,
-    // funFacts: [
-    //     "Qian used to like heavily seasoned food but now he loves food that maintains its original flavor.",
-    // ],
-    // profilePhotos: [
-    //     new URL('/@/assets/people/qian/qian-1.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/qian/qian-2.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/qian/qian-3.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/qian/qian-4.jpg', import.meta.url).href,
-    // ],
+    bio: `Shivaani grew up in Redondo Beach, California. She graduated from UC Berkeley in 2017 with a B.S. in chemistry, where she worked under Prof. Evan Miller designing and synthesizing novel fluorescent voltage sensors. After undergrad, she worked at UCSF under Dr. Stanley Prusiner on a drug discovery campaign to find small-molecule therapeutics for neurodegenerative diseases. Seeking to deepen her expertise in organic chemistry, she moved to Princeton, NJ (and later back to Los Angeles, CA) for her doctoral studies. During graduate school, she studied the development and experimental application of data science tools for synthetic methodology development under the guidance of Prof. Abigail Doyle. Outside of the lab, Shivaani enjoys trying new restaurants/cafes, spending time with her family, attending concerts, reading, and making jewelry.`,
+    funFacts: [
+        'In adulthood, Shivaani developed a mysterious allergy to ibuprofen.',
+        'The first concert Shivaani attended was the Jonas Brothers in 2007.',
+        'Shivaani drove across the country from NJ to CA when she moved back to LA.'
+    ],
+    profilePhotos: [
+        new URL('/@/assets/people/shivaani/website1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/shivaani/website2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/shivaani/website3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/shivaani/website4.jpg', import.meta.url).href,
+    ],
 } as Person)
 
 // group.set('gino', {
@@ -211,6 +213,7 @@ group.set('sygong36', {
         'Gary hopes that a Minas Tirith Trebuchet Lego set will come out someday.',
         'Gary knew how to play the Hulusi but might have forgotten it over the years.',
     ],
+    linkedin: 'https://www.linkedin.com/in/siyuan-gong-2503891b3/',
     profilePic: new URL('/@/assets/people/gary/gary.jpg', import.meta.url).href,
     profilePhotos: [
         new URL('/@/assets/people/gary/gary-1.jpg', import.meta.url).href,
@@ -232,6 +235,7 @@ group.set('karam987', {
         'She is currently working on getting her Canadian citizenship.',
         'She loves plants!'
     ],
+    linkedin: 'https://www.linkedin.com/in/kara-moulton-0b8275238/',
     profilePic: new URL('/@/assets/people/kara/kara.jpg', import.meta.url).href,
     profilePhotos: [
         new URL('/@/assets/people/kara/kara-1.jpg', import.meta.url).href,
@@ -243,16 +247,17 @@ group.set('karam987', {
 
 group.set('geastham', {
     name: 'Georgia Eastham',
-    profile: false,
+    profile: true,
     position: 'Graduate student',
     email: 'geastham',
-    // bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
-    // pronouns: 'He/Him',
-    // funFacts: [
-    //     'Wenlai has a minor in voice music performance.',
-    //     'Wenlai (used to) makes videos.'
-    // ],
-    // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
+    bio: 'Georgia Eastham lived in several different US states growing up but attended high school in Davis, California. She began her undergraduate degree at Oklahoma State University in 2020 as a plant and soil science major with aspirations of being a plant breeder. She began research in a nutritional science lab evaluating anthocyanins in purple wheat. After taking the second semester of organic chemistry, she joined Professor Jimmie Weaver\'s lab and declared a second major in chemistry. In the Weaver lab she worked on developing photochemical bioorthogonal reactions. For her research in wheat and reaction development she was awarded the Goldwater scholarship in 2023. She joined the Wendlandt lab in 2024 and looks forward to investigating sugar epimerization.',
+    pronouns: 'She/Her',
+    funFacts: [
+        'Georgia bakes sourdough bread at least once a week.',
+        'Georgia loves biking and has competed in endurance gravel bike races (60 and 100 miles).',
+        'She always has several creative projects going on.'
+    ],
+    linkedin: 'https://www.linkedin.com/in/georgia-eastham-4510971aa/',
     // orcid: "https://orcid.org/0000-0001-8648-2300",
     profilePic: new URL('/@/assets/people/georgia/georgia.jpg', import.meta.url).href,
     // profilePhotos: [
@@ -265,16 +270,17 @@ group.set('geastham', {
 
 group.set('frankdk', {
     name: 'Frank de Kleijne',
-    profile: false,
+    profile: true,
     position: 'Graduate student',
     email: 'frankdk',
-    // bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
-    // pronouns: 'He/Him',
-    // funFacts: [
-    //     'Wenlai has a minor in voice music performance.',
-    //     'Wenlai (used to) makes videos.'
-    // ],
-    // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
+    bio: 'Frank grew up in a small town in the Netherlands and obtained his B.S. in Chemistry from the Fontys University of Applied Science at Eindhoven (Netherlands) in 2019 and his master in Chemistry from the Radboud University Nijmegen (Netherlands) in 2022. Franks interest in organic synthesis, reaction mechanisms, and reaction methodologies was catalysed during his first internship in 2017 where he worked in the group of dr. Patrick Murphy at the Bangor University (Wales, UK). Later, in 2018, he joined the lab of dr. Thomas Boltje at the Radboud University Nijmegen (Netherlands). Frank visited the lab of professor Alison Wendlandt at MIT (USA) for a seven month internship to complete his master’s degree during the summer of 2022. In 2023 he returned home to work with dr. Thomas Boltje and dr. Paul White on studying the glycosylation reaction using exchange NMR spectroscopy. Along his research he experienced the laborious reaction sequences to selectively modify a single sugar hydroxyl. Recent publications by our group intrigued him and motivated Frank to join the lab and explore the possibilities and opportunities of radical reactions for carbohydrate synthesis.',
+    pronouns: 'He/Him',
+    funFacts: [
+        'Frank has a dog named Frits.',
+        'What he likes most about Boston are the squirrels',
+        'Frank likes to explore, travel, and visit places new to him.'
+    ],
+    linkedin: 'https://www.linkedin.com/in/frank-de-kleijne/',
     // orcid: "https://orcid.org/0000-0001-8648-2300",
     profilePic: new URL('/@/assets/people/frank/frank.jpg', import.meta.url).href,
     profilePhotos: [
@@ -287,37 +293,37 @@ group.set('frankdk', {
 
 group.set('clian6', {
     name: 'Christina Lian',
-    profile: false,
+    profile: true,
     position: 'Graduate student',
     email: 'clian6',
-    // bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
-    // pronouns: 'He/Him',
-    // funFacts: [
-    //     'Wenlai has a minor in voice music performance.',
-    //     'Wenlai (used to) makes videos.'
-    // ],
+    bio: 'Christina was born and raised in New York City. She obtained a B.S. in Chemistry from New York University in May 2024. Under the supervision of Professor Tianning Diao, she completed her undergraduate thesis on the upcycling of poly(methyl methacrylate) and the synthesis of small molecules capable of cleaving DNA at nanomolar concentrations. In the fall of 2024, she joined the Wendlandt lab, hoping to develop interesting and useful chemical transformations.',
+    pronouns: 'She/Her',
+    funFacts: [
+        'Christina loves furry animals, especially cats and dogs (that don\'t bark or bite).',
+        'Christina likes to drink boba tea.'
+    ],
     // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
-    // orcid: "https://orcid.org/0000-0001-8648-2300",
+    orcid: "https://orcid.org/0009-0009-7938-5276",
     profilePic: new URL('/@/assets/people/christina/christina.jpg', import.meta.url).href,
-    // profilePhotos: [
-    //     new URL('/@/assets/people/wenlai/wenlai-1.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/wenlai/wenlai-2.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/wenlai/wenlai-3.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/wenlai/wenlai-4.jpg', import.meta.url).href,
-    // ],
+    profilePhotos: [
+        new URL('/@/assets/people/christina/christina-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/christina/christina-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/christina/christina-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/christina/christina-4.jpg', import.meta.url).href,
+    ],
 } as Person)
 
 group.set('sunnytan', {
     name: 'Sunny Tang',
-    profile: false,
+    profile: true,
     position: 'Graduate student',
     email: 'sunnytan',
-    // bio: 'Wenlai grew up in Xinyu (Jiangxi) and later moved to Changsha (Hunan), China to attend Yali High School. Later during his undergrad, he pursued a double major in Chemistry and Computer Science at Carleton College (Northfield, Minnesota). While at Carleton, he worked with Professor Matt Whited, leveraging metal-ligand cooperativity of PSiP pincer-type cobalt silylenes for efficient group transfer catalysis. He is also passionate about algorithms and human-computer interaction. During the summer of 2022, Wenlai visited the Wendlandt group and investigated photochemical epimerization of primary amines with Dr. Yuan Zhang. He is excited to continue this journey at the Wendlandt lab pursuing his PhD.',
-    // pronouns: 'He/Him',
-    // funFacts: [
-    //     'Wenlai has a minor in voice music performance.',
-    //     'Wenlai (used to) makes videos.'
-    // ],
+    bio: 'Sunny is originally from Houston, Texas. She received an A.B. in Chemistry and Physics from Harvard University in May 2024. At Harvard, she worked with Professor Stuart Schreiber on DNA-encoded library synthesis for molecular glue discovery, and she also worked with Professor Eric Jacobsen on β-selective glycosylation using hydrogen-bond-donor catalysis. In Fall 2024, she joined the Wendlandt group to continue research in organic methods development and mechanistic studies.',
+    pronouns: 'She/Her',
+    funFacts: [
+        'Outside of chemistry, Sunny likes to bake, run, and explore coffee shops.',
+        'She also plays the oboe.'
+    ],
     // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
     // orcid: "https://orcid.org/0000-0001-8648-2300",
     profilePic: new URL('/@/assets/people/sunny/sunny.jpg', import.meta.url).href,
