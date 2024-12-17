@@ -119,30 +119,6 @@ group.set('s_gandhi', {
     ],
 } as Person)
 
-// group.set('gino', {
-//     name: 'Gino Occhialini',
-//     profile: true,
-//     position: 'Graduate student',
-//     email: 'ginoocch',
-//     linkedin: 'https://www.linkedin.com/in/gino-occhialini-4bb670103',
-//     github: 'ginoocch',
-//     pronouns: 'He/Him',
-//     profilePic: new URL('/@/assets/people/gino/gino.jpg', import.meta.url).href,
-//     bio: `Gino grew up in central Texas, and completed his B.S. in Chemistry at the University of Texas at Dallas. While there, he conducted research under Professor Ronald Smaldone focusing on covalent organic frameworks and porous organic polymers. For this work, Gino was awarded a Goldwater scholarship in 2017. In his free time, Gino served as a workshop leader in various chemistry classes. Interested in branching out to methodology research and mechanistic study, he attended MIT to pursue his Ph.D. under Professor Alison Wendlandt. Gino's studies at MIT are funded under an NSF GRFP.`,
-//     funFacts: [
-//         "Gino designed and manages this website.",
-//         "Gino built a 3d-printer, which he consistently breaks and fixes.",
-//         "Gino has an identical twin brother."
-//     ],
-//     orcid: 'https://orcid.org/0000-0001-9682-1740',
-//     profilePhotos: [
-//         new URL('/@/assets/people/gino/gino-1.jpg', import.meta.url).href,
-//         new URL('/@/assets/people/gino/gino-2.jpg', import.meta.url).href,
-//         new URL('/@/assets/people/gino/gino-3.jpg', import.meta.url).href,
-//         new URL('/@/assets/people/gino/gino-4.jpg', import.meta.url).href,
-//     ],
-// } as Person)
-
 group.set('liang014 ', {
     name: 'Sam Liang',
     profile: true,
@@ -258,14 +234,7 @@ group.set('geastham', {
         'She always has several creative projects going on.'
     ],
     linkedin: 'https://www.linkedin.com/in/georgia-eastham-4510971aa/',
-    // orcid: "https://orcid.org/0000-0001-8648-2300",
     profilePic: new URL('/@/assets/people/georgia/georgia.jpg', import.meta.url).href,
-    // profilePhotos: [
-    //     new URL('/@/assets/people/wenlai/wenlai-1.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/wenlai/wenlai-2.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/wenlai/wenlai-3.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/wenlai/wenlai-4.jpg', import.meta.url).href,
-    // ],
 } as Person)
 
 group.set('frankdk', {
@@ -281,7 +250,6 @@ group.set('frankdk', {
         'Frank likes to explore, travel, and visit places new to him.'
     ],
     linkedin: 'https://www.linkedin.com/in/frank-de-kleijne/',
-    // orcid: "https://orcid.org/0000-0001-8648-2300",
     profilePic: new URL('/@/assets/people/frank/frank.jpg', import.meta.url).href,
     profilePhotos: [
         new URL('/@/assets/people/frank/frank1.jpeg', import.meta.url).href,
@@ -302,7 +270,6 @@ group.set('clian6', {
         'Christina loves furry animals, especially cats and dogs (that don\'t bark or bite).',
         'Christina likes to drink boba tea.'
     ],
-    // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
     orcid: "https://orcid.org/0009-0009-7938-5276",
     profilePic: new URL('/@/assets/people/christina/christina.jpg', import.meta.url).href,
     profilePhotos: [
@@ -324,15 +291,7 @@ group.set('sunnytan', {
         'Outside of chemistry, Sunny likes to bake, run, and explore coffee shops.',
         'She also plays the oboe.'
     ],
-    // linkedin: 'https://www.linkedin.com/in/wenlai-han/',
-    // orcid: "https://orcid.org/0000-0001-8648-2300",
     profilePic: new URL('/@/assets/people/sunny/sunny.jpg', import.meta.url).href,
-    // profilePhotos: [
-    //     new URL('/@/assets/people/wenlai/wenlai-1.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/wenlai/wenlai-2.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/wenlai/wenlai-3.jpg', import.meta.url).href,
-    //     new URL('/@/assets/people/wenlai/wenlai-4.jpg', import.meta.url).href,
-    // ],
 } as Person)
 
 group.set('leonn037 ', {
@@ -354,16 +313,6 @@ group.set('leonn037 ', {
         new URL('/@/assets/people/leon/leon-4.jpg', import.meta.url).href,
     ],
 } as Person)
-
-// group.set('ekball', {
-//     name: 'Em Ball',
-//     profile: true,
-//     position: 'Undergraduate student',
-//     email: 'ekball',
-//     pronouns: 'They/Them',
-//     bio: 'Em is from West Des Moines, Iowa, and is a Chemistry major in the Class of 2025. They are a thrower (discus, hammer, shot put, javelin) on the MIT Track and Field team. Their hobbies are rollerblading around campus and singing in MIT’s Centrifugues a capella group. Fun facts about Em are that they can wiggle their ears, and they are staunchly anti orange juice. Em is very excited for the opportunities that research in the Wendlandt lab offers.',
-//     profilePic: new URL('/@/assets/people/em/em.jpg', import.meta.url).href,
-// } as Person)
 
 
 // for each person, if publicationName isn't defined set it as name.
