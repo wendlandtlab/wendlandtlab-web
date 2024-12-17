@@ -25,7 +25,29 @@ const pubs = [
 
     // for citations abbreviatedAuthors is determined from authors
     // it can also be set manually by adding the field abbreviatedAuthors
-
+    {
+        pubType: 'article',
+        title: 'Synthesis of non-canonical amino acids through dehydrogenative tailoring',
+        authors: 'Xin Gu‡, Yu-An Zhang‡, Shuo Zhang, Leon Wang, Xiyun Ye, Gino Occhialini, Jonah Barbour, Bradley L. Pentelute & Alison E. Wendlandt',
+        journal: 'Nature',
+        year: 2024,
+        doi: 'Nature, 2024, 10.1038/s41586-024-07988-8',
+        articleLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2024-Nature-GuZhang-Article.pdf',
+        esiLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2024-Nature-GuZhang-ESI.pdf',
+        publisherLink: 'https://www.nature.com/articles/s41586-024-07988-8',
+        toc: new URL('/@/assets/publications/toc/2024-Nature-GuZhang.jpeg', import.meta.url).href,
+        volume: '634',
+        pages: '352-358',
+        // newslist: [
+        //     {
+        //         source: 'C&E News',
+        //         newsurl:
+        //             'https://cen.acs.org/synthesis/reaction-mechanisms/Network-control-theory-governs-isomerization/102/i24?sc=230901_cenrssfeed_eng_latestnewsrss_cen',
+        //     },
+        // ],
+    }, 
     {
         pubType: 'article',
         title: 'The sugar cube: Network control and emergence in stereoediting reactions',
@@ -41,6 +63,13 @@ const pubs = [
         toc: new URL('/@/assets/publications/toc/2024-Science-Carder-Occhialini.jpeg', import.meta.url).href,
         volume: '385',
         pages: '456-463',
+        newslist: [
+            {
+                source: 'C&E News',
+                newsurl:
+                    'https://cen.acs.org/synthesis/reaction-mechanisms/Network-control-theory-governs-isomerization/102/i24?sc=230901_cenrssfeed_eng_latestnewsrss_cen',
+            },
+        ],
     }, {
         pubType: 'article',
         title: 'Strain-Inducing Positional Alkene Isomerization',
