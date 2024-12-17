@@ -38,7 +38,7 @@ export default {
         <div class="flex-initial">
           <TeamMember
             PersonName="Alison Wendlandt"
-            Title="Green CD Assistant Professor"
+            Title="Associate Professor"
             ProfileLink="/people"
             :Picture="profile"
             Email="awendlan[at]mit.edu"
