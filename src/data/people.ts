@@ -296,6 +296,11 @@ group.set('sunnytan', {
         'She also plays the oboe.'
     ],
     profilePic: new URL('/@/assets/people/sunny/sunny.jpg', import.meta.url).href,
+    profilePhotos: [
+        new URL('/@/assets/people/sunny/sunny-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/sunny/sunny-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/sunny/sunny-3.jpg', import.meta.url).href,
+    ],
 } as Person)
 
 group.set('leonn037 ', {

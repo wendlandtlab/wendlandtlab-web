@@ -43,7 +43,7 @@ const alumni = [
         position: 'Postdoc (2022-2024)',
         profilePic: new URL('/@/assets/people/alumni/lianyan.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/lianyan-x-3a23a88b/",
-        currentPos: " "
+        currentPos: "Sr Proc Chemist, Exemplify BioPharma"
     },
     {
         name: 'Xin Gu',
