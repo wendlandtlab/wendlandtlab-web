@@ -40,6 +40,13 @@ const pubs = [
         toc: new URL('/@/assets/publications/toc/2024-Nature-GuZhang.jpeg', import.meta.url).href,
         volume: '634',
         pages: '352-358',
+        newslist: [
+            {
+                source: 'News & Views',
+                newsurl:
+                    'https://www.nature.com/articles/s44160-024-00676-5',
+            },
+        ],
     }, 
     {
         pubType: 'article',
