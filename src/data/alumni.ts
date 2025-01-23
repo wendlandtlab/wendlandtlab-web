@@ -20,7 +20,7 @@ const alumni = [
     {
         name: 'Tae Hwang',
         linkedin: 'https://www.linkedin.com/in/taehwan-hwang-38ab58130/',
-        position: 'Postdoc (2023-2024)',
+        position: 'Postdoc (2023-2025)',
         profilePic: new URL('/@/assets/people/alumni/tae.jpg', import.meta.url).href,
         currentPos: "Senior Scientist, Merck"
     },
