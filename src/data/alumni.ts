@@ -18,6 +18,13 @@ import Person from '/@/types/Person'
 
 const alumni = [
     {
+        name: 'Tae Hwang',
+        linkedin: 'https://www.linkedin.com/in/taehwan-hwang-38ab58130/',
+        position: 'Postdoc (2023-2024)',
+        profilePic: new URL('/@/assets/people/alumni/tae.jpg', import.meta.url).href,
+        currentPos: "Senior Scientist, Merck"
+    },
+    {
         name: 'Gino Occhialini',
         linkedin: 'https://www.linkedin.com/in/ginoocch/',
         position: 'Ph.D. (2024)',

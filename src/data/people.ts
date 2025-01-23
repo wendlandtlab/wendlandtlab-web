@@ -26,25 +26,6 @@ group.set('szhang36', {
     profilePic: new URL('/@/assets/people/shuo/shuo.jpg', import.meta.url).href,
 } as Person)
 
-
-group.set('thwang1 ', {
-    name: 'Tae Hwang',
-    profile: true,
-    position: 'Postdoctoral fellow',
-    email: 'thwang1',
-    pronouns: 'He/Him',
-    bio: `Tae was born and raised in Seoul, Korea. In his adolescence, he moved to Glenview, Illinois and stayed in the Midwest until he received his B.S. in chemistry from the University of Illinois at Urbana-Champaign. While at UIUC, he worked on total synthesis of sesquiterpene-tropolones under the guidance of Prof. David Sarlah. Thereafter, he moved to the Bay Area and pursued his career in industry as a medicinal chemist at Gilead. To deepen his expertise in total synthesis, he moved to Texas and joined the lab of Prof. John L. Wood at Baylor University where he completed the syntheses of norabietane diterpenoids and diketopiperazines. In 2023, he began his post-doctoral studies under Prof. Alison Wendlandt at MIT. Outside of chemistry, he likes to spend time with his wife and two cats, and explore Greater Boston area.`,
-    profilePic: new URL('/@/assets/people/tae/tae.jpg', import.meta.url).href,
-    profilePhotos: [
-        new URL('/@/assets/people/tae/tae-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/tae/tae-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/tae/tae-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/tae/tae-4.jpg', import.meta.url).href,
-    ],
-    linkedin: "https://www.linkedin.com/in/taehwan-hwang-38ab58130/",
-    orcid: "https://orcid.org/0000-0002-8396-0255",
-} as Person)
-
 group.set('zhangrh', {
     name: 'Ronghua Zhang',
     profile: true,
@@ -323,6 +304,28 @@ group.set('leonn037 ', {
     ],
 } as Person)
 
+group.set('minay37', {
+    name: 'Mina Yamane',
+    profile: true,
+    position: 'Visiting Grad Student',
+    email: 'minay37',
+    bio: 'Mina was born in Tokyo, Japan, but grew up in Rochester Hills, Michigan, spending most of her childhood in the U.S. After moving back to Japan, she earned her B.S. from Keio University and her M.S. from The University of Tokyo under Prof. Motomu Kanai. Now finishing up her Ph.D. in the Kanai group, she\'s excited to spend the last three months of her degree in the Wendlandt group, stepping out of her comfort zone and exploring new chemistry!',
+    pronouns: 'She/Her',
+    funFacts: [
+        'Mina went to the same middle school (West Middle School) as Madonna.',
+        'She used to be a figure skater and can still spin in the air twice (with questionable grace).',
+        'She\'s also minoring in information science, but Python keeps her humble.'
+    ],
+    linkedin: 'https://www.linkedin.com/in/mina-yamane-5952b2348/',
+    orcid: "https://orcid.org/0009-0005-8195-9946",
+    profilePic: new URL('/@/assets/people/mina/mina.jpg', import.meta.url).href,
+    profilePhotos: [
+        new URL('/@/assets/people/mina/mina1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/mina/mina2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/mina/mina3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/mina/mina4.jpg', import.meta.url).href,
+    ],
+} as Person)
 
 // for each person, if publicationName isn't defined set it as name.
 for (const [key, value] of group.entries()) {
