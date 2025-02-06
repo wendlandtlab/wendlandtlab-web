@@ -100,6 +100,29 @@ group.set('s_gandhi', {
     ],
 } as Person)
 
+group.set('simkolb', {
+    name: 'Simon Kolb',
+    profile: true,
+    position: 'Postdoctoral fellow',
+    email: 'simkolb',
+    pronouns: 'He/Him',
+    profilePic: new URL('/@/assets/people/simon/simon.jpg', import.meta.url).href,
+    bio: 'Simon was born and raised in Upper Franconia, Germany. He remained in this area to obtain his B.S. and M.S. degrees in Chemistry from the University of Bayreuth where he specialized in natural product chemistry and organic synthesis. To pursue a PhD, he joined the lab of Prof. Daniel B. Werz working on synthetic electrochemistry and methodology with small strained carbocycles at the Technical University of Braunschweig and the University of Freiburg. Simon visited Scripps Research as a PhD student to conduct research on Ni-electrocatalysis under the supervision of Prof. Phil Baran. For his postdoctoral studies which are supported by a Walter Benjamin fellowship (DFG), he decided to move to the US East Coast to join the Wendlandt lab. Outside the lab he enjoys nature, loves playing soccer, cooking, and traveling.',
+    funFacts: [
+        "His home area is called “land of breweries” – he does indeed enjoy a “Seidla” beer.",
+        "Simon prefers Asian food over western cuisine.",
+        "He is very interested in football and baseball but has never played himself.",
+    ],
+    linkedin: 'https://www.linkedin.com/in/simon-kolb-7b0533232/',
+    orcid: "https://orcid.org/0000-0001-6352-4619",
+    profilePhotos: [
+        new URL('/@/assets/people/simon/simon-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/simon/simon-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/simon/simon-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/simon/simon-4.jpg', import.meta.url).href,
+    ],
+} as Person)
+
 group.set('liang014 ', {
     name: 'Sam Liang',
     profile: true,
