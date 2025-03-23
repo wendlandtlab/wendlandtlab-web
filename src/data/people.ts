@@ -346,7 +346,7 @@ group.set('jharren', {
         new URL('/@/assets/people/jonas/jonas-1.jpg', import.meta.url).href,
         new URL('/@/assets/people/jonas/jonas-2.jpg', import.meta.url).href,
         new URL('/@/assets/people/jonas/jonas-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jonas/jonas-4.png', import.meta.url).href,
+        new URL('/@/assets/people/jonas/2f2daf8e-56ab-474b-bdd6-de97d91a0302.JPG', import.meta.url).href,
     ],
 } as Person)
 
