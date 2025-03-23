@@ -327,26 +327,26 @@ group.set('leonn037 ', {
     ],
 } as Person)
 
-group.set('minay37', {
-    name: 'Mina Yamane',
+group.set('jharren', {
+    name: 'Jonas Harren',
     profile: true,
-    position: 'Visiting Grad Student',
-    email: 'minay37',
-    bio: 'Mina was born in Tokyo, Japan, but grew up in Rochester Hills, Michigan, spending most of her childhood in the U.S. After moving back to Japan, she earned her B.S. from Keio University and her M.S. from The University of Tokyo under Prof. Motomu Kanai. Now finishing up her Ph.D. in the Kanai group, she\'s excited to spend the last three months of her degree in the Wendlandt group, stepping out of her comfort zone and exploring new chemistry!',
-    pronouns: 'She/Her',
+    position: 'Visiting Master Student',
+    email: 'jharren@mit.edu',
+    bio: 'Jonas was born and raised in the Rhineland, Germany, before moving north to the Ruhr area. Later he returned to study chemistry at RWTH Aachen university. With the beginning of his studies Jonas was immediately interested in organic chemistry, earning his B.Sc. under Prof. Bolm, where he focused on sulfoximine chemistry. During his first internship in the group of Prof. Leonori, Jonas became fascinated with photochemistry and its various possibilities, eager to explore this field deeper. Now, Jonas is excited to spend 6 moths in the Wendlandt group, meeting new people, expanding his horizon, and exploring exciting chemistry.',
+    pronouns: 'He/Him',
     funFacts: [
-        'Mina went to the same middle school (West Middle School) as Madonna.',
-        'She used to be a figure skater and can still spin in the air twice (with questionable grace).',
-        'She\'s also minoring in information science, but Python keeps her humble.'
+        'Jonas hates coconuts in every form.',
+        'He loves snowboarding, scuba diving, and cooking (particularly Italian cuisine).',
+        'Jonas is a big fan of Star Wars and Lego (A combination of both is best).'
     ],
-    linkedin: 'https://www.linkedin.com/in/mina-yamane-5952b2348/',
-    orcid: "https://orcid.org/0009-0005-8195-9946",
-    profilePic: new URL('/@/assets/people/mina/mina.jpg', import.meta.url).href,
+    linkedin: 'http://linkedin.com/in/jonas-harren-0a18a2354',
+    // orcid: "https://orcid.org/0009-0005-8195-9946",
+    profilePic: new URL('/@/assets/people/jonas/jonas.jpg', import.meta.url).href,
     profilePhotos: [
-        new URL('/@/assets/people/mina/mina1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/mina/mina2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/mina/mina3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/mina/mina4.jpg', import.meta.url).href,
+        new URL('/@/assets/people/jonas/jonas-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/jonas/jonas-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/jonas/jonas-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/jonas/jonas-4.jpg', import.meta.url).href,
     ],
 } as Person)
 

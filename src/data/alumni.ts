@@ -15,8 +15,14 @@ import Person from '/@/types/Person'
 // orcid: string;
 // profilePhotos: string[];
 
-
 const alumni = [
+    {
+        name: 'Mina Yamane',
+        linkedin: 'https://www.linkedin.com/in/mina-yamane-5952b2348/',
+        position: 'Visiting Grad Student (2025)',
+        profilePic: new URL('/@/assets/people/alumni/mina.jpg', import.meta.url).href,
+        currentPos: "Asst. Prof., UTokyo"
+    },
     {
         name: 'Tae Hwang',
         linkedin: 'https://www.linkedin.com/in/taehwan-hwang-38ab58130/',
