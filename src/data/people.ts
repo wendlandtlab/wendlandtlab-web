@@ -332,7 +332,7 @@ group.set('jharren', {
     profile: true,
     position: 'Visiting Master Student',
     email: 'jharren@mit.edu',
-    bio: 'Jonas was born and raised in the Rhineland, Germany, before moving north to the Ruhr area. Later he returned to study chemistry at RWTH Aachen university. With the beginning of his studies Jonas was immediately interested in organic chemistry, earning his B.Sc. under Prof. Bolm, where he focused on sulfoximine chemistry. During his first internship in the group of Prof. Leonori, Jonas became fascinated with photochemistry and its various possibilities, eager to explore this field deeper. Now, Jonas is excited to spend 6 moths in the Wendlandt group, meeting new people, expanding his horizon, and exploring exciting chemistry.',
+    bio: 'Jonas was born and raised in the Rhineland, Germany, before moving north to the Ruhr area. Later he returned to study chemistry at RWTH Aachen university. With the beginning of his studies Jonas was immediately interested in organic chemistry, earning his B.Sc. under Prof. Bolm, where he focused on sulfoximine chemistry. During his first internship in the group of Prof. Leonori, Jonas became fascinated with photochemistry and its various possibilities, eager to explore this field deeper. Now, Jonas is excited to spend 6 months in the Wendlandt group, meeting new people, expanding his horizon, and exploring exciting chemistry.',
     pronouns: 'He/Him',
     funFacts: [
         'Jonas hates coconuts in every form.',
