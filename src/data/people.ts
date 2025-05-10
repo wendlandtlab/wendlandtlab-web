@@ -350,6 +350,29 @@ group.set('jharren', {
     ],
 } as Person)
 
+group.set('jacobjan', {
+    name: 'Jacob-Jan Haaksma',
+    profile: true,
+    position: 'Visiting Master Student',
+    email: 'jacobjan@mit.edu',
+    bio: 'Jacob grew up in Ljussens, a small village of 400 inhabitants in the province of Friesland, the Netherlands, where he lived until the age of 17. He then moved to Groningen to pursue a BSc in Chemistry at the University of Groningen, where he developed a strong interest in organic chemistry. During his undergraduate studies, he spent a semester at the Hong Kong University of Science and Technology as part of a minor program. In 2023, he wrote his Bachelor\’s thesis in the group of Prof. Adriaan Minnaard on the ammoxidation of unprotected glycosides. \n Jacob continued at the University of Groningen for his Master’s in Chemistry which concluded with a thesis project – also in the Minnaard group – where he worked towards a bio-inspired total synthesis of Cihunamide B, a macrocyclic peptide natural product. In April 2025, he joined the Wendlandt group as a visiting Master’s student for a six-month research internship, where he looks forward to learning from the talented and inspiring people around him. \n Outside the lab, Jacob enjoys bouldering, thrift shopping, analog photography, and exploring the Cambridge/Boston area. Though the Netherlands isn’t exactly known for its mountains, he loves hiking whenever the opportunity arises. He also has a deep appreciation for music and is always on the lookout for new song or even genres (recommendations welcome).',
+    pronouns: 'He/Him',
+    funFacts: [
+        'Jacob takes Mario Kart 8 Deluxe a little too seriously.',
+        'He owns a wine brewing kit and he recently made mango wine; it was not very tasty.',
+        'He tends to hyperfixate on niche hobbies only to abandon them after a month. Past examples include (but are not limited to): speedcubing, metal detecting, disc golf, embroidery, and genealogy.'
+    ],
+    linkedin: 'https://www.linkedin.com/in/jacob-jan-haaksma/',
+    orcid: "https://orcid.org/0009-0006-3663-7179",
+    profilePic: new URL('/@/assets/people/jacob/jacob.jpg', import.meta.url).href,
+    profilePhotos: [
+        new URL('/@/assets/people/jacob/jacob-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/jacob/jacob-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/jacob/jacob-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/jacob/jacob-4.jpg', import.meta.url).href,
+    ],
+} as Person)
+
 // for each person, if publicationName isn't defined set it as name.
 for (const [key, value] of group.entries()) {
     if (value.publicationName === undefined) {
