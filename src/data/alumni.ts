@@ -17,6 +17,13 @@ import Person from '/@/types/Person'
 
 const alumni = [
     {
+        name: 'Leon Wang',
+        linkedin: 'https://www.linkedin.com/in/leon-wang-6b6071225/',
+        position: 'Undergrad (2025)',
+        profilePic: new URL('/@/assets/people/alumni/leon.jpg', import.meta.url).href,
+        // currentPos: "Asst. Prof., UTokyo"
+    },
+    {
         name: 'Mina Yamane',
         linkedin: 'https://www.linkedin.com/in/mina-yamane-5952b2348/',
         position: 'Visiting Grad Student (2025)',
@@ -64,6 +71,20 @@ const alumni = [
         profilePic: new URL('/@/assets/people/alumni/xin.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/xin-gu-77a1a5228/",
         currentPos: "Postdoc Scientist, Eli Lilly"
+    },
+    // {
+    //     name: 'Jason Zhang',
+    //     position: 'Undergrad (2024)',
+    //     profilePic: new URL('/@/assets/people/alumni/jason.jpg', import.meta.url).href,
+    //     linkedin: "https://www.linkedin.com/in/xin-gu-77a1a5228/",
+    //     currentPos: "Grad Student, Caltech"
+    // },
+    {
+        name: 'Em Ball',
+        position: 'Undergrad (2023)',
+        profilePic: new URL('/@/assets/people/alumni/em.jpg', import.meta.url).href,
+        linkedin: "https://www.linkedin.com/in/emily-ball-142ba5225/",
+        // currentPos: "Postdoc, Food and Drug Administration"
     },
     {
         name: 'Jiayi Li',

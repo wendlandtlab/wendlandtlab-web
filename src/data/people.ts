@@ -307,26 +307,6 @@ group.set('sunnytan', {
     ],
 } as Person)
 
-group.set('leonn037 ', {
-    name: 'Leon Wang',
-    profile: true,
-    position: 'Undergraduate student',
-    email: 'leonn037',
-    pronouns: 'They/He',
-    bio: 'Leon was born and raised in Columbia, South Carolina. When they were young, Leon was an inquisitive child who loved to learn about the natural world—too bad Leon was annoying and asked the most asinine questions. His dad, although a great organic professor to his own college students, wasn’t keen on teaching Leon and conjured up the best idea ever—passing Leon off into one of his colleague’s general chemistry classes. It definitely was nerve-racking at first for Leon, especially because they were an anxious short little child, within a class full of scary college students. However, Leon didn’t let it faze him, and Leon quickly found his new groove along with a love for chemistry. He proceeded to actually pass the class and let this event jumpstart a semi-successful journey to explore chemistry—he took many more chemistry courses and even conducted some meaningful research in chemistry—specifically in amino acid modification and some electrosynthesis—in high school. Now, they are a first-year undergraduate student at MIT, who plans on majoring in course 5 and is trying their best to learn how to be and be a great chemist. Outside of chemistry, Leon enjoys lifting weights—actually he loves lifting weights—skateboarding, playing basketball, playing smash bros, listening to music, and watching TV. Some shows they’re currently watching include “Demon Slayer”, “One Piece”, “Pretty Little Liars”, and “Boss and Me”. Some artists they currently love is Saba, Neck Deep, Aaron May, and Lontalius.',
-    funFacts: [
-        'Leon has been hard stuck at 5200 trophies on Clash Royale.',
-        'Leon is ever-so-slightly lactose intolerant, but eats copious amounts of strawberry Greek yogurt',
-    ],
-    profilePic: new URL('/@/assets/people/leon/leon.jpg', import.meta.url).href,
-    profilePhotos: [
-        new URL('/@/assets/people/leon/leon-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/leon/leon-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/leon/leon-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/leon/leon-4.jpg', import.meta.url).href,
-    ],
-} as Person)
-
 group.set('jharren', {
     name: 'Jonas Harren',
     profile: true,
