@@ -17,11 +17,17 @@ import Person from '/@/types/Person'
 
 const alumni = [
     {
+        name: 'Frank de Kleijne',
+        linkedin: 'https://www.linkedin.com/in/frank-de-kleijne/',
+        position: 'Grad Student (2025)',
+        profilePic: new URL('/@/assets/people/alumni/frank.jpg', import.meta.url).href,
+        // currentPos: "MD\/PHD student, MUSC"
+    },{
         name: 'Leon Wang',
         linkedin: 'https://www.linkedin.com/in/leon-wang-6b6071225/',
         position: 'Undergrad (2025)',
         profilePic: new URL('/@/assets/people/alumni/leon.jpg', import.meta.url).href,
-        // currentPos: "Asst. Prof., UTokyo"
+        currentPos: "MD\/PHD student, MUSC"
     },
     {
         name: 'Mina Yamane',
@@ -72,13 +78,13 @@ const alumni = [
         linkedin: "https://www.linkedin.com/in/xin-gu-77a1a5228/",
         currentPos: "Postdoc Scientist, Eli Lilly"
     },
-    // {
-    //     name: 'Jason Zhang',
-    //     position: 'Undergrad (2024)',
-    //     profilePic: new URL('/@/assets/people/alumni/jason.jpg', import.meta.url).href,
-    //     linkedin: "https://www.linkedin.com/in/xin-gu-77a1a5228/",
-    //     currentPos: "Grad Student, Caltech"
-    // },
+    {
+        name: 'Jason Zhang',
+        position: 'Undergrad (2024)',
+        profilePic: new URL('/@/assets/people/alumni/jason.jpg', import.meta.url).href,
+        linkedin: "https://www.linkedin.com/in/jason-zhang-06b93b203/",
+        currentPos: "Grad Student, Caltech"
+    },
     {
         name: 'Em Ball',
         position: 'Undergrad (2023)',

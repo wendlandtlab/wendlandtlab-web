@@ -245,28 +245,6 @@ group.set('geastham', {
     ],
 } as Person)
 
-group.set('frankdk', {
-    name: 'Frank de Kleijne',
-    profile: true,
-    position: 'Graduate student',
-    email: 'frankdk',
-    bio: 'Frank grew up in a small town in the Netherlands and obtained his B.S. in Chemistry from the Fontys University of Applied Science at Eindhoven (Netherlands) in 2019 and his master in Chemistry from the Radboud University Nijmegen (Netherlands) in 2022. Franks interest in organic synthesis, reaction mechanisms, and reaction methodologies was catalysed during his first internship in 2017 where he worked in the group of dr. Patrick Murphy at the Bangor University (Wales, UK). Later, in 2018, he joined the lab of dr. Thomas Boltje at the Radboud University Nijmegen (Netherlands). Frank visited the lab of professor Alison Wendlandt at MIT (USA) for a seven month internship to complete his master’s degree during the summer of 2022. In 2023 he returned home to work with dr. Thomas Boltje and dr. Paul White on studying the glycosylation reaction using exchange NMR spectroscopy. Along his research he experienced the laborious reaction sequences to selectively modify a single sugar hydroxyl. Recent publications by our group intrigued him and motivated Frank to join the lab and explore the possibilities and opportunities of radical reactions for carbohydrate synthesis.',
-    pronouns: 'He/Him',
-    funFacts: [
-        'Frank has a dog named Frits.',
-        'What he likes most about Boston are the squirrels',
-        'Frank likes to explore, travel, and visit places new to him.'
-    ],
-    linkedin: 'https://www.linkedin.com/in/frank-de-kleijne/',
-    profilePic: new URL('/@/assets/people/frank/frank.jpg', import.meta.url).href,
-    profilePhotos: [
-        new URL('/@/assets/people/frank/frank1.jpeg', import.meta.url).href,
-        new URL('/@/assets/people/frank/frank2.jpeg', import.meta.url).href,
-        new URL('/@/assets/people/frank/frank3.jpeg', import.meta.url).href,
-        new URL('/@/assets/people/frank/frank4.jpeg', import.meta.url).href,
-    ],
-} as Person)
-
 group.set('clian6', {
     name: 'Christina Lian',
     profile: true,
