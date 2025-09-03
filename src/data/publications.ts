@@ -27,6 +27,28 @@ const pubs = [
     // it can also be set manually by adding the field abbreviatedAuthors
     {
         pubType: 'article',
+        title: 'Migrating Group Strategy for Remote Functionalization of Seven-Membered Rings',
+        authors: 'Wenlai Han‡, Taehwan Hwang‡, Christina Lian, Simon Kolb, Mina Yamane, Vignesh Palani & Alison E. Wendlandt*',
+        journal: 'J. Am. Chem. Soc.',
+        year: 2025,
+        doi: 'J. Am. Chem. Soc. 2025, 10.1021/jacs.5c10470',
+        articleLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2025-JACS-HanHwang.pdf',
+        esiLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2025-JACS-HanHwang-ESI.pdf',
+        publisherLink: 'https://pubs.acs.org/doi/10.1021/jacs.5c10470',
+        toc: new URL('/@/assets/publications/toc/2025-JACS-HanHwang.png', import.meta.url).href,
+        volume: '147',
+        pages: '32077–32084',
+        // newslist: [
+        //     {
+        //         source: 'News & Views',
+        //         newsurl:
+        //             'https://www.nature.com/articles/s44160-024-00676-5',
+        //     },
+        // ],
+    }, {
+        pubType: 'article',
         title: 'Kinetics, Thermodynamics, and Emergence in Stereoediting Reactions',
         authors: 'Gino Occhialini, Alison E. Wendlandt*',
         journal: 'Accounts of Chemical Research',
