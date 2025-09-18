@@ -28,7 +28,7 @@ const pubs = [
     {
         pubType: 'article',
         title: 'Migrating Group Strategy for Remote Functionalization of Seven-Membered Rings',
-        authors: 'Wenlai Han‡, Taehwan Hwang‡, Christina Lian, Simon Kolb, Mina Yamane, Vignesh Palani & Alison E. Wendlandt*',
+        authors: 'Wenlai Han‡, Taehwan Hwang‡, Christina Lian, Simon Kolb, Mina Yamane, Vignesh Palani, Alison E. Wendlandt*',
         journal: 'J. Am. Chem. Soc.',
         year: 2025,
         doi: 'J. Am. Chem. Soc. 2025, 10.1021/jacs.5c10470',
@@ -48,7 +48,7 @@ const pubs = [
         //     },
         // ],
     }, {
-        pubType: 'article',
+        pubType: 'review',
         title: 'Kinetics, Thermodynamics, and Emergence in Stereoediting Reactions',
         authors: 'Gino Occhialini, Alison E. Wendlandt*',
         journal: 'Accounts of Chemical Research',
@@ -56,8 +56,6 @@ const pubs = [
         doi: 'Acc. Chem. Res. 2025, 10.1021/acs.accounts.5c00299',
         articleLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2025-ACR-Occhialini.pdf',
-        // esiLink:
-        //     'https://wendlandtlab.blob.core.windows.net/pubs/2024-Nature-GuZhang-ESI.pdf',
         publisherLink: 'https://pubs.acs.org/doi/10.1021/acs.accounts.5c00299',
         toc: new URL('/@/assets/publications/toc/2025-ACR-Occhialini.jpg', import.meta.url).href,
         volume: '634',
@@ -66,7 +64,7 @@ const pubs = [
     {
         pubType: 'article',
         title: 'Synthesis of non-canonical amino acids through dehydrogenative tailoring',
-        authors: 'Xin Gu‡, Yu-An Zhang‡, Shuo Zhang, Leon Wang, Xiyun Ye, Gino Occhialini, Jonah Barbour, Bradley L. Pentelute* & Alison E. Wendlandt*',
+        authors: 'Xin Gu‡, Yu-An Zhang‡, Shuo Zhang, Leon Wang, Xiyun Ye, Gino Occhialini, Jonah Barbour, Bradley L. Pentelute*, Alison E. Wendlandt*',
         journal: 'Nature',
         year: 2024,
         doi: 'Nature, 2024, 10.1038/s41586-024-07988-8',
