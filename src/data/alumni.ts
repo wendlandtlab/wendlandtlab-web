@@ -17,6 +17,37 @@ import Person from '/@/types/Person'
 
 const alumni = [
     {
+        name: 'Qian Xu',
+        linkedin: 'https://www.linkedin.com/in/qian-xu-b36937256/',
+        position: 'Postdoc (2024-2026)',
+        profilePic: new URL('/@/assets/people/alumni/qian.jpg', import.meta.url).href,
+        currentPos: "Asst. Prof., Nanjing University"
+    },{
+        name: 'Shuo Zhang',
+        linkedin: 'https://www.linkedin.com/in/shuo-zhang-4023b1222/',
+        position: 'Postdoc (2022-2026)',
+        profilePic: new URL('/@/assets/people/alumni/shuo.jpg', import.meta.url).href,
+        currentPos: "Associate Prof., Dalian U of Tech"
+    },{
+        name: 'Shivaani Gandhi',
+        linkedin: 'https://www.linkedin.com/in/shivaani1995/',
+        position: 'Postdoc (2024-2025)',
+        profilePic: new URL('/@/assets/people/alumni/shivaani.jpg', import.meta.url).href,
+        currentPos: "Process Chem Scientist, Vertex"
+    },{
+        name: 'Jonas Harren',
+        linkedin: 'http://linkedin.com/in/jonas-harren-0a18a2354',
+        position: 'Visiting Master Student (2025)',
+        profilePic: new URL('/@/assets/people/alumni/jonas.jpg', import.meta.url).href,
+        // currentPos: ""
+    },{
+        name: 'Jacob-Jan Haaksma',
+        linkedin: 'https://www.linkedin.com/in/jacob-jan-haaksma/',
+        position: 'Visiting Master Student (2025)',
+        profilePic: new URL('/@/assets/people/alumni/jacob.jpg', import.meta.url).href,
+        // currentPos: ""
+    },
+    {
         name: 'Frank de Kleijne',
         linkedin: 'https://www.linkedin.com/in/frank-de-kleijne/',
         position: 'Grad Student (2025)',
@@ -76,7 +107,7 @@ const alumni = [
         position: 'Ph.D. (2024)',
         profilePic: new URL('/@/assets/people/alumni/xin.jpg', import.meta.url).href,
         linkedin: "https://www.linkedin.com/in/xin-gu-77a1a5228/",
-        currentPos: "Postdoc Scientist, Eli Lilly"
+        currentPos: "Advisor, Antibody-RNA Conjugation, Eli Lilly"
     },
     {
         name: 'Jason Zhang',

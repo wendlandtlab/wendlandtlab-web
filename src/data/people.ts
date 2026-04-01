@@ -18,35 +18,6 @@ import Person from '/@/types/Person'
 
 const group: Map<string, Person> = new Map();
 
-group.set('szhang36', {
-    name: 'Shuo Zhang',
-    position: 'Postdoctoral fellow',
-    email: 'szhang36',
-    pronouns: 'He/Him',
-    profilePic: new URL('/@/assets/people/shuo/shuo.jpg', import.meta.url).href,
-} as Person)
-
-group.set('zhangrh', {
-    name: 'Ronghua Zhang',
-    profile: true,
-    position: 'Postdoctoral fellow',
-    email: 'zhangrh',
-    pronouns: 'He/Him',
-    profilePic: new URL('/@/assets/people/ronghua/ronghua.jpg', import.meta.url).href,
-    bio: `Ronghua was born and raised in Taizhou, China, and he completed his bachelor's degree in chemical engineering at Zhejiang University of Technology in 2017. He then pursued his master's studies at East China Normal University under the guidance of Prof. Junliang Zhang, focusing on the design of chiral ligands and asymmetric catalysis. In 2020, he relocated to Hong Kong to embark on his Ph.D. journey in the group of Prof. Jianwei Sun at the Hong Kong University of Science and Technology, focusing on the design, synthesis, and application of novel chiral frameworks. In 2023, Ronghua joined the Wendlandt Group to explore radical-mediated transformations. Outside the laboratory, Ronghua finds joy in engaging in sports and savoring delectable cuisines either at local eateries or crafted in his own kitchen.`,
-    funFacts: [
-        "There are two chiral phosphine ligands named after Ronghua: Rong-Phos (published) and Hua-Phos (unpublished).",
-    ],
-    linkedin: 'https://www.linkedin.com/in/ronghua-zhang-a4a095223/',
-    orcid: "https://orcid.org/0000-0001-9279-8790",
-    profilePhotos: [
-        new URL('/@/assets/people/ronghua/ronghua-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/ronghua/ronghua-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/ronghua/ronghua-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/ronghua/ronghua-4.jpg', import.meta.url).href,
-    ],
-} as Person)
-
 group.set('jinzhu ', {
     name: 'Jin Zhu',
     profile: true,
@@ -57,46 +28,6 @@ group.set('jinzhu ', {
     bio: `Jin was born and grew up in Jiangsu, China. She graduated from Nanjing University with a B. A . in Chemistry in 2018, where she studied in the group of Professor Shaolin Zhu for her undergraduate thesis. During the four years, she tried multiple projects, including Photo-induced decarboxylative esterification of NHPI esters and NiH-catalyzed remote functionalization of alkenes. In 2023, she got her PhD degree under the supervision of Professor Yiming Wang at the University of Pittsburgh. During graduate school, she initiated and developed the cationic Ir species-catalyzed stereoselective functionalization of alkynes.`,
     funFacts: [
         "She is a splatoon fan. She has dedicated over 2,500 hours to playing the video game, with a highest rank of top 5000.",
-    ],
-} as Person)
-
-group.set('qxu111', {
-    name: 'Qian Xu',
-    profile: true,
-    position: 'Postdoctoral fellow',
-    email: 'qxu111',
-    pronouns: 'He/Him',
-    profilePic: new URL('/@/assets/people/qian/qian.jpg', import.meta.url).href,
-    bio: `Qian Xu grew up in Shiyan, Hubei Province, China. He obtained his bachelor’s degree of Science from Nanjing University in 2018. In the same year, he moved to University of Minnesota, Twin Cities, and joined the research group of Prof. Thomas. R. Hoye. In the Hoye lab, he developed several thermal, reagent- and additive-free cycloaddition reactions to generate reactive intermediates, and studied their structures and reactivities. In 2024, he joined the Wendlandt lab to explore photochemical reactions. He enjoys out-door running.`,
-    funFacts: [
-        "Qian used to like heavily seasoned food but now he loves food that maintains its original flavor.",
-    ],
-    profilePhotos: [
-        new URL('/@/assets/people/qian/qian-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/qian/qian-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/qian/qian-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/qian/qian-4.jpg', import.meta.url).href,
-    ],
-} as Person)
-
-group.set('s_gandhi', {
-    name: 'Shivaani Gandhi',
-    profile: true,
-    position: 'Postdoctoral fellow',
-    email: 's_gandhi',
-    pronouns: 'She/Her',
-    profilePic: new URL('/@/assets/people/shivaani/shivaani.jpg', import.meta.url).href,
-    bio: `Shivaani grew up in Redondo Beach, California. She graduated from UC Berkeley in 2017 with a B.S. in chemistry, where she worked under Prof. Evan Miller designing and synthesizing novel fluorescent voltage sensors. After undergrad, she worked at UCSF under Dr. Stanley Prusiner on a drug discovery campaign to find small-molecule therapeutics for neurodegenerative diseases. Seeking to deepen her expertise in organic chemistry, she moved to Princeton, NJ (and later back to Los Angeles, CA) for her doctoral studies. During graduate school, she studied the development and experimental application of data science tools for synthetic methodology development under the guidance of Prof. Abigail Doyle. Outside of the lab, Shivaani enjoys trying new restaurants/cafes, spending time with her family, attending concerts, reading, and making jewelry.`,
-    funFacts: [
-        'In adulthood, Shivaani developed a mysterious allergy to ibuprofen.',
-        'The first concert Shivaani attended was the Jonas Brothers in 2007.',
-        'Shivaani drove across the country from NJ to CA when she moved back to LA.'
-    ],
-    profilePhotos: [
-        new URL('/@/assets/people/shivaani/website1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/shivaani/website2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/shivaani/website3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/shivaani/website4.jpg', import.meta.url).href,
     ],
 } as Person)
 
@@ -120,6 +51,29 @@ group.set('simkolb', {
         new URL('/@/assets/people/simon/simon-2.jpg', import.meta.url).href,
         new URL('/@/assets/people/simon/simon-3.jpg', import.meta.url).href,
         new URL('/@/assets/people/simon/simon-4.jpg', import.meta.url).href,
+    ],
+} as Person)
+
+group.set('coltonjo', {
+    name: 'Colton Johnson',
+    profile: true,
+    position: 'Postdoctoral fellow',
+    email: 'coltonjo',
+    pronouns: 'He/Him',
+    profilePic: new URL('/@/assets/people/colton/colton.jpg', import.meta.url).href,
+    bio: 'Colton grew up in Fort St John, BC, Canada before venturing down south in 2015 to Vancouver to pursue his BSc in chemistry at The University of British Columbia. In 2018 he travelled to Montreal, QC to work under the supervision of Prof. André Charette at the University of Montreal studying the generation of diazo compounds in continuous flow. Upon returning to UBC he completed his BSc under the supervision of Prof. David Perrin studying the synthesis of gem-difluoromethyl boronates in 2020. He then moved to Toronto, ON to pursue his PhD under the supervision of Prof. Mark Lautens studying the total synthesis of norditerpenoid alkaloid natural products, organo- and transition metal catalysis. In 2026 he joined the Wendlandt lab to explore editing reactions under photoredox catalysis. Outside the lab, Colton enjoys the outdoors and can be found camping, canoeing or fishing; often in a combination of the three.',
+    funFacts: [
+        "The largest fish Colton has caught is a 41” northern pike in British Columbia",
+        "The coldest temperature Colton has ever been outside in is -71°F",
+        "Boston is the furthest south Colton has ever lived!",
+    ],
+    linkedin: 'https://www.linkedin.com/in/colton-johnson-5b08a4125/',
+    orcid: "https://orcid.org/0000-0002-0905-1248",
+    profilePhotos: [
+        new URL('/@/assets/people/colton/colton-1.jpg', import.meta.url).href,
+        new URL('/@/assets/people/colton/colton-2.jpg', import.meta.url).href,
+        new URL('/@/assets/people/colton/colton-3.jpg', import.meta.url).href,
+        new URL('/@/assets/people/colton/colton-4.jpg', import.meta.url).href,
     ],
 } as Person)
 
@@ -282,52 +236,6 @@ group.set('sunnytan', {
         new URL('/@/assets/people/sunny/sunny-1.jpg', import.meta.url).href,
         new URL('/@/assets/people/sunny/sunny-2.jpg', import.meta.url).href,
         new URL('/@/assets/people/sunny/sunny-3.jpg', import.meta.url).href,
-    ],
-} as Person)
-
-group.set('jharren', {
-    name: 'Jonas Harren',
-    profile: true,
-    position: 'Visiting Master Student',
-    email: 'jharren@mit.edu',
-    bio: 'Jonas was born and raised in the Rhineland, Germany, before moving north to the Ruhr area. Later he returned to study chemistry at RWTH Aachen university. With the beginning of his studies Jonas was immediately interested in organic chemistry, earning his B.Sc. under Prof. Bolm, where he focused on sulfoximine chemistry. During his first internship in the group of Prof. Leonori, Jonas became fascinated with photochemistry and its various possibilities, eager to explore this field deeper. Now, Jonas is excited to spend 6 months in the Wendlandt group, meeting new people, expanding his horizon, and exploring exciting chemistry.',
-    pronouns: 'He/Him',
-    funFacts: [
-        'Jonas hates coconuts in every form.',
-        'He loves snowboarding, scuba diving, and cooking (particularly Italian cuisine).',
-        'Jonas is a big fan of Star Wars and Lego (A combination of both is best).'
-    ],
-    linkedin: 'http://linkedin.com/in/jonas-harren-0a18a2354',
-    // orcid: "https://orcid.org/0009-0005-8195-9946",
-    profilePic: new URL('/@/assets/people/jonas/jonas.jpg', import.meta.url).href,
-    profilePhotos: [
-        new URL('/@/assets/people/jonas/jonas-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jonas/jonas-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jonas/jonas-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jonas/jonas-4.png', import.meta.url).href,
-    ],
-} as Person)
-
-group.set('jacobjan', {
-    name: 'Jacob-Jan Haaksma',
-    profile: true,
-    position: 'Visiting Master Student',
-    email: 'jacobjan@mit.edu',
-    bio: 'Jacob grew up in Ljussens, a small village of 400 inhabitants in the province of Friesland, the Netherlands, where he lived until the age of 17. He then moved to Groningen to pursue a BSc in Chemistry at the University of Groningen, where he developed a strong interest in organic chemistry. During his undergraduate studies, he spent a semester at the Hong Kong University of Science and Technology as part of a minor program. In 2023, he wrote his Bachelor\’s thesis in the group of Prof. Adriaan Minnaard on the ammoxidation of unprotected glycosides. \n Jacob continued at the University of Groningen for his Master’s in Chemistry which concluded with a thesis project – also in the Minnaard group – where he worked towards a bio-inspired total synthesis of Cihunamide B, a macrocyclic peptide natural product. In April 2025, he joined the Wendlandt group as a visiting Master’s student for a six-month research internship, where he looks forward to learning from the talented and inspiring people around him. \n Outside the lab, Jacob enjoys bouldering, thrift shopping, analog photography, and exploring the Cambridge/Boston area. Though the Netherlands isn’t exactly known for its mountains, he loves hiking whenever the opportunity arises. He also has a deep appreciation for music and is always on the lookout for new song or even genres (recommendations welcome).',
-    pronouns: 'He/Him',
-    funFacts: [
-        'Jacob takes Mario Kart 8 Deluxe a little too seriously.',
-        'He owns a wine brewing kit and he recently made mango wine; it was not very tasty.',
-        'He tends to hyperfixate on niche hobbies only to abandon them after a month. Past examples include (but are not limited to): speedcubing, metal detecting, disc golf, embroidery, and genealogy.'
-    ],
-    linkedin: 'https://www.linkedin.com/in/jacob-jan-haaksma/',
-    orcid: "https://orcid.org/0009-0006-3663-7179",
-    profilePic: new URL('/@/assets/people/jacob/jacob.jpg', import.meta.url).href,
-    profilePhotos: [
-        new URL('/@/assets/people/jacob/jacob-1.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jacob/jacob-2.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jacob/jacob-3.jpg', import.meta.url).href,
-        new URL('/@/assets/people/jacob/jacob-4.jpg', import.meta.url).href,
     ],
 } as Person)
 

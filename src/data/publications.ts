@@ -27,6 +27,28 @@ const pubs = [
     // it can also be set manually by adding the field abbreviatedAuthors
     {
         pubType: 'article',
+        title: 'Selective epimerization of GlcNAc to GalNAc through steady-state tuning under kinetic network control',
+        authors: 'Shuo Zhang, Gino Occhialini, Hayden M. Carder, Frank F. J. de Kleijne \& Alison E. Wendlandt*',
+        journal: 'Nature Chemistry',
+        year: 2024,
+        doi: 'Nature Chemistry, 2026, 10.1038/s41557-025-02053-x',
+        articleLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2026-NatureChem-Zhang.pdf',
+        esiLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2026-NatureChem-Zhang-ESI.pdf',
+        publisherLink: 'https://www.nature.com/articles/s41557-025-02053-x',
+        toc: new URL('/@/assets/publications/toc/2026-NatureChem-Zhang.jpeg', import.meta.url).href,
+        // volume: '634',
+        // pages: '1-8',
+        // newslist: [
+        //     {
+        //         source: 'News & Views',
+        //         newsurl:
+        //             'https://www.nature.com/articles/s44160-024-00676-5',
+        //     },
+        // ],
+    }, {
+        pubType: 'article',
         title: 'Migrating Group Strategy for Remote Functionalization of Seven-Membered Rings',
         authors: 'Wenlai Han‡, Taehwan Hwang‡, Christina Lian, Simon Kolb, Mina Yamane, Vignesh Palani, Alison E. Wendlandt*',
         journal: 'J. Am. Chem. Soc.',
