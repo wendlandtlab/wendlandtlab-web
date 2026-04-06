@@ -35,6 +35,12 @@ const alumni = [
         profilePic: new URL('/@/assets/people/alumni/shivaani.jpg', import.meta.url).href,
         currentPos: "Process Chem Scientist, Vertex"
     },{
+        name: 'Ronghua Zhang',
+        linkedin: 'https://www.linkedin.com/in/ronghua-zhang-a4a095223/',
+        position: 'Postdoc (2023-2025)',
+        profilePic: new URL('/@/assets/people/alumni/ronghua.jpg', import.meta.url).href,
+        currentPos: "Deep Principle, Senior Scientist"
+    },{
         name: 'Jonas Harren',
         linkedin: 'http://linkedin.com/in/jonas-harren-0a18a2354',
         position: 'Visiting Master Student (2025)',
