@@ -39,7 +39,7 @@ const alumni = [
         linkedin: 'https://www.linkedin.com/in/ronghua-zhang-a4a095223/',
         position: 'Postdoc (2023-2025)',
         profilePic: new URL('/@/assets/people/alumni/ronghua.jpg', import.meta.url).href,
-        currentPos: "Deep Principle, Senior Scientist"
+        currentPos: "Senior Scientist, Deep Principle"
     },{
         name: 'Jonas Harren',
         linkedin: 'http://linkedin.com/in/jonas-harren-0a18a2354',
