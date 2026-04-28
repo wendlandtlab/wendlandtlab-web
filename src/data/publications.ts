@@ -27,10 +27,54 @@ const pubs = [
     // it can also be set manually by adding the field abbreviatedAuthors
     {
         pubType: 'article',
+        title: 'Distance-Dependent, Rate-Accelerating and Diastereoselective Directing Effects in Decatungstate-Mediated Stereoediting Reactions',
+        authors: 'Huiming Liang‡, Jin Zhu‡, Leon Wang, Alison E. Wendlandt*',
+        journal: 'J. Am. Chem. Soc.',
+        year: 2026,
+        doi: 'JACS, 2026, 10.1021/jacs.5c22842',
+        articleLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/Liang-Zhu-2026-JACS.pdf',
+        esiLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/Liang-Zhu-2026-JACS-ESI.pdf',
+        publisherLink: 'https://pubs.acs.org/doi/10.1021/jacs.5c22842',
+        toc: new URL('/@/assets/publications/toc/2026-Liang-Zhu-HighRes.jpeg', import.meta.url).href,
+        // volume: '652',
+        // pages: '660-666',
+        // newslist: [
+        //     {
+        //         source: 'News & Views',
+        //         newsurl:
+        //             'https://www.nature.com/articles/s44160-024-00676-5',
+        //     },
+        // ],
+    }, {
+        pubType: 'article',
+        title: 'Alcohol group migration by proximity-enhanced H atom abstraction',
+        authors: 'Qian Xu‡, Yichen Nie‡, Jacob-Jan Haaksma, Ronghua Zhang, Natalie Holmberg-Douglas, Farid van der Mei, Paul M. Scola, Chloe Williams, Jeremiah A. Johnson & Alison E. Wendlandt*',
+        journal: 'Nature',
+        year: 2026,
+        doi: 'Nature, 2026, 10.1038/s41586-026-10347-4',
+        articleLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2026_Xu_Nature.pdf',
+        esiLink:
+            'https://wendlandtlab.blob.core.windows.net/pubs/2026_Xu_Nature_ESI.pdf',
+        publisherLink: 'https://www.nature.com/articles/s41586-026-10347-4',
+        toc: new URL('/@/assets/publications/toc/2026-Nature-Xu-Nie.png', import.meta.url).href,
+        volume: '652',
+        pages: '660-666',
+        // newslist: [
+        //     {
+        //         source: 'News & Views',
+        //         newsurl:
+        //             'https://www.nature.com/articles/s44160-024-00676-5',
+        //     },
+        // ],
+    }, {
+        pubType: 'article',
         title: 'Selective epimerization of GlcNAc to GalNAc through steady-state tuning under kinetic network control',
         authors: 'Shuo Zhang, Gino Occhialini, Hayden M. Carder, Frank F. J. de Kleijne \& Alison E. Wendlandt*',
         journal: 'Nature Chemistry',
-        year: 2024,
+        year: 2026,
         doi: 'Nature Chemistry, 2026, 10.1038/s41557-025-02053-x',
         articleLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2026-NatureChem-Zhang.pdf',
@@ -86,7 +130,7 @@ const pubs = [
     {
         pubType: 'article',
         title: 'Synthesis of non-canonical amino acids through dehydrogenative tailoring',
-        authors: 'Xin Gu‡, Yu-An Zhang‡, Shuo Zhang, Leon Wang, Xiyun Ye, Gino Occhialini, Jonah Barbour, Bradley L. Pentelute*, Alison E. Wendlandt*',
+        authors: 'Xin Gu‡, Yu-An Zhang‡, Shuo Zhang, Leon Wang, Xiyun Ye, Gino Occhialini, Jonah Barbour, Bradley L. Pentelute, Alison E. Wendlandt*',
         journal: 'Nature',
         year: 2024,
         doi: 'Nature, 2024, 10.1038/s41586-024-07988-8',
@@ -109,7 +153,7 @@ const pubs = [
     {
         pubType: 'article',
         title: 'The sugar cube: Network control and emergence in stereoediting reactions',
-        authors: 'Hayden M. Carder‡, Gino Occhialini‡, Giovanni Bistoni, Christoph Riplinger, Eugene E. Kwan, Alison E. Wendlandt*',
+        authors: 'Hayden M. Carder‡, Gino Occhialini‡, Giovanni Bistoni, Christoph Riplinger, Eugene E. Kwan*, Alison E. Wendlandt*',
         journal: 'Science',
         year: 2024,
         doi: 'Science, 2024, 10.1126/science.adp2447',
