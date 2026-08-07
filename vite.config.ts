@@ -50,5 +50,8 @@ export default defineConfig({
       include: [path.resolve(__dirname, './locales/**')],
     }),
   ],
-  base: './',
+  // Absolute base: the SPA fallback serves index.html at arbitrary depths
+  // (e.g. /people/alison), where a relative './assets/...' would resolve
+  // against the route path instead of the site root and 404.
+  base: '/',
 });
