@@ -56,10 +56,10 @@ export default defineComponent({
   <div :class="containerClasses">
     <div class="flex justify-start">
       <div :class="buttonClasses">
-        <a v-if="publication.articleLink" :href="publication.articleLink">
+        <a v-if="publication.articleLink" :href="publication.articleLink" target="_blank" rel="noopener noreferrer">
           <Icon icon="bi:file-earmark-text-fill" width="20" :inline="true" />
         </a>
-        <a v-if="publication.esiLink" :href="publication.esiLink">
+        <a v-if="publication.esiLink" :href="publication.esiLink" target="_blank" rel="noopener noreferrer">
           <Icon
             icon="bi:file-earmark-bar-graph-fill"
             width="20"
@@ -68,7 +68,7 @@ export default defineComponent({
         </a>
       </div>
       <div :class="doiClasses">
-        <a :href="publication.publisherLink" class="w-full ml-2">{{ publication.doi }} </a>
+        <a :href="publication.publisherLink" class="w-full ml-2" target="_blank" rel="noopener noreferrer">{{ publication.doi }} </a>
       </div>
     </div>
     <div class="  ">
@@ -77,11 +77,19 @@ export default defineComponent({
     <div v-if="publication.newslist" class="text-sm px-2 flex flex-wrap">
       <Icon icon="wpf:news" width="20" :inline="true" />
       <div v-for="(item, index) in publication.newslist" :key="index" class="px-2">
-          <a :href="item.newsurl">{{ item.source }}</a>
+          <a :href="item.newsurl" target="_blank" rel="noopener noreferrer">{{ item.source }}</a>
       </div>
     </div>
     <div v-if="publication.toc" :class="tocBorder">
-      <img class="flex-initial w-md h-full" :src="publication.toc" />
+      <a
+        :href="publication.publisherLink"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex-initial w-md h-full"
+        :aria-label="`${publication.title} — read on the publisher's site`"
+      >
+        <img class="w-full h-full" :src="publication.toc" />
+      </a>
     </div>
     </div>
   </div>
