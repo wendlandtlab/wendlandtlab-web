@@ -18,19 +18,6 @@ import Person from '/@/types/Person'
 
 const group: Map<string, Person> = new Map();
 
-group.set('jinzhu ', {
-    name: 'Jin Zhu',
-    profile: true,
-    position: 'Postdoctoral fellow',
-    email: 'jinzhu',
-    pronouns: 'She/Her',
-    profilePic: new URL('/@/assets/people/jin/jin.jpg', import.meta.url).href,
-    bio: `Jin was born and grew up in Jiangsu, China. She graduated from Nanjing University with a B. A . in Chemistry in 2018, where she studied in the group of Professor Shaolin Zhu for her undergraduate thesis. During the four years, she tried multiple projects, including Photo-induced decarboxylative esterification of NHPI esters and NiH-catalyzed remote functionalization of alkenes. In 2023, she got her PhD degree under the supervision of Professor Yiming Wang at the University of Pittsburgh. During graduate school, she initiated and developed the cationic Ir species-catalyzed stereoselective functionalization of alkynes.`,
-    funFacts: [
-        "She is a splatoon fan. She has dedicated over 2,500 hours to playing the video game, with a highest rank of top 5000.",
-    ],
-} as Person)
-
 group.set('simkolb', {
     name: 'Simon Kolb',
     profile: true,
