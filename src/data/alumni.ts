@@ -17,6 +17,12 @@ import Person from '/@/types/Person'
 
 const alumni = [
     {
+        name: 'Jin Zhu',
+        linkedin: 'https://www.linkedin.com/in/jin-zhu-5ba5a8312/',
+        position: 'Postdoc (2024-2026)',
+        profilePic: new URL('/@/assets/people/alumni/jin.jpg', import.meta.url).href,
+        // currentPos: ""
+    },{
         name: 'Qian Xu',
         linkedin: 'https://www.linkedin.com/in/qian-xu-b36937256/',
         position: 'Postdoc (2024-2026)',
@@ -45,20 +51,20 @@ const alumni = [
         linkedin: 'http://linkedin.com/in/jonas-harren-0a18a2354',
         position: 'Visiting Master Student (2025)',
         profilePic: new URL('/@/assets/people/alumni/jonas.jpg', import.meta.url).href,
-        // currentPos: ""
+        currentPos: "PhD Student, Leonori Group, RWTH Aachen"
     },{
         name: 'Jacob-Jan Haaksma',
         linkedin: 'https://www.linkedin.com/in/jacob-jan-haaksma/',
         position: 'Visiting Master Student (2025)',
         profilePic: new URL('/@/assets/people/alumni/jacob.jpg', import.meta.url).href,
-        // currentPos: ""
+        currentPos: "PhD Student, University of Groningen"
     },
     {
         name: 'Frank de Kleijne',
         linkedin: 'https://www.linkedin.com/in/frank-de-kleijne/',
         position: 'Grad Student (2025)',
         profilePic: new URL('/@/assets/people/alumni/frank.jpg', import.meta.url).href,
-        // currentPos: "MD\/PHD student, MUSC"
+        currentPos: "PhD Student, Radboud University Nijmegen"
     },{
         name: 'Leon Wang',
         linkedin: 'https://www.linkedin.com/in/leon-wang-6b6071225/',
