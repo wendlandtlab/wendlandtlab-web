@@ -3,7 +3,7 @@
     <img
       :src="Picture"
       alt=""
-      class="object-cover h-20 w-20 mr-4 overflow-hidden rounded-full shadow"
+      class="object-cover flex-shrink-0 h-20 w-20 mr-4 overflow-hidden rounded-full shadow"
     />
     <div class="flex-col items-center">
       <div class="text-xl font-normal text-gray-800">
