@@ -21,7 +21,7 @@ const alumni = [
         linkedin: 'https://www.linkedin.com/in/simon-kolb-7b0533232/',
         position: 'Postdoc (2025-2026)',
         profilePic: new URL('/@/assets/people/alumni/simon.jpg', import.meta.url).href,
-        currentPos: "Synthesis Lead, Synthesis Research Chemistry, Syngenta Switzerland"
+        currentPos: "Synthesis Lead, Syngenta"
     },{
         name: 'Jin Zhu',
         linkedin: 'https://www.linkedin.com/in/jin-zhu-5ba5a8312/',
