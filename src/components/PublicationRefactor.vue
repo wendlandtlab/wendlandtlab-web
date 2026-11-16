@@ -22,6 +22,7 @@ export default defineComponent({
         'bg-blue-50': this.publication.pubType === 'article',
         'bg-red-50': this.publication.pubType === 'review',
         'bg-green-50': this.publication.pubType === 'perspective',
+        'bg-editorial-50': this.publication.pubType === 'editorial',
       };
     },
     buttonClasses(): { [key: string]: boolean } {
@@ -30,6 +31,7 @@ export default defineComponent({
         'bg-blue-700 text-blue-50': this.publication.pubType === 'article',
         'bg-red-700 text-red-50': this.publication.pubType === 'review',
         'bg-green-700 text-green-50': this.publication.pubType === 'perspective',
+        'bg-editorial-700 text-editorial-50': this.publication.pubType === 'editorial',
       };
     },
     doiClasses(): { [key: string]: boolean } {
@@ -38,6 +40,7 @@ export default defineComponent({
         'bg-blue-200 text-blue-700': this.publication.pubType === 'article',
         'bg-red-200 text-red-700': this.publication.pubType === 'review',
         'bg-green-200 text-green-700': this.publication.pubType === 'perspective',
+        'bg-editorial-200 text-editorial-700': this.publication.pubType === 'editorial',
       };
     },
     tocBorder(): { [key: string]: boolean } {
@@ -45,6 +48,7 @@ export default defineComponent({
         'flex justify-center bg-white p-2 border-solid border-5 border-t-0 rounded-b-md': true,
         'border-red-50': this.publication.pubType === 'review',
         'border-green-50': this.publication.pubType === 'perspective',
+        'border-editorial-50': this.publication.pubType === 'editorial',
         'border-blue-50': this.publication.pubType === 'article'
       };
 

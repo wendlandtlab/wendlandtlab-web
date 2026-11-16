@@ -12,10 +12,13 @@ const pubsNoPatents = publist.filter((pub) => {
   return pub.pubType !== 'patent';
 });
 
-// for each publication with pubType == 'perspective' append (perspective) to the end of the title
+// for each publication with pubType == 'perspective' or 'editorial' append (perspective) or (editorial) to the end of the title
 pubsNoPatents.forEach((pub) => {
   if (pub.pubType === 'perspective') {
     pub.title = pub.title + ' (perspective)';
+  }
+  if (pub.pubType === 'editorial') {
+    pub.title = pub.title + ' (editorial)';
   }
 });
 
