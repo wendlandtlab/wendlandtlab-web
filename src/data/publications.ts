@@ -17,6 +17,9 @@ const pubs = [
     // generally reviews have the following fields:
     // pubType='review', title, authors, journal, year, doi, publisherLink, toc, volume, pages
 
+    // generally editorials have the following fields:
+    // pubType='editorial', title, authors, journal, year, doi, publisherLink, volume, pages
+
     // newslist is a list of news articles about the publication
     // each news article is a News object
     // see src/types/Publication.ts for the News interface
@@ -31,15 +34,15 @@ const pubs = [
         authors: 'Huiming Liang‡, Jin Zhu‡, Leon Wang, Alison E. Wendlandt*',
         journal: 'J. Am. Chem. Soc.',
         year: 2026,
-        doi: 'JACS, 2026, 10.1021/jacs.5c22842',
+        doi: 'J. Am. Chem. Soc. 2026, 10.1021/jacs.5c22842',
         articleLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/Liang-Zhu-2026-JACS.pdf',
         esiLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/Liang-Zhu-2026-JACS-ESI.pdf',
         publisherLink: 'https://pubs.acs.org/doi/10.1021/jacs.5c22842',
         toc: new URL('/@/assets/publications/toc/2026-Liang-Zhu-HighRes.jpeg', import.meta.url).href,
-        // volume: '652',
-        // pages: '660-666',
+        volume: '148',
+        pages: '17728-17735',
         // newslist: [
         //     {
         //         source: 'News & Views',
@@ -82,8 +85,8 @@ const pubs = [
             'https://wendlandtlab.blob.core.windows.net/pubs/2026-NatureChem-Zhang-ESI.pdf',
         publisherLink: 'https://www.nature.com/articles/s41557-025-02053-x',
         toc: new URL('/@/assets/publications/toc/2026-NatureChem-Zhang.jpeg', import.meta.url).href,
-        // volume: '634',
-        // pages: '1-8',
+        volume: '18',
+        pages: '967-974',
         // newslist: [
         //     {
         //         source: 'News & Views',
@@ -124,9 +127,20 @@ const pubs = [
             'https://wendlandtlab.blob.core.windows.net/pubs/2025-ACR-Occhialini.pdf',
         publisherLink: 'https://pubs.acs.org/doi/10.1021/acs.accounts.5c00299',
         toc: new URL('/@/assets/publications/toc/2025-ACR-Occhialini.jpg', import.meta.url).href,
-        volume: '634',
-        pages: '352-358',
-    }, 
+        volume: '58',
+        pages: '2255-2268',
+    },
+    {
+        pubType: 'editorial',
+        title: 'What is Editing?',
+        authors: 'Mark D. Levin, Richmond Sarpong, Alison E. Wendlandt',
+        journal: 'Accounts of Chemical Research',
+        year: 2025,
+        doi: 'Acc. Chem. Res. 2025, 10.1021/acs.accounts.5c00268',
+        publisherLink: 'https://pubs.acs.org/doi/10.1021/acs.accounts.5c00268',
+        volume: '58',
+        pages: '1725-1726',
+    },
     {
         pubType: 'article',
         title: 'Synthesis of non-canonical amino acids through dehydrogenative tailoring',
@@ -185,7 +199,7 @@ const pubs = [
             'https://wendlandtlab.blob.core.windows.net/pubs/2023-JACS-Palani-ESI.pdf',
         publisherLink: 'https://doi.org/10.1021/jacs.3c06935',
         toc: new URL('/@/assets/publications/toc/2023-palani-toc.png', import.meta.url).href,
-        volume: '36',
+        volume: '145',
         pages: '20053–20061',
     },
     {
@@ -230,7 +244,7 @@ const pubs = [
         authors: 'Vignesh Palani, Alison E. Wendlandt*',
         journal: 'Nature',
         year: 2022,
-        doi: 'Nature, 2022, d41586-022-02952-w',
+        doi: 'Nature, 2022, 10.1038/d41586-022-02952-w',
         articleLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2022-Nature-Palani-perspective.pdf',
         publisherLink: 'https://www.nature.com/articles/d41586-022-02952-w',
@@ -258,8 +272,8 @@ const pubs = [
         title: 'Catalytic, contra-thermodynamic positional alkene isomerization',
         authors: 'Gino Occhialini, Vignesh Palani, Alison E. Wendlandt*',
         journal: 'J. Am. Chem. Soc.',
-        year: 2021,
-        doi: 'J. Am. Chem. Soc. 2021, 10.1021/jacs.1c12043',
+        year: 2022,
+        doi: 'J. Am. Chem. Soc. 2022, 10.1021/jacs.1c12043',
         articleLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-Occhialini-article.pdf',
         esiLink:
@@ -286,10 +300,10 @@ const pubs = [
         title:
             'A change from kinetic to thermodynamic control enables trans-selective stereochemical editing of vicinal diols',
         authors:
-            'Yu-an Zhang‡, Xin Gu‡, Alison E. Wendlandt*',
+            'Yu-An Zhang‡, Xin Gu‡, Alison E. Wendlandt*',
         journal: 'J. Am. Chem. Soc.',
-        year: 2021,
-        doi: 'J. Am. Chem. Soc. 2021, 10.1021/jacs.1c11902',
+        year: 2022,
+        doi: 'J. Am. Chem. Soc. 2022, 10.1021/jacs.1c11902',
         articleLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2021-JACS-ZhangGu-article.pdf',
         esiLink:
@@ -342,9 +356,10 @@ const pubs = [
         pubType: "patent",
         authors: "Alison Wendlandt, Yong Wang, and Hayden M. Carder",
         title: "Selective valorization of biomass sugars",
-        patent: "U.S. Patent WO 2021127642",
-        date: "June 24, 2021",
-        publisherLink: "https://patentscope.wipo.int/search/en/detail.jsf?docId=US328049193",
+        // granted U.S. patent (appl. 17/129,399); same family as PCT/US2020/066433, published as WO 2021/127642 A1 on June 24, 2021
+        patent: "U.S. Patent 11,618,763 B2",
+        date: "April 4, 2023",
+        publisherLink: "https://patents.google.com/patent/US11618763B2/en",
     },
     {
         pubType: 'article',
@@ -366,7 +381,7 @@ const pubs = [
             {
                 source: 'C&E News',
                 newsurl:
-                    'https://cen.acs.org/synthesis/Switching-tertiary-stereocenters/100/web/2022/10',
+                    'https://cen.acs.org/synthesis/catalysis/Photocatalyst-flips-common-sugars-rare/98/i3',
             },
             {
                 source: 'In the Pipeline',
@@ -389,45 +404,44 @@ const pubs = [
         volume: 366,
         pages: '304-305',
         doi: 'Science, 2019, 10.1126/science.aay6919',
-        esiLink:
+        articleLink:
             'https://wendlandtlab.blob.core.windows.net/pubs/2019-Science-Wendlandt-perspective.pdf',
         publisherLink: 'https://science.sciencemag.org/content/366/6463/304',
     },
 ] as unknown as Publication[];
 
+// lowercase particles that belong to the family name, e.g. "de Kleijne", "van der Mei"
+const NAME_PARTICLES = new Set(['de', 'van', 'der', 'den', 'von', 'da', 'di', 'du', 'la', 'le']);
+
+// "Yu-An" -> "Y.-A.", "E." -> "E."
+function initials(givenName: string): string {
+    return givenName.split('-').map((part) => part[0] + '.').join('-');
+}
+
 function abbreviateName(name: string): string {
-    // drop anything between parenthesis
-    name = name.replace(/\(.*\)/g, '').trim();
-
-    const nameParts = name.split(' ');
-    const lastName = nameParts[nameParts.length - 1];
-    const lastNameClean = lastName.replace(/[^a-zA-Z]/g, '');
-
-    // take first letter of first name
-    const firstName = nameParts[0][0] + '.';
-
-    // if length of nameParts is 2, then there are no middle initials
-    if (nameParts.length === 2) {
-        return `${lastNameClean}, ${firstName}`;
+    // drop anything between parenthesis and the equal-contribution / corresponding marks
+    const parts = name.replace(/\(.*\)/g, '').replace(/[‡*†]/g, '').trim().split(/\s+/);
+    if (parts.length === 1) {
+        return parts[0];
     }
 
-    const middleInitials = nameParts.slice(1, nameParts.length - 1);
-    const middleInitialsString = middleInitials.join(' ');
-    const middleInitialsStringAbbreviated = middleInitialsString
-        .split(' ')
-        .map((middleInitial) => {
-            return middleInitial[0] + '.';
-        })
-        .join(' ');
-    return `${lastNameClean}, ${firstName} ${middleInitialsStringAbbreviated}`;
+    // family name is the last word plus any particles directly before it
+    let familyStart = parts.length - 1;
+    while (familyStart > 1 && NAME_PARTICLES.has(parts[familyStart - 1])) {
+        familyStart--;
+    }
+    const familyName = parts.slice(familyStart).join(' ');
+    const givenInitials = parts.slice(0, familyStart).map(initials).join(' ');
+    return `${familyName}, ${givenInitials}`;
 }
 
 function abbreviateAuthors(authors: string): string {
-    const authorsArray = authors.replace(', and ', ', ').replace(' and ', ', ').split(', ');
-    const authorsArrayAbbreviated = authorsArray.map((author) => {
-        return abbreviateName(author);
-    });
-    return authorsArrayAbbreviated.join('; ');
+    // authors are separated by ", ", ", and ", " and " or " & "
+    return authors
+        .split(/,\s*(?:and\s+)?|\s+(?:and|&)\s+/)
+        .filter((author) => author.trim() !== '')
+        .map(abbreviateName)
+        .join('; ');
 }
 
 pubs.forEach((pub) => {

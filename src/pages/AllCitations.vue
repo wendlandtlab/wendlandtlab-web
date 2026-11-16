@@ -2,12 +2,13 @@
 import { Icon } from '@iconify/vue';
 import pubs from '/@/data/publications';
 
-// filter pubs by pubType to include only 'article' or 'perspective' or 'review'
+// filter pubs by pubType to include only 'article', 'perspective', 'review' or 'editorial'
 const pubsFiltered = pubs.filter((pub) => {
   return (
     pub.pubType === 'article' ||
     pub.pubType === 'perspective' ||
-    pub.pubType === 'review'
+    pub.pubType === 'review' ||
+    pub.pubType === 'editorial'
   );
 });
 
@@ -48,18 +49,18 @@ export default {
           Prior to independent career:
         </div>
         <Citation
-          Authors="Li, Q.; Levi, S. M.; Wagen, C.; Wendlandt, A. E.; Jacobsen, E. N."
+          Authors="Li, Q.; Levi, S. M.; Wagen, C. C.; Wendlandt, A. E.; Jacobsen, E. N."
           Title="Site-selective, stereocontrolled glycosylation of minimally protected sugars"
-          Journal="Nature."
-          Volume="xx"
+          Journal="Nature"
+          Volume="608"
           Year="2022"
-          Pages="xx-xx"
+          Pages="74-79"
           Link="https://www.nature.com/articles/s41586-022-04958-w"
         />
         <Citation
           Authors="Wendlandt, A. E.; Vangal, P.; Jacobsen, E. N."
           Title="Quaternary stereocentres via an enantioconvergent catalytic SN1 reaction"
-          Journal="Nature."
+          Journal="Nature"
           Volume="556"
           Year="2018"
           Pages="447-451"
@@ -120,7 +121,7 @@ export default {
           Link="http://pubs.rsc.org/en/content/articlelanding/2012/ob/c2ob25310k"
         />
         <Citation
-          Authors="Wendlandt, A. E.; Suess, A. M.; Stahl, S.S."
+          Authors="Wendlandt, A. E.; Suess, A. M.; Stahl, S. S."
           Title="Copper-catalyzed aerobic oxidative C-H functionalizations: trends and mechanistic insights."
           Journal="Angew. Chem. Int. Ed."
           Volume="50"
@@ -129,17 +130,17 @@ export default {
           Link="https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.201103945"
         />
         <Citation
-          Authors="Kwiatkowski, S.; Sviripa, V. M.; Zhang, Z.; Wendlandt, A. E.; Hobartner, C.; Watt, D. S.; Stamm, S."
+          Authors="Kwiatkowski, S.; Sviripa, V. M.; Zhang, Z.; Wendlandt, A. E.; Höbartner, C.; Watt, D. S.; Stamm, S."
           Title="Synthesis of a Norcantharidin-tethered guanosine: protein phosphatase-1 inhibitors that change alternative splicing"
-          Journal="Bioorg. med. Chem. Lett."
+          Journal="Bioorg. Med. Chem. Lett."
           Volume="26"
           Year="2016"
           Pages="965-968"
           Link="https://www.sciencedirect.com/science/article/pii/S0960894X15303668"
         />
         <Citation
-          Authors="Zhang, Z.; Kelemen, O.; van Santen, M. A.; Yelton, S.M.; Wendlandt, A. E.; Sviripa, V. M.; Bollen, M.; Beullens, M.; Urlaub, H.; Lührmann, R.; Watt, D.S.; Stamm, S."
-          Title="Synthesis and characterization of Pseudocantharidins, novel phosphatase modulators that promote the inclusion of Exon 7 into the SMN (survival of motorneuron) pre-mRNA"
+          Authors="Zhang, Z.; Kelemen, O.; van Santen, M. A.; Yelton, S. M.; Wendlandt, A. E.; Sviripa, V. M.; Bollen, M.; Beullens, M.; Urlaub, H.; Lührmann, R.; Watt, D. S.; Stamm, S."
+          Title="Synthesis and characterization of Pseudocantharidins, novel phosphatase modulators that promote the inclusion of Exon 7 into the SMN (survival of motoneuron) pre-mRNA"
           Journal="J. Biol. Chem."
           Volume="286"
           Year="2011"
@@ -147,9 +148,9 @@ export default {
           Link="https://www.jbc.org/article/S0021-9258(20)53836-2/fulltext"
         />
         <Citation
-          Authors="Wendlandt, A. E.; Yelton, S. M.; Lou, D.; Watt, D.S.; Noonan, D. J."
+          Authors="Wendlandt, A. E.; Yelton, S. M.; Lou, D.; Watt, D. S.; Noonan, D. J."
           Title="Synthesis and functional analysis of novel bivalent estrogens"
-          Journal="Steroids."
+          Journal="Steroids"
           Volume="75"
           Year="2010"
           Pages="825-833"
